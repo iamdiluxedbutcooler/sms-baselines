@@ -1,0 +1,26 @@
+paper_id: P_salman2024
+baseline_id: bl_nlp_02
+description: "RoBERTa fine-tuning with two-pass non-English filtering, OCR of screenshots, and NLTK cleanup (Salman 2024)."
+module: "models.nlp.BL_NLP_02_salman2024"
+preprocessing:
+  - deduplicate: true
+  - language_detection_first_pass: "langdetect"
+  - language_detection_second_pass: "googletrans"
+  - ocr_for_screenshots: "pytesseract"
+  - remove_unnecessary_characters: true
+  - remove_stopwords: true
+  - tokenizer: "whitespace"
+features:
+  type: "transformer"
+  model_name: "roberta-base"
+model:
+  type: "roberta"
+training:
+  cv_on_train: false
+  cv_folds: 0
+  repeats_for_variance: 5
+  seed_base: 42
+  holdout_test_size: 0.2
+libraries:
+  preferred: ["simpletransformers", "transformers", "scikit-learn", "nltk", "langdetect", "googletrans", "pytesseract"]
+notes: "Follow Salman 2024 preprocessing exactly (two-pass filtering, OCR if screenshots present). Paper does not specify fine-tuning hyperparameters — record assumptions in run_meta.json when running. Evaluation uses our saved 80%/20% split; paper's extra holdout set is noted but we will evaluate on repo test.csv per project rules."

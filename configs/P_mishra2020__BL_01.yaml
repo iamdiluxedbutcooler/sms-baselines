@@ -1,2 +1,27 @@
-baseline_id: P_mishra2020__BL_01_nb
-module: models.nlp.BL_NLP_01_mishra2020
+paper_id: P_mishra2020
+baseline_id: bl_nlp_01
+description: "TF-IDF + Multinomial Naive Bayes with URL-behavior modules (Mishra 2020)."
+module: "models.nlp.BL_NLP_01_mishra2020"
+preprocessing:
+  - remove_punct: true
+  - lowercase: true
+  - remove_urls: true
+  - remove_digits_longer_than: 3
+  - tokenizer: "whitespace+porter-stem"
+  - stemming: "porter"
+features:
+  type: "tfidf"
+  ngram_range: [1,2]
+  max_features: 20000
+  analyzer: "word"
+model:
+  type: "multinomial_nb"
+  alpha: 1.0
+training:
+  cv_on_train: true
+  cv_folds: 5
+  repeats_for_variance: 5
+  seed_base: 42
+libraries:
+  preferred: ["scikit-learn", "nltk"]
+notes: "Follow Mishra 2020: exact preprocessing above, TF-IDF features, 5-fold CV on training only, final eval on preserved 80/20 split. URL-behavior modules are stubbed unless implemented separately."
