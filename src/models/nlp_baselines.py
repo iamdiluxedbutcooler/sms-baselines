@@ -85,14 +85,32 @@ def evaluate_cv(texts: List[str], labels: List[str], ngram_range=(1,2), max_feat
 
 def train_and_evaluate_nb(texts: List[str], labels: List[str], output_dir: str, test_size=0.2, random_state=42, cv=5, ngram_range=(1,2), max_features=20000, alpha=1.0) -> Dict:
     os.makedirs(output_dir, exist_ok=True)
-    X_train, X_test, y_train, y_test = train_test_split(texts, labels, test_size=test_size, random_state=random_state, stratify=labels)
-    cv_res = evaluate_cv(X_train, y_train, ngram_range=ngram_range, max_features=max_features, alpha=alpha, cv=cv)
+    n = len(texts)
+    classes = len(set(labels))
+    n_test = max(1, int(round(n * test_size)))
+    stratify_arg = labels if n_test >= classes else None
+    if stratify_arg is None:
+        X_train, X_test, y_train, y_test = train_test_split(texts, labels, test_size=test_size, random_state=random_state)
+    else:
+        X_train, X_test, y_train, y_test = train_test_split(texts, labels, test_size=test_size, random_state=random_state, stratify=labels)
+    cv_res = None
+    if cv is not None and cv >= 2:
+        cv_use = min(cv, max(2, len(X_train)))
+        if cv_use >= 2:
+            try:
+                cv_res = evaluate_cv(X_train, y_train, ngram_range=ngram_range, max_features=max_features, alpha=alpha, cv=cv_use)
+            except Exception:
+                cv_res = None
     model = NaiveBayesSmishing(ngram_range=ngram_range, max_features=max_features, alpha=alpha)
     model.fit(X_train, y_train)
     model_path = os.path.join(output_dir, "naive_bayes_smishing.joblib")
     model.save(model_path)
     preds = model.predict(X_test)
-    probs = model.predict_proba(X_test)
+    probs = None
+    try:
+        probs = model.predict_proba(X_test)
+    except Exception:
+        probs = None
     acc = float(accuracy_score(y_test, preds))
     report = classification_report(y_test, preds, output_dict=True)
     cm = confusion_matrix(y_test, preds).tolist()
@@ -100,17 +118,15 @@ def train_and_evaluate_nb(texts: List[str], labels: List[str], output_dir: str, 
     with open(os.path.join(output_dir, "results.json"), "w") as f:
         json.dump(results, f, indent=2)
     df = pd.DataFrame({"text": X_test, "true_label": y_test, "pred_label": preds})
-    try:
-        prob_cols = []
-        if probs is not None:
+    if probs is not None:
+        try:
             for i in range(probs.shape[1]):
-                col = f"prob_{i}"
-                df[col] = probs[:, i]
-                prob_cols.append(col)
-    except Exception:
-        pass
+                df[f"prob_{i}"] = probs[:, i]
+        except Exception:
+            pass
     df.to_csv(os.path.join(output_dir, "results_detailed.csv"), index=False)
     return results
+
 
 class URLFilterStub:
     def __init__(self):
