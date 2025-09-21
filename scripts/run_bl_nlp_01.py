@@ -1,4 +1,3 @@
-%%bash
 cat > /content/drive/MyDrive/sms-baselines/scripts/run_bl_nlp_01.py <<'PY'
 import os, json, pandas as pd
 from src.models.nlp_baselines import NaiveBayesSmishing, evaluate_cv
