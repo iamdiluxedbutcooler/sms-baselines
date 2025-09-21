@@ -1,0 +1,8 @@
+{
+  "created_at": "2025-09-21T21:38:53.367367Z",
+  "seed": 42,
+  "train_count": 4776,
+  "test_count": 1195,
+  "train_path": "/content/drive/MyDrive/sms-baselines/data/splits/train.csv",
+  "test_path": "/content/drive/MyDrive/sms-baselines/data/splits/test.csv"
+}
