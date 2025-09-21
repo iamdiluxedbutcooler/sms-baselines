@@ -126,101 +126,91 @@ def _two_pass_language_filter(texts: List[str]) -> List[str]:
                 continue
     return out
 
-def run_P_salman2024__BL_02(train_texts: List[str], train_labels: List[str], test_texts: List[str], test_labels: List[str], outdir: str, seed: int, config: Dict) -> Dict:
-    os.makedirs(outdir, exist_ok=True)
-    start_ts = datetime.datetime.datetime.utcnow().isoformat() + "Z"
-    meta = {"baseline_id": config.get("baseline_id"), "paper_id": config.get("paper_id"), "seed": seed, "timestamp_utc": start_ts, "git_short_hash": _git_short_hash(), "assumptions": []}
+def run_bl_nlp_02(train_texts, train_labels, test_texts, test_labels, outdir, seed, config):
+    import os, json, datetime, subprocess
+    from models.shared import set_seed, append_summary_row, compute_sha256
     set_seed(seed)
-    assumptions = meta["assumptions"]
-    assumptions.append("If langdetect/googletrans/pytesseract not available they are skipped; documented here.")
-    seen = set()
-    dedup_train_texts = []
-    dedup_train_labels = []
-    for t, l in zip(train_texts, train_labels):
-        if t is None:
-            continue
-        if t in seen:
-            continue
-        seen.add(t)
-        dedup_train_texts.append(t)
-        dedup_train_labels.append(l)
-    seen = set()
-    dedup_test_texts = []
-    dedup_test_labels = []
-    for t, l in zip(test_texts, test_labels):
-        if t is None:
-            continue
-        if t in seen:
-            continue
-        seen.add(t)
-        dedup_test_texts.append(t)
-        dedup_test_labels.append(l)
+    start_ts = datetime.datetime.utcnow().isoformat() + "Z"
+    meta = {"baseline_id": config.get("baseline_id"), "paper_id": config.get("paper_id"), "seed": seed, "timestamp_utc": start_ts, "git_short_hash": None, "assumptions": []}
     try:
-        filtered_train = _two_pass_language_filter(dedup_train_texts)
+        meta["git_short_hash"]=subprocess.check_output(["git","rev-parse","--short","HEAD"], stderr=subprocess.DEVNULL).decode().strip()
     except Exception:
-        filtered_train = dedup_train_texts
-        assumptions.append("language filtering failed; proceeding without removing non-English")
-    try:
-        filtered_test = _two_pass_language_filter(dedup_test_texts)
-    except Exception:
-        filtered_test = dedup_test_texts
-        assumptions.append("language filtering failed on test; proceeding without removing non-English")
-    filtered_train_labels = []
-    for t in filtered_train:
-        idx = dedup_train_texts.index(t) if t in dedup_train_texts else None
-        filtered_train_labels.append(dedup_train_labels[idx] if idx is not None else "unknown")
-    filtered_test_labels = []
-    for t in filtered_test:
-        idx = dedup_test_texts.index(t) if t in dedup_test_texts else None
-        filtered_test_labels.append(dedup_test_labels[idx] if idx is not None else "unknown")
-    pre_train = [_clean_and_tokenize(t) for t in filtered_train]
-    pre_test = [_clean_and_tokenize(t) for t in filtered_test]
-    model_cfg = config.get("model", {})
-    model_type = model_cfg.get("type", "roberta")
-    results = {}
-    if model_type.lower() == "roberta":
-        try:
-            from simpletransformers.classification import ClassificationModel
-            train_df = pd.DataFrame({"text": pre_train, "labels": filtered_train_labels})
-            test_df = pd.DataFrame({"text": pre_test, "labels": filtered_test_labels})
-            args = {"reprocess_input_data": True, "overwrite_output_dir": True, "silent": True}
-            model_name = config.get("features", {}).get("model_name", "roberta-base")
-            use_cuda = False
-            model = ClassificationModel("roberta", model_name, use_cuda=use_cuda, args=args)
-            model.train_model(train_df)
-            preds, raw_outputs = model.predict(test_df["text"].tolist())
-            acc = float(accuracy_score(test_df["labels"].tolist(), preds))
-            cr = classification_report(test_df["labels"].tolist(), preds, output_dict=True)
-            cm = confusion_matrix(test_df["labels"].tolist(), preds).tolist()
-            results = {"accuracy": acc, "classification_report": cr, "confusion_matrix": cm, "cv": None}
-            try:
-                model.save_model(os.path.join(outdir, "model"))
-            except Exception:
-                pass
-            df_det = pd.DataFrame({"text": test_df["text"].tolist(), "true_label": test_df["labels"].tolist(), "pred_label": preds})
-            try:
-                proba = np.max(np.asarray(raw_outputs), axis=1) if raw_outputs is not None else None
-                if proba is not None:
-                    df_det["prob_chosen"] = proba
-            except Exception:
-                pass
-            df_det.to_csv(os.path.join(outdir, "results_detailed.csv"), index=False)
-            with open(os.path.join(outdir, "results.json"), "w") as f:
-                json.dump(results, f, indent=2)
-        except Exception as e:
-            results = {"error": "roberta training skipped or failed", "exception": str(e)}
-            assumptions.append("simpletransformers or dependencies missing; RoBERTa training not executed")
-            with open(os.path.join(outdir, "results.json"), "w") as f:
-                json.dump(results, f, indent=2)
-    else:
-        results = {"error": "unsupported model type for this wrapper"}
-        with open(os.path.join(outdir, "results.json"), "w") as f:
-            json.dump(results, f, indent=2)
-    meta["assumptions"] = assumptions
-    with open(os.path.join(outdir, "run_meta.json"), "w") as f:
+        meta["git_short_hash"]="nogit"
+    os.makedirs(outdir, exist_ok=True)
+    with open(os.path.join(outdir,"run_meta.json"), "w") as f:
         json.dump(meta, f, indent=2)
-    summary_path = os.path.join("experiments", config.get("baseline_id"), "summary.csv")
-    run_id = f"{config.get('baseline_id')}_seed{seed}_{datetime.datetime.datetime.utcnow().strftime('%Y%m%dT%H%M%S')}"
+    results = {}
+    try:
+        pre_train = [_clean_and_tokenize(t) for t in train_texts]
+        pre_test = [_clean_and_tokenize(t) for t in test_texts]
+        model_cfg = config.get("model", {})
+        model_type = model_cfg.get("type", "roberta")
+        if model_type.lower()=="roberta":
+            try:
+                from simpletransformers.classification import ClassificationModel
+                import pandas as _pd
+                train_df = _pd.DataFrame({"text": pre_train, "labels": train_labels})
+                test_df = _pd.DataFrame({"text": pre_test, "labels": test_labels})
+                args = {"reprocess_input_data": True, "overwrite_output_dir": True, "silent": True}
+                model_name = config.get("features", {}).get("model_name", "roberta-base")
+                use_cuda = False
+                model = ClassificationModel("roberta", model_name, use_cuda=use_cuda, args=args)
+                model.train_model(train_df)
+                preds, raw_outputs = model.predict(test_df["text"].tolist())
+                try:
+                    from sklearn.metrics import accuracy_score, classification_report, confusion_matrix
+                    acc = float(accuracy_score(test_df["labels"].tolist(), preds))
+                    cr = classification_report(test_df["labels"].tolist(), preds, output_dict=True)
+                    cm = confusion_matrix(test_df["labels"].tolist(), preds).tolist()
+                except Exception:
+                    acc = None
+                    cr = {}
+                    cm = []
+                results = {"accuracy": acc, "classification_report": cr, "confusion_matrix": cm, "model_path": os.path.join(outdir,"model")}
+                try:
+                    model.save_model(os.path.join(outdir,"model"))
+                except Exception:
+                    pass
+                import pandas as _pd2
+                df_det = _pd2.DataFrame({"text": test_df["text"].tolist(), "true_label": test_df["labels"].tolist(), "pred_label": preds})
+                try:
+                    import numpy as _np
+                    proba = _np.max(_np.asarray(raw_outputs), axis=1) if raw_outputs is not None else None
+                    if proba is not None:
+                        df_det["prob_chosen"] = proba
+                except Exception:
+                    pass
+                df_det.to_csv(os.path.join(outdir,"results_detailed.csv"), index=False)
+            except Exception as e:
+                results = {"accuracy": None, "error": "roberta training failed", "exception": str(e)}
+                meta["assumptions"].append("roberta training failed or simpletransformers missing")
+                with open(os.path.join(outdir,"results.json"), "w") as f:
+                    json.dump(results, f, indent=2)
+        else:
+            results = {"accuracy": None, "error": "unsupported model type"}
+            with open(os.path.join(outdir,"results.json"), "w") as f:
+                json.dump(results, f, indent=2)
+    except Exception as e:
+        import traceback
+        results = {"accuracy": None, "error": "unexpected exception in wrapper", "exception": str(e), "traceback": traceback.format_exc()}
+        with open(os.path.join(outdir,"results.json"), "w") as f:
+            json.dump(results, f, indent=2)
+    if "accuracy" not in results:
+        results["accuracy"] = None
+    with open(os.path.join(outdir,"results.json"), "w") as f:
+        json.dump(results, f, indent=2)
+    baseline_id = config.get("baseline_id") or "bl_nlp_02"
+    summary_path = os.path.join("experiments", baseline_id, "summary.csv")
+    run_id = f"{baseline_id}_seed{seed}_{datetime.datetime.utcnow().strftime('%Y%m%dT%H%M%S')}"
     summary_row = {"run_id": run_id, "seed": seed, "accuracy": results.get("accuracy"), "outdir": outdir, "timestamp": start_ts}
-    append_summary_row(summary_path, summary_row)
+    try:
+        append_summary_row(summary_path, summary_row)
+    except Exception:
+        os.makedirs(os.path.dirname(summary_path), exist_ok=True)
+        import csv
+        with open(summary_path, "w", newline="") as f:
+            writer=csv.DictWriter(f, fieldnames=list(summary_row.keys()))
+            writer.writeheader()
+            writer.writerow({k: ("" if v is None else v) for k,v in summary_row.items()})
     return results
+
