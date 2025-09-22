@@ -33,7 +33,7 @@ def _git_short_hash():
     except Exception:
         return None
 
-def run_BL_P_mishra2020__BL_01(train_texts: List[str], train_labels: List[str], test_texts: List[str], test_labels: List[str], outdir: str, seed: int, config: Dict) -> Dict:
+def run_bl_nlp_01(train_texts: List[str], train_labels: List[str], test_texts: List[str], test_labels: List[str], outdir: str, seed: int, config: Dict) -> Dict:
     os.makedirs(outdir, exist_ok=True)
     start_ts = datetime.datetime.utcnow().isoformat() + "Z"
     meta = {"baseline_id": config.get("baseline_id"), "paper_id": config.get("paper_id"), "seed": seed, "timestamp_utc": start_ts, "git_short_hash": _git_short_hash(), "assumptions": []}
