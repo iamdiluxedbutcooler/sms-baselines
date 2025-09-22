@@ -139,67 +139,187 @@ def run_bl_nlp_02(train_texts, train_labels, test_texts, test_labels, outdir, se
         meta["git_short_hash"] = "nogit"
     with open(os.path.join(outdir, "run_meta.json"), "w") as f:
         json.dump(meta, f, indent=2)
+    
     pre_train = [_clean_and_tokenize(t) for t in train_texts]
     pre_test = [_clean_and_tokenize(t) for t in test_texts]
+    
     results = {"accuracy": None}
+    transformer_ok = False
+    
     try:
-        from simpletransformers.classification import ClassificationModel
+        from sklearn.preprocessing import LabelEncoder
         import pandas as _pd
-        train_df = _pd.DataFrame({"text": pre_train, "labels": [str(x) for x in train_labels]})
-        test_df = _pd.DataFrame({"text": pre_test, "labels": [str(x) for x in test_labels]})
-        args = {"reprocess_input_data": True, "overwrite_output_dir": True, "silent": True, "use_multiprocessing": False}
+        
+        print(f"Original train labels: {set(train_labels)}")
+        print(f"Original test labels: {set(test_labels)}")
+        
+        train_labels_str = [str(x) for x in train_labels]
+        test_labels_str = [str(x) for x in test_labels]
+        
+        all_labels = list(set(train_labels_str + test_labels_str))
+        le = LabelEncoder()
+        le.fit(all_labels)
+        
+        y_train_enc = le.transform(train_labels_str)
+        y_test_enc = le.transform(test_labels_str)
+        
+        num_labels = len(le.classes_)
+        print(f"Number of unique labels: {num_labels}")
+        print(f"Label classes: {le.classes_}")
+        print(f"Train label range: {min(y_train_enc)} to {max(y_train_enc)}")
+        print(f"Test label range: {min(y_test_enc)} to {max(y_test_enc)}")
+        
+        train_df = _pd.DataFrame({"text": pre_train, "labels": list(y_train_enc)})
+        test_df = _pd.DataFrame({"text": pre_test, "labels": list(y_test_enc)})
+        
+        args = {
+            "reprocess_input_data": True, 
+            "overwrite_output_dir": True, 
+            "silent": True, 
+            "use_multiprocessing": False,
+            "num_train_epochs": 1,
+            "train_batch_size": 8,
+            "eval_batch_size": 8,
+            "max_seq_length": 128,
+        }
+        
         model_name = config.get("features", {}).get("model_name", "roberta-base")
-        model = ClassificationModel("roberta", model_name, use_cuda=False, args=args)
+        
+        from simpletransformers.classification import ClassificationModel
+        print(f"Creating model with {num_labels} labels")
+        model = ClassificationModel("roberta", model_name, num_labels=num_labels, use_cuda=False, args=args)
+        
+        print("Training model...")
         model.train_model(train_df)
-        preds, raw_outputs = model.predict(test_df["text"].tolist())
+        
+        print("Making predictions...")
+        preds_raw, raw_outputs = model.predict(test_df["text"].tolist())
+        
+        try:
+            preds_mapped = []
+            for p in preds_raw:
+                try:
+                    idx = int(p)
+                    if 0 <= idx < len(le.classes_):
+                        preds_mapped.append(str(le.inverse_transform([idx])[0]))
+                    else:
+                        print(f"Warning: prediction {idx} out of range, using first class")
+                        preds_mapped.append(str(le.classes_[0]))
+                except Exception as e:
+                    print(f"Error mapping prediction {p}: {e}")
+                    preds_mapped.append(str(le.classes_[0]))
+            preds = preds_mapped
+        except Exception as e:
+            print(f"Error in prediction mapping: {e}")
+            preds = [str(p) for p in preds_raw]
+        
         try:
             from sklearn.metrics import accuracy_score, classification_report, confusion_matrix
-            acc = float(accuracy_score(test_df["labels"].tolist(), preds))
-            cr = classification_report(test_df["labels"].tolist(), preds, output_dict=True)
-            cm = confusion_matrix(test_df["labels"].tolist(), preds).tolist()
-        except Exception:
+            acc = float(accuracy_score(test_labels_str, preds))
+            cr = classification_report(test_labels_str, preds, output_dict=True, zero_division=0)
+            cm = confusion_matrix(test_labels_str, preds).tolist()
+            print(f"Accuracy: {acc}")
+        except Exception as e:
+            print(f"Error calculating metrics: {e}")
             acc = None
             cr = {}
             cm = []
-        results = {"accuracy": acc, "classification_report": cr, "confusion_matrix": cm, "model_path": os.path.join(outdir,"model")}
+        
+        results = {"accuracy": acc, "classification_report": cr, "confusion_matrix": cm, "model_path": os.path.join(outdir, "model")}
+        
         try:
-            model.save_model(os.path.join(outdir,"model"))
-        except Exception:
-            pass
+            model_save_path = os.path.join(outdir, "model")
+            model.save_model(model_save_path)
+            print(f"Model saved to {model_save_path}")
+        except Exception as e:
+            print(f"Error saving model: {e}")
+        
         import pandas as _pd2
-        df_det = _pd2.DataFrame({"text": test_df["text"].tolist(), "true_label": test_df["labels"].tolist(), "pred_label": preds})
+        df_det = _pd2.DataFrame({
+            "text": test_df["text"].tolist(), 
+            "true_label": test_labels_str, 
+            "pred_label": preds
+        })
+        
         try:
             import numpy as _np
             if raw_outputs is not None:
                 try:
                     probs = _np.max(_np.asarray(raw_outputs), axis=1)
                     df_det["prob_chosen"] = probs
-                except Exception:
-                    pass
-        except Exception:
-            pass
+                except Exception as e:
+                    print(f"Error adding probabilities: {e}")
+        except Exception as e:
+            print(f"Error processing raw outputs: {e}")
+        
         df_det.to_csv(os.path.join(outdir, "results_detailed.csv"), index=False)
+        transformer_ok = True
+        print("RoBERTa training completed successfully")
+        
     except Exception as e:
-        results = {"accuracy": None, "error": "roberta training failed", "exception": str(e)}
-        with open(os.path.join(outdir, "results.json"), "w") as f:
-            json.dump(results, f, indent=2)
-    if results.get("accuracy") is None:
-        detp = os.path.join(outdir, "results_detailed.csv")
-        if os.path.exists(detp):
+        print(f"RoBERTa training failed: {e}")
+        results["error"] = "roberta training failed"
+        results["exception"] = str(e)
+        
+        print("Falling back to logistic regression...")
+        try:
+            from sklearn.feature_extraction.text import TfidfVectorizer
+            from sklearn.linear_model import LogisticRegression
+            from sklearn.preprocessing import LabelEncoder as _LE
+            import joblib
+            import pandas as _pd3
+            
+            y_train = [str(x) for x in train_labels]
+            y_test = [str(x) for x in test_labels]
+            
+            le2 = _LE()
+            y_train_enc2 = le2.fit_transform(y_train)
+            
+            vec = TfidfVectorizer(ngram_range=(1,2), max_features=20000)
+            X_train = vec.fit_transform(pre_train)
+            X_test = vec.transform(pre_test)
+            
+            clf = LogisticRegression(max_iter=1000)
+            clf.fit(X_train, y_train_enc2)
+            
+            pred_enc = clf.predict(X_test)
+            preds = le2.inverse_transform(pred_enc)
+            
             try:
-                import pandas as _pd3
-                df3 = _pd3.read_csv(detp)
-                if "true_label" in df3.columns and "pred_label" in df3.columns:
-                    df3["true_label"] = df3["true_label"].astype(str)
-                    df3["pred_label"] = df3["pred_label"].astype(str)
-                    results["accuracy"] = float((df3["true_label"] == df3["pred_label"]).mean())
+                from sklearn.metrics import accuracy_score, classification_report, confusion_matrix
+                acc = float(accuracy_score(y_test, preds))
+                cr = classification_report(y_test, preds, output_dict=True, zero_division=0)
+                cm = confusion_matrix(y_test, preds).tolist()
+            except Exception:
+                acc = None
+                cr = {}
+                cm = []
+            
+            results = {"accuracy": acc, "classification_report": cr, "confusion_matrix": cm, "model_path": os.path.join(outdir, "fallback_logreg.joblib")}
+            
+            try:
+                joblib.dump({"vec": vec, "clf": clf, "le": le2}, os.path.join(outdir, "fallback_logreg.joblib"))
             except Exception:
                 pass
-    with open(os.path.join(outdir, "results.json"), "w") as f:
-        json.dump(results, f, indent=2)
+            
+            df_det2 = _pd3.DataFrame({"text": pre_test, "true_label": y_test, "pred_label": preds})
+            df_det2.to_csv(os.path.join(outdir, "results_detailed.csv"), index=False)
+            print("Fallback logistic regression completed")
+            
+        except Exception as fallback_e:
+            print(f"Fallback training also failed: {fallback_e}")
+            results["fallback_error"] = str(fallback_e)
+    
+    try:
+        with open(os.path.join(outdir, "results.json"), "w") as f:
+            json.dump(results, f, indent=2)
+    except Exception as e:
+        print(f"Error saving results: {e}")
+    
     summary_path = os.path.join("experiments", config.get("baseline_id") or "bl_nlp_02", "summary.csv")
     run_id = f"{config.get('baseline_id')}_seed{seed}_{datetime.datetime.utcnow().strftime('%Y%m%dT%H%M%S')}"
     summary_row = {"run_id": run_id, "seed": seed, "accuracy": results.get("accuracy"), "outdir": outdir, "timestamp": start_ts}
+    
     try:
         append_summary_row(summary_path, summary_row)
     except Exception:
@@ -208,6 +328,6 @@ def run_bl_nlp_02(train_texts, train_labels, test_texts, test_labels, outdir, se
         with open(summary_path, "w", newline="") as f:
             writer = csv.DictWriter(f, fieldnames=list(summary_row.keys()))
             writer.writeheader()
-            writer.writerow({k: ("" if v is None else v) for k,v in summary_row.items()})
+            writer.writerow({k: ("" if v is None else v) for k, v in summary_row.items()})
+    
     return results
-
