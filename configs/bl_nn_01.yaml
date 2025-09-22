@@ -1,0 +1,48 @@
+paper_id: P_mahmud2024
+baseline_id: bl_nn_01
+description: "CNN-BiGRU with Word2Vec embeddings (Mahmud 2024)."
+module: "models.nn.BL_NN_01_mahmud2024"
+preprocessing:
+  - remove_stopwords: true
+  - remove_punctuation: true
+  - remove_special_chars: true
+  - lowercase: true
+  - tokenizer: "nltk_tokenize"
+  - padding: "pre"
+  - max_length: 200
+features:
+  type: "word2vec_embeddings"
+  embedding_dim: 100
+  window_size: 5
+  min_count: 1
+  vector_size: 100
+  vocab_source: "training_data"
+model:
+  type: "cnn_bigru"
+  embedding_layer:
+    embedding_dim: 100
+    trainable: false
+  conv1d_layer:
+    filters: 32
+    kernel_size: 3
+    activation: "relu"
+  maxpooling_layer:
+    pool_size: 2
+  bidirectional_gru:
+    units: 64
+    dropout: 0.2
+    recurrent_dropout: 0.2
+  dense_output:
+    units: 1
+    activation: "sigmoid"
+training:
+  batch_size: 32
+  epochs: 50
+  optimizer: "Adam"
+  loss_function: "binary_crossentropy"
+  validation_split: 0.1
+  repeats_for_variance: 5
+  seed_base: 42
+libraries:
+  preferred: ["tensorflow", "keras", "gensim", "nltk"]
+notes: "Follow Mahmud 2024: exact preprocessing (stop words, punctuation, special chars removal, lowercase), NLTK tokenization, Word2Vec embeddings trained on data, CNN-BiGRU architecture with specified hyperparameters. Original used 10-fold CV but we use train/test split."
