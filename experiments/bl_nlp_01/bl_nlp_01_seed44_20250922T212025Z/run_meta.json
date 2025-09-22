@@ -1,0 +1,10 @@
+{
+  "baseline_id": "bl_nlp_01",
+  "paper_id": "P_mishra2020",
+  "seed": 44,
+  "timestamp_utc": "2025-09-22T21:20:25.868291Z",
+  "git_short_hash": "573e44d",
+  "assumptions": [
+    "URL behavioral modules are stubbed (URLFilterStub)."
+  ]
+}

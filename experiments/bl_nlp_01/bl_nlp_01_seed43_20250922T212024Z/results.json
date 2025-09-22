@@ -1,0 +1,70 @@
+{
+  "accuracy": 0.9096234309623431,
+  "classification_report": {
+    "ham": {
+      "precision": 0.9098591549295775,
+      "recall": 1.0,
+      "f1-score": 0.9528023598820059,
+      "support": 969.0
+    },
+    "smishing": {
+      "precision": 0.9120879120879121,
+      "recall": 0.6484375,
+      "f1-score": 0.7579908675799086,
+      "support": 128.0
+    },
+    "spam": {
+      "precision": 0.8974358974358975,
+      "recall": 0.35714285714285715,
+      "f1-score": 0.5109489051094891,
+      "support": 98.0
+    },
+    "accuracy": 0.9096234309623431,
+    "macro avg": {
+      "precision": 0.906460988151129,
+      "recall": 0.6685267857142857,
+      "f1-score": 0.7405807108571345,
+      "support": 1195.0
+    },
+    "weighted avg": {
+      "precision": 0.9090790726550053,
+      "recall": 0.9096234309623431,
+      "f1-score": 0.8956998414030308,
+      "support": 1195.0
+    }
+  },
+  "confusion_matrix": [
+    [
+      969,
+      0,
+      0
+    ],
+    [
+      41,
+      83,
+      4
+    ],
+    [
+      55,
+      8,
+      35
+    ]
+  ],
+  "model_path": "/content/drive/MyDrive/sms-baselines/experiments/bl_nlp_01/bl_nlp_01_seed43_20250922T212024Z/model.joblib",
+  "cv": {
+    "cv_scores": [
+      0.9110878661087866,
+      0.9057591623036649,
+      0.9151832460732985,
+      0.9068062827225131,
+      0.9036649214659686
+    ],
+    "cv_mean": 0.9085002957348463,
+    "cv_std": 0.00412605580572854
+  },
+  "label_names": [
+    "ham",
+    "smishing",
+    "spam"
+  ]
+}

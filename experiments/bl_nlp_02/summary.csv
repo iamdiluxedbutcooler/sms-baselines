@@ -1,0 +1,6 @@
+baseline,seed,accuracy,outdir
+bl_nlp_02,42,0.9338912133891213,/content/drive/MyDrive/sms-baselines/experiments/bl_nlp_02/bl_nlp_02_seed42_20250922T212031Z
+bl_nlp_02,43,0.9338912133891213,/content/drive/MyDrive/sms-baselines/experiments/bl_nlp_02/bl_nlp_02_seed43_20250922T212032Z
+bl_nlp_02,44,0.9338912133891213,/content/drive/MyDrive/sms-baselines/experiments/bl_nlp_02/bl_nlp_02_seed44_20250922T212034Z
+bl_nlp_02,45,0.9338912133891213,/content/drive/MyDrive/sms-baselines/experiments/bl_nlp_02/bl_nlp_02_seed45_20250922T212035Z
+bl_nlp_02,46,0.9338912133891213,/content/drive/MyDrive/sms-baselines/experiments/bl_nlp_02/bl_nlp_02_seed46_20250922T212037Z
