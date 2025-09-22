@@ -1,0 +1,54 @@
+{
+  "accuracy": 0.9338912133891213,
+  "classification_report": {
+    "ham": {
+      "precision": 0.9352030947775629,
+      "recall": 0.9979360165118679,
+      "f1-score": 0.9655516724912631,
+      "support": 969.0
+    },
+    "smishing": {
+      "precision": 0.9479166666666666,
+      "recall": 0.7109375,
+      "f1-score": 0.8125,
+      "support": 128.0
+    },
+    "spam": {
+      "precision": 0.8923076923076924,
+      "recall": 0.5918367346938775,
+      "f1-score": 0.7116564417177914,
+      "support": 98.0
+    },
+    "accuracy": 0.9338912133891213,
+    "macro avg": {
+      "precision": 0.925142484583974,
+      "recall": 0.7669034170685819,
+      "f1-score": 0.8299027047363515,
+      "support": 1195.0
+    },
+    "weighted avg": {
+      "precision": 0.9330471012710843,
+      "recall": 0.9338912133891213,
+      "f1-score": 0.9283363196086841,
+      "support": 1195.0
+    }
+  },
+  "confusion_matrix": [
+    [
+      967,
+      1,
+      1
+    ],
+    [
+      31,
+      91,
+      6
+    ],
+    [
+      36,
+      4,
+      58
+    ]
+  ],
+  "model_path": "/content/drive/MyDrive/sms-baselines/experiments/bl_nlp_02/bl_nlp_02_seed46_20250922T212037Z/fallback_logreg.joblib"
+}

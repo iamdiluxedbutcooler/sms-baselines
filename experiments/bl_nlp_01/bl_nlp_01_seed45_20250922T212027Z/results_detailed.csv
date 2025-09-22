@@ -1,0 +1,1196 @@
+id,text,true_label,pred_label,prob_ham,prob_smishing,prob_spam
+0,what do u want for xma how about free text messag a new video phone with half price line rental call free now on to find out more,smishing,ham,0.6486821339453075,0.3056245712778627,0.045693294776827806
+1,dont know you bring some food,ham,ham,0.9913863848458359,0.004474784459338138,0.004138830694824745
+2,it s onli ard rest all ard at least which is price 4 2 bedrm,ham,ham,0.9859337715487884,0.008296462603079124,0.005769765848131695
+3,oh fine i ll be by tonight,ham,ham,0.9940183189453506,0.0030619305284470427,0.0029197505262017203
+4,just check in on you realli do miss see jeremiah do have a great month,ham,ham,0.996569590086144,0.0018480957222325178,0.0015823141916230076
+5,lol ok i ll snatch her purs too,ham,ham,0.9930991619315322,0.003412495707966927,0.0034883423605020524
+6,you have an import custom servic announc calnumb now,smishing,smishing,0.17734848986040003,0.787610494775345,0.0350410153642553
+7,which is whi i never want to tell you ani of thi which is whi i m so short with you and on edg as of late,ham,ham,0.9982433021493311,0.0011544821855582292,0.0006022156651094619
+8,i m on the bu love you,ham,ham,0.9937112693387037,0.003396607544030723,0.002892123117266456
+9,me 2 babe i feel the same let just 4get about it both tri cheer up not fit soo muchxxlov u locaxx,ham,ham,0.9977324148236557,0.0010284325873565756,0.001239152588985995
+10,noth spl wat abt u and whr ru,ham,ham,0.981451933734878,0.009486494267786654,0.009061571997335769
+11,yeah probabl but not sure ilol let u know but person i wuldnt bother then again if ur goin to then i mite as well,ham,ham,0.9984008186167114,0.0008182148050298413,0.000780966578257322
+12,shall i bring us a bottl of wine to keep us amus onli joke i ll bring one anyway,ham,ham,0.9923557247274903,0.0036340615081557853,0.004010213764354415
+13,i wa just callin to say hi take care bruv,ham,ham,0.9949928706684084,0.0026827595626275546,0.00232436976896583
+14,free for 1st week no1 nokia tone 4 ur mob everi week just txt nokia to zed pobox w45wq norm p tone 16,spam,spam,0.013100171150042623,0.015050723278924072,0.9718491055710327
+15,no need to ke qi too bore izzit y suddenli thk of thi,ham,ham,0.9925035988809792,0.0037182495602068807,0.0037781515588153295
+16,wa gr8 to see that messag so when r u leav congrat dear what school and wat r ur plan,ham,ham,0.9960478178482561,0.002305716764416283,0.0016464653873279193
+17,ok tell me later,ham,ham,0.9977155768880497,0.0010839420768100662,0.0012004810351410222
+18,smile in pleasur smile in pain smile when troubl pour like rain smile when sum1 hurt u smile becoz someon still love to see u smile keep smile,ham,ham,0.9889891318887619,0.005488482202288276,0.005522385908951785
+19,navratra special launch 9th oct chd presnt phase 3 of avenue71 shona road gurgaon rs leas rs as inaugur discount sm icd to,spam,ham,0.7241721738673806,0.19082425923592417,0.08500356689669643
+20,aah bless how s your arm,ham,ham,0.9549840205846091,0.025649038517855764,0.019366940897533977
+21,yay can t wait to parti togeth,ham,ham,0.9639376282875337,0.020482941639327137,0.01557943007313759
+22,you want to go,ham,ham,0.9956857346867088,0.0026169303081271184,0.0016973350051631075
+23,a link to your pictur ha been sent you can also use,smishing,ham,0.944321675100882,0.0464769786696024,0.009201346229513336
+24,i wonder if you ll get thi text,ham,ham,0.9841600729879227,0.008500822344149379,0.007339104667926798
+25,parti s at my place at usf no charg but if you can contribut in ani way it is greatli appreci and yeah we got room for one more,ham,ham,0.9992458027992556,0.00036951488373929343,0.00038468231700251464
+26,minimum walk is 3mile a day,ham,ham,0.9724642164262056,0.016464443256367367,0.011071340317427118
+27,just now saw your messag it k da,ham,ham,0.9717174027256318,0.0165894716113309,0.011693125663037252
+28,pl give her the food prefer pap veri slowli with load of sugar you can take up to an hour to give it and then some water veri veri slowli,ham,ham,0.9981743356523655,0.000848801308602857,0.0009768630390315622
+29,hiya comin 2 bristol 1 st week in april le got off rudi on new yr eve but i wa snore they were drunk u bak at colleg yet my work send ink 2 bath,ham,ham,0.9959240901965112,0.0016052553076065122,0.0024706544958832026
+30,monthli password for wap mobsi com is use your wap phone not pc,spam,ham,0.8595462058090134,0.07769253071665597,0.06276126347432955
+31,k k what are detail you want to transfer acc no enough,ham,ham,0.9933266713190956,0.00460550067984494,0.002067828001059349
+32,want to send me a virtual hug i need one,ham,ham,0.9964874594525593,0.0012509761003519433,0.0022615644470879246
+33,free minut to ani mobil free text free camcord repli or call,smishing,smishing,0.1426948849228838,0.6794669384444424,0.17783817663267049
+34,thanx 4 send me home,ham,ham,0.9952525791527325,0.00192658472827253,0.0028208361189952353
+35,she said do u mind if i go into the bedroom for a minut ok i sed in a sexi mood she came out 5 minut latr wid a cake n my wife children were there with her,ham,ham,0.9906411478839764,0.004693093085333225,0.00466575903069694
+36,me fine absolutli fine,ham,ham,0.9715716767562892,0.016522470683118625,0.011905852560592395
+37,you have 1 new messag pleas call,smishing,smishing,0.3497784301150499,0.6354863522369434,0.014735217648005153
+38,saw guy and doll last night with patrick swayz it wa great,ham,ham,0.9919612709629604,0.0038287711335281763,0.004209957903510801
+39,ye gauti and sehwag out of odi seri,ham,ham,0.9811408955543256,0.0112606542273253,0.007598450218347779
+40,well ball time to make call,ham,ham,0.9794789184069415,0.013948004130489926,0.006573077462568721
+41,revers is cheat that is not mathemat,ham,ham,0.9794154467874614,0.012437852655890726,0.008146700556646187
+42,dear paytm custom your paytm kyc ha expir contact custom care no immedi your account will block within 24 hr thank you paytm team,smishing,smishing,0.015376117315956186,0.9813306631309674,0.0032932195530775326
+43,good friend care for each other close friend understand each other and true friend stay forev beyond word beyond time gud ni8,ham,ham,0.9809878181495725,0.009646707202094559,0.009365474648334062
+44,ree entri in 2 a weekli comp for a chanc to win an ipod txt pod to to get entri std txt rate t c s appli for detail 18,spam,spam,0.07127158311484519,0.12432327423498317,0.8044051426501743
+45,enjoy ur life good night,ham,ham,0.9804898280642319,0.007001964425443535,0.012508207510324717
+46,mind blastin no more tsunami will occur from now on rajnik stop swim in indian ocean d,ham,ham,0.9409669943389039,0.02359093651445799,0.03544206914663725
+47,i have had two more letter from i will copi them for you co one ha a messag for you speak soon,ham,ham,0.9790877703085193,0.015580336219402168,0.005331893472075978
+48,fanci a shag i do interest sextextuk com txt xxuk suzi to txt cost 1 50 per msg tnc on websit x,spam,ham,0.48571388751894634,0.21240875224955583,0.30187736023149625
+49,sorri for the delay ye master,ham,ham,0.9653113424681743,0.0169481862600662,0.017740471271759452
+50,which channel,ham,ham,0.8345605814461395,0.07387256599979852,0.0915668525540622
+51,k did you call me just now ah,ham,ham,0.9942039817844599,0.0036975277383118916,0.0020984904772269894
+52,well then you have a great weekend,ham,ham,0.9873376976397786,0.009009701332936356,0.0036526010272857775
+53,you have won 1 cash or a 2 prize to claim call t c rstm sw7 3ss ppm,smishing,smishing,0.012133725536906885,0.984074678599764,0.0037915958633306227
+54,it just seem like weird time that the night that all you and g want is for me to come smoke is the same day as when a shitstorm is attribut to me alway come over and make everyon smoke,ham,ham,0.9998703385557728,7.492798832421246e-05,5.473345590246849e-05
+55,yo you around a friend of mine s lookin to pick up later tonight,ham,ham,0.9955433006217879,0.0023422511639240775,0.002114448214289135
+56,we walk from my mom right on stagwood pass right on winterston left on victor hill address is lt gt,ham,ham,0.9958662936022395,0.0022605434373061746,0.001873162960456526
+57,beauti truth against graviti read care our heart feel light when someon is in it but it feel veri heavi when someon leav it,ham,ham,0.9933315910947044,0.003593657933773009,0.0030747509715217357
+58,my friend just got here and say he s up hi order by a few gram he s got lt gt when can you get here,ham,ham,0.999670109858851,0.0001204257657334123,0.00020946437541851244
+59,ye it possibl but dint tri pl dont tell to ani one k,ham,ham,0.9888835706800114,0.005565090519545113,0.005551338800446401
+60,44 do you want a new nokia i colour phone deliveredtomorrow with free minut to ani mobil free text free camcord repli or call,smishing,smishing,0.11620756272130203,0.7085686386702404,0.17522379860845655
+61,you also didnt get na hi hi hi hi hi,ham,ham,0.9803091189089727,0.008657186794507351,0.011033694296521084
+62,hai ana tomarrow am come on morn lt decim gt ill be there in sathi then we ll go to rto offic repli me after came to home,ham,ham,0.9997980548750066,0.00010564271628311576,9.630240870710604e-05
+63,the lay man just to let you know you are miss and thought off do have a great day and if you can send me bimbo and ugo s number ill appreci safe,ham,ham,0.9996551684315147,0.00021127218398356407,0.0001335593844982165
+64,thank love but am i do torch or bold,ham,ham,0.9896137319202768,0.005851723985130192,0.004534544094593792
+65,dear we got lt gt dollar hi hi,ham,ham,0.993542862346284,0.003742449999957055,0.0027146876537585823
+66,stop the stori i ve told him i ve return it and he s say i should not re order it,ham,ham,0.9949027050963586,0.0024626121651116425,0.0026346827385268076
+67,smith wast da i wanna gayl,ham,ham,0.9739012574715297,0.013659463690937842,0.012439278837531773
+68,eastend tv quiz what flower doe dot compar herself to d violet e tulip f lili txt d e or f to now 4 chanc 2 win cash wkent p16,spam,spam,0.3547779127367625,0.12590009315189024,0.5193219941113477
+69,had your mobil 11 month or more u r entitl to updat to the latest colour mobil with camera for free call the mobil updat co free on,smishing,smishing,0.07899858643842608,0.7944591071562671,0.1265423064053042
+70,ok c then,ham,ham,0.9942175478324268,0.0027489629334926575,0.0030334892340800695
+71,privat your account statement for show unredeem bonu point to claim call identifi code expir,smishing,smishing,0.008540349404705647,0.9867927645896336,0.004666886005659583
+72,s fine anytim all the best with it,ham,ham,0.9869930907456953,0.006656180404815557,0.006350728849488283
+73,no i meant the calcul is the same that lt gt unit at lt gt thi school is realli expens have you start practic your accent becaus it import and have you decid if you are do 4year of dental school or if you ll just do the nmde exam,ham,ham,0.9998048627853262,0.00014988542508209522,4.525178959244155e-05
+74,you avail now i m like right around hillsborough amp lt gt th,ham,ham,0.9964830988742712,0.001646422130457074,0.001870478995271374
+75,you are be rip off get your mobil content from call poli true pix rington game six download for onli 3,smishing,ham,0.6865187831157433,0.1262492636907405,0.18723195319351874
+76,what is the plural of the noun research,ham,ham,0.9862750757438438,0.007495652962279747,0.006229271293878167
+77,convey my regard to him best wish,ham,ham,0.9810820566004304,0.008621290076789467,0.010296653322780666
+78,ask 3mobil if chatlin inclu in free min india cust serv sed ye l8er got mega bill 3 dont giv a shit bailiff due in day i o 3 want,spam,ham,0.9805506330813656,0.01109110307580952,0.008358263842821557
+79,urgent we are tri to contact u today draw show that you have won a prize guarante call from land line claim c52 valid12hr onli,smishing,smishing,0.0032597622722449807,0.9965406448926472,0.00019959283510947908
+80,wat r u do,ham,ham,0.988415778691098,0.007044087841092537,0.004540133467809355
+81,unless it s a situat where you go gurl would be more appropri,ham,ham,0.9946881528619822,0.002486096093055236,0.0028257510449622983
+82,do have a nice day today i love you so dearli,ham,ham,0.9964824538091722,0.002381759707982017,0.0011357864828453312
+83,mayb you should find someth els to do instead,ham,ham,0.9853841356642093,0.010034655925619328,0.004581208410170987
+84,argh my 3g is spotti anyway the onli thing i rememb from the research we did wa that provinc and sterl were the onli problem free place we look at,ham,ham,0.9976417842497551,0.0014258789129303858,0.0009323368373167699
+85,arngd marriag is while u r walkin unfortuntli a snake bite u bt love marriag is danc in frnt of d snake amp sayin bite me bite me,ham,ham,0.9880738521855288,0.006931246851576382,0.004994900962894976
+86,the messag sent is askin for lt gt dollar shoul i pay lt gt or lt gt,ham,ham,0.9975471289026457,0.001398539518498027,0.001054331578856755
+87,wait in e car 4 my mum lor u leh reach home alreadi,ham,ham,0.9969727011603853,0.0017598284977419342,0.0012674703418736905
+88,still in the area of the restaur ill tri to come back soon,ham,ham,0.9975057011333941,0.0012225081105337174,0.0012717907560695907
+89,and i don t plan on stay the night but i prolli won t be back til late,ham,ham,0.9942616241258088,0.003097739510293377,0.002640636363901176
+90,now get rid off cockroach termit bedbug rat ani pest4best deal inpestcontrolservic chemic herbal odorlessdi n ask,spam,ham,0.9817185758267408,0.008628574500773301,0.009652849672485518
+91,as i enter my cabin my pa said happi b day boss i felt special she askd me 4 lunch,ham,ham,0.9832704920805871,0.009364828582728609,0.007364679336681118
+92,wa the farm open,ham,ham,0.9588878033403017,0.023378329103673965,0.01773386755602595
+93,alert your rbc royal bank ha been suspend to unlock your account click here,smishing,ham,0.5130620748391309,0.4505159765052413,0.03642194865562586
+94,think da you wil do,ham,ham,0.9952622358583754,0.003369457974894384,0.001368306166729434
+95,oh the grand is have a bit of a parti but it doesn t mention ani cover charg so it s probabl first come first serv,ham,ham,0.9975477662225488,0.0011632250258521656,0.0012890087515984472
+96,sorri man my account s dri or i would if you want we could trade back half or i could buy some shit with my credit card,ham,ham,0.9971378871888716,0.002092102891391989,0.0007700099197340003
+97,ye but i dont care i need you bad princess,ham,ham,0.9937034493026347,0.0036386868773186417,0.0026578638200470124
+98,yo chad which gymnast class do you wanna take the site say christian class is full,ham,ham,0.9942990768096883,0.002930420118833345,0.0027705030714804705
+99,did u get that messag,ham,ham,0.974227716597205,0.014776884034589774,0.010995399368206583
+100,i donno if they are scorabl,ham,ham,0.932210894345733,0.04333012423980337,0.02445898141446383
+101,good afternoon loverboy how goe you day ani luck come your way i think of you sweeti and send my love across the sea to make you smile and happi,ham,ham,0.9993719963818765,0.0003256188246143038,0.00030238479350663496
+102,mm i am on the way to railway,ham,ham,0.9941430246383238,0.0031519774705814157,0.0027049978910962534
+103,eeri nokia tone 4u rpli tone titl to eg tone dracula to titl ghost addamsfa munster exorcist twilight pobox w45wq p,spam,spam,0.11793370404964573,0.09193523937945657,0.7901310565708954
+104,ok congrat,ham,ham,0.9607102392313633,0.02849789924065087,0.010791861527986238
+105,lol boo i wa hope for a laugh,ham,ham,0.9745639920738999,0.013434262684087154,0.012001745242013554
+106,these won t do have to move on to morphin,ham,ham,0.9665991472413499,0.023240610702335664,0.010160242056314307
+107,sorri i ll call later hv some work,ham,ham,0.9981144668724155,0.0010097575878328761,0.0008757755397500815
+108,how much for an eighth,ham,ham,0.9803798300838799,0.01124926373824976,0.008370906177870235
+109,i luv u soo much u don t understand how special u r 2 me ring u 2morrow luv u xxx,ham,ham,0.9882508998636389,0.00582772529758963,0.00592137483877271
+110,privat your account statement for show un redeem s i m point call identifi code expir 18 11 04,smishing,smishing,0.007657178280599438,0.9876628896541195,0.004679932065279193
+111,lolnic i went from a fish to water,ham,ham,0.9434390028326061,0.032373657240599055,0.02418733992679592
+112,u should make a fb list,ham,ham,0.9513632904815493,0.029114898076504945,0.019521811441946365
+113,but i m realli realli broke oh no amount is too small even lt gt,ham,ham,0.9975291048272579,0.0015511475808758824,0.0009197475918642882
+114,ok help me ask if she s work tmr a not,ham,ham,0.9984127548426768,0.0008580511498873567,0.0007291940074367116
+115,crucifi is c not s you should have told me earlier,ham,ham,0.9884807645355158,0.007380079308413783,0.004139156156071153
+116,dear custom your order of 42 84 euro ha been approv if you didnt purchas anyth or it you believ an unauthor person ha access your account pleas access the link below,smishing,ham,0.8209888466287556,0.1636126238436697,0.015398529527572587
+117,k i might come by tonight then if my class let out earli,ham,ham,0.9983409407958379,0.0009041011074341609,0.0007549580967276891
+118,thi week savamob member offer are now access just call for detail savamob pobox la3 2wu onli 1 50 week savamob offer mobil,smishing,smishing,0.34442650896642185,0.472874413198753,0.18269907783482417
+119,you have won a guarante cash or a prize to claim yr prize call our custom servic repres on between 10am 7pm,smishing,smishing,0.001547532303882484,0.9968656458519074,0.0015868218442098934
+120,log off 4 wat it s sdryb8i,ham,ham,0.9828465869766052,0.012419632302167255,0.004733780721226254
+121,but i have to i like to have love and arrang,ham,ham,0.990769126844829,0.00589973727196667,0.003331135883205856
+122,record indic you were involv in an accid in the last 2 5 year as such you are entitl to claim compens repli claim for info or stop to opt out,smishing,ham,0.6366989560994787,0.2935541974309204,0.06974684646960094
+123,haha dont be angri with yourself take it as a practic for the real thing,ham,ham,0.994589450448515,0.0024514418664381317,0.0029591076850483716
+124,thi is ur face test 1 2 3 4 5 6 7 8 9 lt gt select ani number i will tell ur face astrolog am wait quick repli,ham,ham,0.9949619927817895,0.0033819488747221867,0.0016560583434847406
+125,doubl min and txt 4 6month free bluetooth on orang avail on soni nokia motorola phone call mobileupd8 on,spam,spam,0.22182634013124597,0.12233877763810687,0.6558348822306498
+126,ya ok vikki vl c witin lt gt min and il repli u,ham,ham,0.9943064359730828,0.0026485938535685608,0.0030449701733479984
+127,i ju reach home i go bath first but my si use net tell u when she finish k,ham,ham,0.9990166342484756,0.00044413314788100273,0.0005392326036447163
+128,wat happen to the cruis thing,ham,ham,0.9824944259306898,0.010793032463282016,0.006712541606026443
+129,we have all rounder so not requir,ham,ham,0.972110183980058,0.0214855718341091,0.006404244185833635
+130,freemsg feelin kinda lnli hope u like 2 keep me compani jst got a cam mobi wanna c my pic txt or repli date to msg p 2rcv hlp stop to,spam,ham,0.5100708883328998,0.07839059924291822,0.41153851242417866
+131,you ve won tkt to the euro cup final or cash to collect call b pobox ppm,smishing,smishing,0.14499386053155147,0.7993129111216899,0.055693228346756704
+132,i will come to ur home now,ham,ham,0.9941589605896828,0.0028803520729689626,0.002960687337348738
+133,dont know support ass and srt i thnk i think ps3 can play through usb too,ham,ham,0.992829952873334,0.0037221597742917957,0.0034478873523742046
+134,you pleas give us connect today itself befor lt decim gt or refund the bill,ham,ham,0.9870727298663714,0.009070167286109317,0.003857102847519108
+135,free polyphon rington text super to to get your free poli tone of the week now 16 sn pobox nr31 7z subscript pw,spam,spam,0.4510589095849255,0.0549559335167183,0.49398515689835854
+136,meet top 35 us univers in delhi at india habitat centr lodhi road on nov 8th 2 to 6 pm for student admiss entri free detail contact,spam,ham,0.9452126152124365,0.028695907556544727,0.026091477231019084
+137,even v good if somewhat event laden will fill you in don t you worri head ok but throat wreck see you at six then,ham,ham,0.998587231767535,0.0007496262889287555,0.000663141943535557
+138,hang out with my brother and hi famili,ham,ham,0.9785390504181168,0.011418366770247022,0.01004258281163643
+139,freemsg hey i m buffi 25 and love to satisfi men home alon feel randi repli 2 c my pix qlynnbv help p a msg send stop to stop txt,spam,ham,0.8770607995983243,0.024469749383581957,0.09846945101809496
+140,what he said is not the matter my mind say some other matter is there,ham,ham,0.9983148437811018,0.0008748297304218435,0.0008103264884784134
+141,lol no ouch but wish i d stay out a bit longer,ham,ham,0.9910390179073331,0.005457884338608135,0.0035030977540592275
+142,yo ani way we could pick someth up tonight,ham,ham,0.9975819013122807,0.001456144009626374,0.0009619546780914315
+143,k if u bore up just come to my home,ham,ham,0.9974866929618855,0.0012062166894151454,0.0013070903486977902
+144,hmm ill have to think about it ok you re forgiven d,ham,ham,0.9972662678620977,0.001913047589988654,0.0008206845479166902
+145,did you tri make anoth butt,ham,ham,0.9919864940030624,0.006259105316770252,0.00175440068016685
+146,oh rite well im with my best mate pete who i went out with 4 a week now were 2geva again it been longer than a week,ham,ham,0.9970483592202238,0.0014564978725487476,0.0014951429072278214
+147,good sleep is about rhythm the person ha to establish a rhythm that the bodi will learn and use if you want to know more,ham,ham,0.997912384056646,0.001276298850308332,0.0008113170930485424
+148,hi do u want to join me with st later meet them at five call u after class,ham,ham,0.9958802204959705,0.00196596985744642,0.002153809646585073
+149,also rememb the bead don t come off ever,ham,ham,0.997295541694444,0.0012829059553172144,0.0014215523502377377
+150,aight do you still want to get money,ham,ham,0.9981193655626825,0.0009381747209462076,0.0009424597163708851
+151,onli for girl bba mba execut mba b sc it bio tech b tech flexibl time govt recogn join bsaitm vikaspuri,spam,ham,0.9246343515526996,0.031865783401936756,0.043499865045364225
+152,how are you with money as in to you money aint a thing how are you sha,ham,ham,0.9981589044195418,0.0012734116018435228,0.0005676839786160207
+153,realli dun bluff me leh u sleep earli too nite,ham,ham,0.9969800724129084,0.0015988329512542612,0.0014210946358368451
+154,urgent ireland gov ha issu a payment of to all resid as part of it promis to battl covid 19 tap here to appli,smishing,ham,0.7055196247657366,0.25807558250830975,0.036404792725951
+155,hi babi im sat on the bloodi bu at the mo and i wont be home until about 7 30 wanna do somethin later call me later ortxt back jess xx,ham,ham,0.9988797210837604,0.00041049341098233703,0.0007097855052564243
+156,din i tell u ju now,ham,ham,0.9637212071948973,0.018713000403980194,0.017565792401121827
+157,urgent thi is our 2nd attempt to contact u your prize from yesterday is still await collect to claim call now acl pm,smishing,smishing,0.02877213853814257,0.9670301002146521,0.004197761247203695
+158,happi birthday may u find ur princ charm soon and u stay happi,ham,ham,0.9885635066651514,0.006748063707278654,0.00468842962757157
+159,last chanc claim ur worth of discount voucher today text shop to now savamob offer mobil t cs savamob pobox84 m uz,smishing,smishing,0.07872152761101962,0.7660904875440538,0.1551879848449268
+160,as usual iam fine happi amp do well what about u,ham,ham,0.9920473956549019,0.004355372860244998,0.0035972314848533977
+161,k k i m also fine when will you complet the cours,ham,ham,0.9836473541321618,0.010825080898453613,0.0055275649693853545
+162,i wil be there with in lt gt minut got ani space,ham,ham,0.9976298258515467,0.0012569428375381088,0.0011132313109175113
+163,final chanc claim ur worth of discount voucher today text ye to now savamob member offer mobil t cs savamob pobox84 m uz 3 00 sub 16,smishing,smishing,0.03151880345514772,0.8547149630322779,0.113766233512574
+164,anyway i don t think i can secur anyth up here lemm know if you want me to drive down south and chill,ham,ham,0.9988886801804319,0.0006629133239617376,0.00044840649560855614
+165,hey is rite u put 10 evey mnth is that all,ham,ham,0.9871649910255561,0.007681236206740229,0.0051537727677040835
+166,are you ok what happen to behav like thi,ham,ham,0.9980475382828801,0.0011569980262071875,0.0007954636909116485
+167,do you want a new nokia i colour phone deliv tomorrow with free minut to ani mobil and free camcord repli or call,smishing,smishing,0.23595280852140077,0.6404245184384837,0.12362267304011441
+168,k go and sleep well take rest,ham,ham,0.985786448384436,0.00646532213318886,0.007748229482375085
+169,gsoh good with the ladi u could b a male gigolo 2 join the uk s fastest grow men club repli oncal mjzgroup 2stop repli stop msg 1 50rcvd,spam,ham,0.7811910757972221,0.058016477422731666,0.16079244678004573
+170,dont you have messag offer,ham,ham,0.8502987540310881,0.12192530405251344,0.027775941916397994
+171,hous maid is the murder coz the man wa murder on 26th januari,ham,ham,0.9655466391027232,0.019925765108774578,0.014527595788505447
+172,let me know how to contact you i ve you settl in a room let know you are ok,ham,ham,0.9944748903000388,0.004587455239406724,0.0009376544605580115
+173,i borrow ur bag ok,ham,ham,0.9692643247009973,0.015379353029379421,0.015356322269622991
+174,dear umma she call me now,ham,ham,0.9899729456027232,0.0065291525517997395,0.0034979018454778118
+175,where are you call me,ham,ham,0.997567864118868,0.0018072106908326928,0.0006249251903003753
+176,should i have pick up a receipt or someth earlier,ham,ham,0.9936450262075621,0.003586278461404221,0.0027686953310338287
+177,in da car park,ham,ham,0.9836359756656646,0.00852543998385623,0.007838584350478545
+178,aight i ll get it later,ham,ham,0.9911416630821481,0.004394358078737504,0.004463978839112776
+179,wat s da model num of ur phone,ham,ham,0.96795941710421,0.01513695200946216,0.016903630886327882
+180,you give us back my id proof and lt gt rs we wont allow you to work we will come to your home within day,ham,ham,0.9979587352113998,0.0015145948200140616,0.0005266699685862039
+181,thank for yesterday sir you have been wonder hope you enjoy the burial mojibiola,ham,ham,0.9907087259462676,0.005777840684103752,0.0035134333696285086
+182,eatin later but i m eatin wif my fren now lei go home first,ham,ham,0.993279990257025,0.003172464900268707,0.0035475448427047846
+183,sorri i ll call later urgent work,ham,ham,0.9973534332966629,0.001908179754817047,0.0007383869485201934
+184,have a great trip to india and bring the light to everyon not just with the project but with everyon that is lucki to see you smile bye abiola,ham,ham,0.997957133053929,0.001161863777274655,0.0008810031687957682
+185,u definit need a modul from e human di sem izzit u wan 2 take other modul 1st,ham,ham,0.9624268339064682,0.016641984156471105,0.020931181937059593
+186,sm auction a brand new nokia is up 4 auction today auction is free 2 join take part txt nokia to now,spam,ham,0.4892424264776993,0.12481975676161727,0.38593781676068145
+187,the search 4 happi is 1 of d main sourc of unhappi accept life the way it come u will find happi in everi moment u live,ham,ham,0.9918383856871891,0.004019507149892564,0.004142107162919741
+188,understand hi loss is my gain so do you work school,ham,ham,0.9963328942364026,0.0021484807049945522,0.0015186250586012248
+189,i am in bu on the way to calicut,ham,ham,0.9966890033197641,0.001764071118344818,0.0015469255618905551
+190,26th of juli,ham,ham,0.7720694491989474,0.13527924389782062,0.09265130690323133
+191,what you need you have a person to give na,ham,ham,0.9945227051401566,0.003894340157862353,0.0015829547019806638
+192,haven t heard anyth and he s not answer my text so i m guess he flake that said the jb is fantast,ham,ham,0.99029299563785,0.005887355246179473,0.003819649115968658
+193,havent shop now lor i juz arriv onli,ham,ham,0.978482793758211,0.010901126049975672,0.010616080191814056
+194,will you come onlin today night,ham,ham,0.9926318266653114,0.00474792528681456,0.002620248047874192
+195,not thought bout it drink in tap spile at seven is that pub on ga st off broad st by canal ok,ham,ham,0.9955690833276758,0.0023197502522970424,0.0021111664200287104
+196,u wan 2 haf lunch i m in da canteen now,ham,ham,0.994197190140456,0.002987628227677237,0.0028151816318662793
+197,have a good even ttyl,ham,ham,0.9841153868706434,0.009913127328560447,0.005971485800797607
+198,i don t know u and u don t know me send chat to now and let s find each other onli p msg rcvd,spam,ham,0.9034493022971207,0.01426782199366175,0.08228287570921708
+199,dear custom your pyatm wallet ha been book and hold your amount pleas complet your kyc contact custom care,smishing,smishing,0.04756096150703231,0.946799939733365,0.005639098759600201
+200,one day a crab wa run on the sea shore the wave came n clear the footprint of the crab crab ask be my frnd y r u clear my beauti footprint wave repli a fox wa follow ur footprint to catch you that y i clear it off frndsship never let u dwn gud nyt,ham,ham,0.9984667559592508,0.0007432014845077545,0.000790042556241242
+201,no she s current in scotland for that,ham,ham,0.9750346565285489,0.011512776783441349,0.013452566688008346
+202,the affidavit say lt gt e twigg st divis g courtroom lt gt lt time gt am i ll doubl check and text you again tomorrow,ham,ham,0.9989409343058585,0.0004892565236351747,0.0005698091705073242
+203,your free gift is wait to be collect simpli call,smishing,ham,0.8447540145095721,0.1208482810727228,0.03439770441770561
+204,babe i need your advic,ham,ham,0.9334859977476425,0.03318771451535067,0.03332628773700507
+205,don know wait i will check it,ham,ham,0.9892085387298964,0.005623450501646987,0.005168010768455009
+206,u have a secret admir reveal who think u r so special call to opt out repli reveal stop 1 50 per msg recd cust care,smishing,smishing,0.052314689593663095,0.9245411074281479,0.023144202978187502
+207,mmm that better now i got a roast down me i d b better if i had a few drink down me 2 good indian,ham,ham,0.9918387793665833,0.0040476438474255985,0.004113576785993286
+208,you might want to pull out more just in case and just plan on not spend it if you can i don t have much confid in derek and taylor s money manag,ham,ham,0.9987958237796659,0.000674302944980544,0.0005298732753539206
+209,i thought we were do a king of the hill thing there,ham,ham,0.9845042363456368,0.007976778749873684,0.007518984904490065
+210,miss call miss call khelat kintu opponent miss call dhort lage that d rule one with great phone receiv qualiti win,ham,ham,0.9436301637823579,0.03367221136375555,0.022697624853886784
+211,excel i spent lt gt year in the air forc iraq and afghanistan i am stabl and honest do you like travel,ham,ham,0.9980031377818088,0.000922579918556112,0.001074282299632602
+212,i m veri happi for you babe woo hoo parti on dude,ham,ham,0.9909468632249342,0.005770199230283265,0.0032829375447833656
+213,say thi slowli god i love you i need you,ham,ham,0.9909936407949581,0.004848692728727303,0.004157666476314172
+214,haha where got so fast lose weight thk muz go 4 a month den got effect gee later we go aust put bk e weight,ham,ham,0.9969586141645936,0.001453440965745196,0.0015879448696600675
+215,make that 3 4 sake x,ham,ham,0.9841019136323709,0.012606661043889897,0.0032914253237399174
+216,wen did you get so spiritu and deep that s great,ham,ham,0.9965588196966257,0.0016815020075757908,0.0017596782957999071
+217,jade it paul y didn t u txt me do u rememb me from barm i want 2 talk 2 u txt me,ham,ham,0.9807871005094786,0.007615755791552087,0.011597143698969367
+218,ur hmv quiz cash balanc is current to maxim ur cash in now send hmv1 to onli p msg,spam,spam,0.23087252467820527,0.05616011101310146,0.7129673643086959
+219,yup i havent been there befor you want to go for the yoga i can call up to book,ham,ham,0.998478532144712,0.0008282774303286609,0.0006931904249601695
+220,now i m go for lunch,ham,ham,0.9758229553036595,0.012627619377155872,0.011549425319183062
+221,hi babe it me thank for come even though it didnt go that well i just want my bed hope to see you soon love and kiss xxx,ham,ham,0.9994744022846975,0.0001926557091109117,0.00033294200619299406
+222,thank for your subscript to rington uk your mobil will be charg 5 month pleas confirm by repli ye or no if you repli no you will not be charg,spam,ham,0.8676143648749864,0.059052073555913714,0.07333356156910131
+223,thank for be there for me just to talk to on saturday you are veri dear to me i cherish have you as a brother and role model,ham,ham,0.9984684240863486,0.0010422898046202106,0.0004892861090283295
+224,hope you are feel great pl fill me in abiola,ham,ham,0.997259915899498,0.0015670131628642333,0.0011730709376391551
+225,well i know z will take care of me so no worri,ham,ham,0.997618372261671,0.001343320757558873,0.0010383069807721735
+226,huh 6 also cannot then onli how mani mistak,ham,ham,0.9939287331459933,0.003250301379724736,0.002820965474282695
+227,phoni award today voda number end xxxx are select to receiv a award if you have a match pleas call quot claim code standard rate app,smishing,smishing,0.00477111959698561,0.9942868117365823,0.0009420686664290253
+228,i take it we didn t have the phone callon friday can we assum we won t have it thi year now,ham,ham,0.9936382430460317,0.0047428847009172185,0.0016188722530513758
+229,we regret to inform you that your nab card is now lock to unlock pleas updat secur detail at,smishing,ham,0.8448887355955071,0.13237534996042544,0.022735914444067848
+230,hi where you you in home or calicut,ham,ham,0.9914119578284363,0.004665379189301326,0.003922662982261558
+231,u gd lor go shop i got stuff to do u wan 2 watch infern affair a not come lar,ham,ham,0.9963163289143401,0.0018411361718630845,0.0018425349137969917
+232,claim a shop spree just call now have you won mobstorequiz10ppm,smishing,ham,0.537598660801697,0.4281677616142145,0.034233577584087994
+233,you made my day do have a great day too,ham,ham,0.9967441979412281,0.001942004262428199,0.0013137977963451966
+234,dear custom your pyatm wallet ha been book and hold your amount pleas complet your kyc contact custom care,smishing,smishing,0.04756096150703231,0.946799939733365,0.005639098759600201
+235,oi ami parchi na re kicchu kaaj kort iccha korch na phone ta tul na plz plz,ham,ham,0.9266984664675666,0.04133654844239137,0.03196498509004349
+236,goodmorn sleep ga,ham,ham,0.9664404089823655,0.016634165652956636,0.01692542536467774
+237,dear how you are you ok,ham,ham,0.9975402072815768,0.0020774166028628186,0.0003823761155601796
+238,the world suffer a lot not becaus of the violenc of bad peopl but becaus of the silenc of good peopl gud night,ham,ham,0.9956349867473785,0.0019323846656217687,0.0024326285870024302
+239,u repeat e instruct again wat s e road name of ur hous,ham,ham,0.9615024084451259,0.015605657210234226,0.022891934344638164
+240,7 wonder in my world 7th you 6th ur style 5th ur smile 4th ur person 3rd ur natur 2nd ur sm and 1st ur love friendship love u dear,ham,ham,0.9685760721950728,0.01494872124413968,0.016475206560785178
+241,sorri i ll call later i am in a meet,ham,ham,0.9992184950662658,0.0004190510689252518,0.00036245386481036974
+242,puriti of friendship between two is not about smile after read the forward messag it about smile just by see the name gud even and stay bless,ham,ham,0.9937269021110636,0.0031525380458088687,0.003120559843128213
+243,stop know me so well,ham,ham,0.9872944499571594,0.00541616120266074,0.007289388840178858
+244,she just broke down a list of reason whi nobodi s in town and i can t tell if she s be sarcast or just faggi,ham,ham,0.9971695894656859,0.0013132237475104857,0.0015171867868071101
+245,under the sea there lay a rock in the rock there is an envelop in the envelop there is a paper on the paper there are 3 word guess,ham,ham,0.9855549277495724,0.009563468102612448,0.004881604147815186
+246,save money on wed lingeri at choos from a superb select with nation deliveri brought to you by weddingfriend,spam,ham,0.8948717830705036,0.07216402433814872,0.032964192591347176
+247,yup how noe leh,ham,ham,0.9880035576689561,0.006370465808282608,0.005625976522762131
+248,ard 4 lor,ham,ham,0.9834289098316832,0.009173956627785466,0.007397133540531559
+249,messag some text miss sender name miss number miss sent date miss miss u a lot that y everyth is miss sent via fullonsm com,ham,ham,0.9846344186711022,0.008899145557228299,0.006466435771668613
+250,well am offici in a philosoph hole so if u wanna call am at home readi to be save,ham,ham,0.9951949245131746,0.0025307976572735767,0.00227427782955188
+251,like a person size or what,ham,ham,0.9707458775690042,0.015091982754417496,0.01416213967657979
+252,dear v0daf0n custom you are a 5 00 winner of guarante caller prize thi is our final attempt to contact you to claim call now,smishing,smishing,0.002512779477168622,0.9964640961678616,0.0010231243549727652
+253,onli if you promis your get out as soon as you can and you ll text me in the morn to let me know you made it in ok,ham,ham,0.9997266316251846,0.00017143882266334564,0.00010192955215421254
+254,miss you too pray inshah allah,ham,ham,0.9581665990353704,0.023689694887945773,0.018143706076683516
+255,free unlimit hardcor porn direct 2 your mobil txt porn to get free access for 24 hr then chrgd 50p per day txt stop 2exit thi msg is free,spam,spam,0.42861185366321325,0.13584915858348204,0.43553898775330513
+256,erm woodland avenu somewher do you get the parish magazin hi telephon number will be in there,ham,ham,0.9966215770972516,0.0016415428935898726,0.0017368800091588368
+257,like i made him throw up when we were smoke in our friend s car one time it wa awesom,ham,ham,0.9987878315565808,0.0006713243385066642,0.0005408441049153593
+258,sm ac sptv the new jersey devil and the detroit red wing play ice hockey correct or incorrect end repli end sptv,spam,ham,0.8077646160404057,0.05222914001306939,0.14000624394652142
+259,he is there you call and meet him,ham,ham,0.993846819953866,0.0040071197693259016,0.0021460602768093983
+260,i like your new hous,ham,ham,0.9459412357077925,0.027524057611172027,0.026534706681035955
+261,im done just studyn in librari,ham,ham,0.9721475842946922,0.01386396919814325,0.013988446507164281
+262,may b approv panalam but it should have more post,ham,ham,0.9841971417402806,0.007645338611043041,0.00815751964867649
+263,ok then i will wait for then u talk to me,ham,ham,0.9981023248456914,0.0011088040905067344,0.0007888710638021127
+264,so i pay first lar then when is da stock comin,ham,ham,0.9906353691466012,0.004561463201613048,0.004803167651784853
+265,repli with your name and address and you will receiv by post a week complet free accommod at variou global locat ph p,smishing,ham,0.8074281508832093,0.13430394720690803,0.058267901909881556
+266,you will go to walmart i ll stay,ham,ham,0.9827572212097269,0.010539076901928771,0.006703701888343751
+267,if you hear a loud scream in about lt gt minut it caus my gyno will be shove thing up me that don t belong,ham,ham,0.9994209380016223,0.0002906950165020313,0.0002883669818752748
+268,we left alreadi we at orchard now,ham,ham,0.9852428722283089,0.009633777262657916,0.005123350509032017
+269,miss your call caus i wa yell at scrappi miss u can t wait for u to come home i m so lone today,ham,ham,0.9972057749107823,0.0021476386123351495,0.0006465864768837258
+270,k my roommat also want a dubsack and anoth friend may also want some so plan on bring extra i ll tell you when they know for sure,ham,ham,0.9994296717586466,0.00029192258918529394,0.00027840565216982136
+271,so when do you wanna gym harri,ham,ham,0.9754556554857668,0.013751135951917072,0.010793208562317573
+272,yep at derek s hous now see you sunday lt 3,ham,ham,0.9935451656634082,0.0033839811616394213,0.003070853174950759
+273,so do you have samu shoulder yet,ham,ham,0.9914263539719588,0.007350214262117077,0.0012234317659246114
+274,aight call me onc you re close,ham,ham,0.9906211359287866,0.006766559372657279,0.002612304698556716
+275,it s ok i noe u re busi but i m realli too bore so i msg u i oso dunno wat colour she choos 4 me one,ham,ham,0.9991945697296802,0.0003772132628568356,0.0004282170074646327
+276,boltblu tone for p repli poli or mono eg poly3 1 cha cha slide 2 yeah 3 slow jamz 6 toxic 8 come with me or stop 4 more tone txt more,spam,ham,0.8042464233497358,0.026781036437152985,0.16897254021310776
+277,that s the thing with ape u can fight to the death to keep someth but the minut they have it when u let go that it,ham,ham,0.998661913256714,0.0007668583541519992,0.0005712283891346969
+278,you got call a tool,ham,ham,0.97082006446426,0.018369935548748655,0.01080999998699273
+279,stop call everyon say i might have cancer my throat hurt to talk i can t be answer everyon call if i get one more call i m not babysit on monday,ham,ham,0.9929729281526324,0.003259848456761539,0.003767223390604916
+280,i just realli need shit befor tomorrow and i know you won t be awak befor like 6,ham,ham,0.9932556750182431,0.0038942604616973475,0.0028500645200620852
+281,u still paint ur wall,ham,ham,0.943222326170966,0.03198858809772312,0.02478908573131082
+282,appl id buxcx7gbvwwccod final notif your appl 1d is due to expir today prevent thi by confirm your appl id at appl inc,smishing,ham,0.48153966916217406,0.471520745667863,0.04693958516996612
+283,are you plan to come chennai,ham,ham,0.9970264166273818,0.001875286256241738,0.0010982971163770153
+284,i m in class will holla later,ham,ham,0.9894720308134621,0.005480329987683637,0.005047639198855963
+285,lmao ok i wont be need u to do my hair anymor,ham,ham,0.9977300975389076,0.0011132356559589555,0.0011566668051342926
+286,i said it okay sorri,ham,ham,0.9814924589505316,0.010176850780838777,0.008330690268628167
+287,appl ha detect an unauthor sign in to your cloud account if thi messag goe without repli appl will be forc to suspend your account pleas verifi thi icloud devic by send your correct appl id and password via text messag,smishing,ham,0.8838562615517839,0.09797994831034962,0.01816379013786649
+288,singl line with a big mean miss anyth 4 ur best life but don t miss ur best life for anyth,ham,ham,0.9817203049443124,0.008170624748323092,0.010109070307363278
+289,goodo ye we must speak friday egg potato ratio for tortilla need,ham,ham,0.9739726830004043,0.015056552053112075,0.010970764946483134
+290,i went to ur hon lab but no one is there,ham,ham,0.989490926179846,0.005031962039959364,0.005477111780194193
+291,thi is one of the day you have a billion class right,ham,ham,0.9926145884925061,0.004945158687516229,0.002440252819976994
+292,thank u,ham,ham,0.9484040418010005,0.03167228137495286,0.019923676824046246
+293,err cud do i m go to at 8pm i haven t got a way to contact him until then,ham,ham,0.9931533456968483,0.004130861109547266,0.0027157931936072723
+294,nova medic center conduct a shoulder pain clinic on mar 5th consult our renown shoulder specialist dr mahesh reddi dr jatti call,spam,ham,0.8755689790727291,0.08128899157778156,0.043142029349489214
+295,hi the sexychat girl are wait for you to text them text now for a great night chat send stop to stop thi servic,spam,ham,0.9311179748897704,0.029073567090654766,0.03980845801957297
+296,there are mani compani tell me the languag,ham,ham,0.9943000139155058,0.003045669193662913,0.002654316890829913
+297,sorri i ll call later buzi,ham,ham,0.9957776985603106,0.0024345043995008878,0.0017877970401883828
+298,u come n search tat vid not finishd,ham,ham,0.9814711148880604,0.008547072197760033,0.00998181291418054
+299,i think just yourself thank and see you tomo,ham,ham,0.9916050976287396,0.0043662962945099,0.004028606076750831
+300,i m gonna be home soon and i don t want to talk about thi stuff anymor tonight k ileav thi topic for now,ham,ham,0.997697532886697,0.0010377509665745535,0.00126471614672682
+301,call now just 20p per min ntt ltd po box croydon cr9 5wb is a nation rate call,spam,smishing,0.08165680511005055,0.5904279642375404,0.3279152306524068
+302,just got outta class gonna go gym,ham,ham,0.9869143862622808,0.006088395418699294,0.006997218319018453
+303,congratul ore mo owo re wa enjoy it and i wish you mani happi moment to and fro wherev you go,ham,ham,0.9954033273848218,0.0024723992632822663,0.002124273351895816
+304,yup ok thanx,ham,ham,0.9834643246038105,0.00877078316488215,0.007764892231308061
+305,your brother is a geniu,ham,ham,0.9003555335285754,0.06344165799556803,0.03620280847585521
+306,will i live local to you text a repli to hear strt back from me p per msg netcollex ltdhelpdesk repli stop to end,spam,ham,0.8232413467939655,0.08451135106213618,0.09224730214390053
+307,joy s father is john then john is the name of joy s father mandan,ham,ham,0.9681760739100332,0.018077467132830954,0.013746458957135575
+308,spoke with uncl john today he strongli feel that you need to sacrific to keep me here he s go to call you when he doe i beg you to just listen dont make ani promis or make it clear thing are not easi and i need you to pleas let us work thing out as long as i keep expect help my creativ will be stifl so pl just keep him happi no promis on your part,ham,ham,0.9998931712439846,7.353795661727054e-05,3.329079940427236e-05
+309,i know i m lack on most of thi particular dramastorm s detail but for the most part i m not worri about that,ham,ham,0.9940804379046073,0.003147937730108769,0.0027716243652850152
+310,we will hold your paytm amount after sometim complet your paytm kyc paytm offic ph,smishing,smishing,0.09972332237299927,0.889994365394451,0.010282312232547455
+311,someon u know ha ask our date servic 2 contact you cant guess who call now all will be reveal po box m6 6wu,smishing,smishing,0.27934975291833786,0.6957463663410894,0.02490388074057229
+312,didn t you get hep b immunis in nigeria,ham,ham,0.9766040767657692,0.011042805220529353,0.012353118013702213
+313,how much is blackberri bold2 in nigeria,ham,ham,0.9760783183949906,0.012450623856120646,0.011471057748887422
+314,haha good to hear i m offici paid and on the market for an 8th,ham,ham,0.9852923220730525,0.007778427804184672,0.006929250122759897
+315,privat your account statement for show un redeem s i m point call identifi code expir 06 11 04,smishing,smishing,0.008961802552773407,0.9861480586685193,0.004890138778709319
+316,dunno leh cant rememb mayb lor so wat time r we meet tmr,ham,ham,0.9980087373553677,0.0012796280283088443,0.0007116346163207379
+317,is there a reason we ve not spoken thi year anyway have a great week and all the best in your exam,ham,ham,0.9969520423302423,0.001507625955332179,0.0015403317144220775
+318,yeah i ll tri to scroung someth up,ham,ham,0.9884435706652773,0.007970493785632107,0.003585935549090398
+319,lol for real she told my dad i have cancer,ham,ham,0.9910840622409501,0.004376880920298621,0.004539056838749491
+320,ok that s fine,ham,ham,0.9911896082858994,0.005383723170771347,0.003426668543329371
+321,how is your schedul next week i am out of town thi weekend,ham,ham,0.9896378728917342,0.0071230827998918665,0.0032390443083756123
+322,i upload mine to facebook,ham,ham,0.9035656262409566,0.05370445480943298,0.042729918949612006
+323,nationwid ha notic your debit card wa recent use on 29 11 15 04 43 at appl onlin store for 00 gbp if not you pleas urgent call fraud prevent on or int do not repli by sm,smishing,smishing,0.16741474860280436,0.8031426040830245,0.029442647314176708
+324,sorri i ll call later at 30 min,ham,ham,0.9960704039220871,0.0022117679393895417,0.0017178281385249045
+325,hey girl how r u hope u r well me an del r bak again long time no c give me a call sum time from lucyxx,ham,ham,0.9982783551946036,0.0008252361786350326,0.0008964086267587192
+326,is toshiba porteg m gd,ham,ham,0.9422287792541224,0.03611709376500264,0.02165412698087432
+327,hank lotsli,ham,ham,0.8113484087102178,0.10678391959798987,0.08186767169179227
+328,derp which is wors a dude who alway want to parti or a dude who file a complaint about the three drug abus he live with,ham,ham,0.9906281670125089,0.00573633434945896,0.0036354986380347024
+329,same as kalli dismissi in 2nd test,ham,ham,0.9510435851635028,0.03438231582166534,0.01457409901483362
+330,had the money issu weigh me down but thank to you i can breath easier now i ll make sure you dont regret it thank,ham,ham,0.9963108126139689,0.002105685657917972,0.0015835017281114307
+331,dad say hurri the hell up,ham,ham,0.9712256376932672,0.012749165552704191,0.01602519675402759
+332,we re final readi fyi,ham,ham,0.9633648571507777,0.02589484691445992,0.010740295934760639
+333,as a valu custom i am pleas to advis you that follow recent review of your mob no you are award with a bonu prize call,smishing,smishing,0.024493135421949228,0.9722266687985505,0.003280195779500549
+334,ye pleas leav at lt gt so that at lt gt we can leav,ham,ham,0.9988302484347998,0.0007213237404147108,0.00044842782478868526
+335,urgent your mobil number ha been award with a inr 2 00 prize guarante call from land line claim valid 12hr onli,smishing,smishing,0.00021576622111239946,0.999645070151051,0.00013916362783531928
+336,hot live fantasi call now just 20p per min ntt ltd po box croydon cr9 5wb k,spam,spam,0.1079638255341875,0.4327600843450925,0.45927609012072135
+337,i need an 8th but i m off campu atm could i pick up in an hour or two,ham,ham,0.9935637394475061,0.004149147532268122,0.0022871130202230332
+338,ani chanc you might have had with me evapor as soon as you violat my privaci by steal my phone number from your employ s paperwork not cool at all pleas do not contact me again or i will report you to your supervisor,ham,ham,0.9972876571047202,0.002140154975826128,0.0005721879194518312
+339,tomarrow i want to got to court at lt decim gt so you come to bu stand at 9,ham,ham,0.9990056288947602,0.0005458545263611884,0.00044851657887800606
+340,some of them told accentur is not confirm is it true,ham,ham,0.9960071354448584,0.002138515200671098,0.0018543493544703003
+341,i got lousi sleep i kept wake up everi 2 hour to see if my cat want to come in i worri about him when it cold,ham,ham,0.99881812428728,0.0004742163860423574,0.000707659326675261
+342,shall i ask one thing if you dont mistak me,ham,ham,0.9953098595415709,0.002871919936989761,0.0018182205214394512
+343,k do it at even da urgent,ham,ham,0.9892995158686217,0.0077347416329856785,0.0029657424983910285
+344,sm servic for your inclus text credit pl goto login 3qxj9 unsubscrib with stop no extra charg help comuk cm2 9ae,spam,spam,0.10411873605818585,0.09377277712282933,0.8021084868189834
+345,hi i got the money da,ham,ham,0.9927830954601556,0.003350250782154512,0.0038666537576886465
+346,i m hungri buy smth home,ham,ham,0.9691527532451245,0.014820425456092403,0.016026821298784532
+347,where did u go my phone is gonna die you have to stay in here,ham,ham,0.9938973521179346,0.004716745346474892,0.001385902535590809
+348,can you plz tell me the an bslvyl sent via fullonsm com,ham,ham,0.9883014307696448,0.0063703064001801365,0.005328262830174964
+349,ye watch footi but worri we re go to blow it phil nevil,ham,ham,0.9945502254118297,0.002886170247235084,0.0025636043409349375
+350,how do friend help us in problem they give the most stupid suggest that land us into anoth problem and help us forgt the previou problem,ham,ham,0.9903542754940816,0.005842241480858295,0.0038034830250626653
+351,no prob i will send to your email,ham,ham,0.9715856638558834,0.01394046165052682,0.014473874493589606
+352,k k from tomorrow onward start ah,ham,ham,0.9433929899678979,0.027420823595169806,0.02918618643693354
+353,then u drive lor,ham,ham,0.9844713853076847,0.007569946540395856,0.007958668151918221
+354,no but heard abt tat,ham,ham,0.9715815207809622,0.015408353674784988,0.013010125544251709
+355,sure but make sure he know we ain t smokin yet,ham,ham,0.9947349255009283,0.003241602006542903,0.002023472492529567
+356,aight let me know when you re gonna be around usf,ham,ham,0.9989870745165483,0.0006062927286469166,0.00040663275480440006
+357,are you still play with gautham,ham,ham,0.990909237058633,0.006030726296398789,0.003060036644967339
+358,i hav almost reach call i m unabl to connect u,ham,ham,0.9151835872176747,0.05983707308699456,0.024979339695329457
+359,umma did she say anyth,ham,ham,0.98879719450142,0.005983395631202038,0.005219409867379118
+360,alrit sam it nic just checkin that thi is ur number so is it t b,ham,ham,0.9864526936678787,0.010574656650134689,0.0029726496819877622
+361,oh onli 4 outsid player allow to play know,ham,ham,0.9662317603346627,0.01703003142475114,0.01673820824058631
+362,dear custom your pay2tmkyc ha been expir it s will be bl0cked within 24 hour pleas contact custom care ph immedi to verifi,smishing,smishing,0.03370260774013219,0.9618294219312814,0.004467970328584888
+363,no dice art class 6 thru 9 thank though ani idea what time i should come tomorrow,ham,ham,0.997535238433148,0.001369722331089927,0.0010950392357611633
+364,text get more rington logo and game from question info txt co uk,spam,spam,0.3069692417055418,0.07154583546655907,0.6214849228278962
+365,k jason say he s gonna be around so i ll be up there around lt gt,ham,ham,0.9991488160513778,0.00042299641876181627,0.0004281875298615061
+366,babe how goe that day what are you do where are you i sip my cappuccino and think of you my love i send a kiss to you from across the sea,ham,ham,0.9996887373967751,0.00019012044936198862,0.0001211421538631379
+367,even my brother is not like to speak with me they treat me like aid patent,ham,ham,0.9971718786860639,0.0016562415008971728,0.0011718798130399826
+368,freemsg fanci a flirt repli date now join the uk fastest grow mobil date servic msg rcvd just 25p to optout txt stop to repli date now,spam,spam,0.16963464879365572,0.167667723299176,0.6626976279071705
+369,what i m say is if you haven t explicitli told nora i know someon i m probabl just not gonna bother,ham,ham,0.9947534608626208,0.0032497072401119977,0.0019968318972702595
+370,i ll hand her my phone to chat wit u,ham,ham,0.9677407459248082,0.014822360822195072,0.01743689325299665
+371,er yep sure prop,ham,ham,0.9418810443894684,0.03201244627028701,0.02610650934024534
+372,got it mail panren paru,ham,ham,0.9902830513818831,0.005255816304024697,0.004461132314092328
+373,thanx4 today cer it wa nice 2 catch up but we ave 2 find more time more often oh well take care c u soon c,ham,ham,0.9988842303088576,0.0006952304251931213,0.0004205392659514507
+374,u wake up alreadi wat u do u pick us up later rite i m take sq reach ard 7 smth 8 like dat u can check e arriv time c ya soon,ham,ham,0.9996752616771283,0.00014554227014303757,0.00017919605273130702
+375,hi the way i wa with u 2day is the normal way thi is the real me ur uniqu i hope i know u 4 the rest of mylif hope u find wot wa lost,ham,ham,0.9971618598194434,0.0016061961125090423,0.0012319440680461176
+376,i ve been search for the right word to thank you for thi breather i promis i wont take your help for grant and will fulfil my promis you have been wonder and a bless at all time,ham,ham,0.9939979304279564,0.004005541002506252,0.001996528569534478
+377,thi messag is free welcom to the new improv sex dog club to unsubscrib from thi servic repli stop msg p 18 onli,spam,spam,0.31290488468386296,0.1807754748092208,0.5063196405069176
+378,can help u swoop by pick u up from wherev ur other bird r meet if u want,ham,ham,0.9951686739911167,0.0025229108186549548,0.002308415190227114
+379,gud mrng dear hav a nice day,ham,ham,0.9799342033465327,0.012278464809226066,0.007787331844239744
+380,sorri i flake last night shit s serious goin down with my roommat what you up to tonight,ham,ham,0.9980438925494654,0.0009107322942594211,0.0010453751562742345
+381,i m in offic now da where are you,ham,ham,0.998027598887186,0.0012682026739659952,0.0007041984388489544
+382,that suck i ll go over so u can do my hair you ll do it free right,ham,ham,0.9988709590377886,0.0005456161863279879,0.0005834247758865908
+383,xclusiv clubsaisai 2morow 28 5 soire special zouk with nichol from pari free rose 2 all ladi info,smishing,ham,0.5406471231053599,0.32639373050466036,0.13295914638997777
+384,local covid19 studi compens up to 1 qualifi here cash4study1 com,smishing,ham,0.931656974097407,0.028704258726257127,0.039638767176337464
+385,great so what attract you to the brotha,ham,ham,0.9748368170576732,0.015639769907644235,0.0095234130346835
+386,are you the cutest girl in the world or what,ham,ham,0.9929553742262304,0.003145876690214676,0.003898749083554211
+387,can you use foreign stamp for whatev you send them off for,ham,ham,0.9807408036128407,0.009560767965101564,0.009698428422060206
+388,i hope you arnt piss off but id would realli like to see you tomorrow love me xxxxxxxxxxxxxx,ham,ham,0.9989197766601482,0.0005437876827555725,0.0005364356570978152
+389,ok anyway no need to chang with what you said,ham,ham,0.9984688662436498,0.0007058858604590531,0.0008252478958902615
+390,with my si lor we juz watch italian job,ham,ham,0.9905490185623187,0.005282774991004504,0.004168206446673335
+391,mah b i ll pick it up tomorrow,ham,ham,0.9888553043650824,0.006764941766356277,0.004379753868560225
+392,hey darlin i can pick u up at colleg if u tell me wen where 2 mt love pete xx,ham,ham,0.9989713440288347,0.00048532330245174964,0.0005433326687109157
+393,enjoy the jamster videosound gold club with your credit for 2 new videosound 2 logo musicnew get more fun from jamster co uk 16 onli help call,spam,spam,0.35702745642877415,0.10444073417743911,0.5385318093937872
+394,no rush i m not work i m in school so if we rush we go hungri,ham,ham,0.9944164500242463,0.003314979502432379,0.0022685704733227067
+395,r u still work now,ham,ham,0.9824556825475462,0.009761096132682024,0.00778322131977201
+396,atm block dear custom due to our system upgrad your atm card ha just been de activ to re activ call custom care for help now,smishing,smishing,0.018365394908072787,0.9780587570580768,0.0035758480338518982
+397,thi phone ha the weirdest auto correct,ham,ham,0.9386053167996219,0.0384426816644066,0.022952001535970882
+398,i wonder if your phone batteri went dead i had to tell you i love you babe,ham,ham,0.9959819652115063,0.00239068074395397,0.0016273540445419735
+399,what u mean u almost done done wif sleep but i tot u go to take a nap yup i send her liao so i m pick her up at ard 4 smth lor,ham,ham,0.9997662856128195,0.0001091883149800726,0.00012452607220346816
+400,ok but bag again,ham,ham,0.9887279315634704,0.005476546518271263,0.005795521918256993
+401,and you will expect you whenev you text hope all goe well tomo,ham,ham,0.9891439235958863,0.0059792103240668285,0.004876866080044023
+402,so u gonna get deu ex,ham,ham,0.9770810593995435,0.011597184311301805,0.01132175628915556
+403,short but cute be a good person but dont tri to prove it good morn,ham,ham,0.9941529909377026,0.0035053400696478556,0.0023416689926487777
+404,orang custom you may now claim your free camera phone upgrad for your loyalti call now on offer end 14thmarch t c s appli opt out availa,smishing,smishing,0.1592061029961605,0.7364209194707564,0.10437297753307988
+405,free entri in 2 a wkli comp to win fa cup final tkt 21st may text fa to to receiv entri question std txt rate t c s appli over18 s,spam,spam,0.10862594119651846,0.27348289910274676,0.6178911597007379
+406,i m done oredi,ham,ham,0.9655648679775066,0.02004319692894121,0.014391935093552565
+407,you said to me befor i went back to bed that you can t sleep for anyth,ham,ham,0.9990602168937056,0.0005894072756883996,0.0003503758306085999
+408,u have a secret admir who is look 2 make contact with u find out who they r reveal who think ur so special call on,smishing,smishing,0.02637699324140705,0.9727718220313842,0.0008511847272100095
+409,sm ac blind date 4u rodds1 is 21 m from aberdeen unit kingdom check him out sm ac w icmb3cktz8r7 4 no blind date send hide,smishing,ham,0.5521965445178076,0.1120072614347543,0.3357961940474347
+410,wait i will msg after lt gt min,ham,ham,0.9944021125524682,0.0031144663729093425,0.0024834210746210146
+411,ffffffffff alright no way i can meet up with you sooner,ham,ham,0.9953262582713207,0.002277815467791813,0.0023959262608874566
+412,how are you my love are you with your brother time to talk english with him grin say hey muhommad penni say hello from across the sea,ham,ham,0.999120826064462,0.0004971697207599432,0.00038200421478097965
+413,that s signific but dont worri,ham,ham,0.9882790444966888,0.006600952441887281,0.005120003061422548
+414,is she repli ha boy chang hi phone number,ham,ham,0.9656439622594597,0.021467081752610615,0.012888955987930863
+415,how i noe she s in da car now later then c lar i m wear short,ham,ham,0.9974784825800437,0.001232670432851476,0.0012888469871061789
+416,near kalainar tv offic thenampet,ham,ham,0.9447440308750606,0.030923190988155675,0.024332778136783296
+417,storm msg wen u lift d phne u say hello do u knw wt is d real mean of hello it s d name of a girl ye and u knw who is dat girl margaret hello she is d girlfrnd f grahmbel who invnt telphon g o o d n i g h t,ham,ham,0.9631893600008988,0.01755616801166736,0.0192544719874397
+418,sm servic for your inclus text credit pl goto login unsubscrib with stop no extra charg help po box ip4 5we,spam,spam,0.13676175668444326,0.17499087831344648,0.6882473650021103
+419,hey what happen de are you alright,ham,ham,0.9967941453558903,0.002093066014237245,0.0011127886298733464
+420,you have been special select to receiv a pound award call befor the line close cost 10ppm 16 t cs appli ag promo,smishing,smishing,0.08562725762778743,0.8939856492281497,0.020387093144065862
+421,aiyo u so poor thing then u dun wan 2 eat u bath alreadi,ham,ham,0.9950436447009596,0.0026938280703283474,0.0022625272287092662
+422,wat time do u wan 2 meet me later,ham,ham,0.9970571650070341,0.0015029242741330078,0.0014399107188322721
+423,id have to check but there s onli like 1 bowl worth left,ham,ham,0.9864775954550447,0.008972271598275823,0.004550132946677825
+424,yep the great loxahatche xma tree burn of lt gt start in an hour,ham,ham,0.9943286080492857,0.0030577812310897175,0.002613610719628012
+425,sm auction a brand new nokia is up 4 auction today auction is free 2 join take part txt nokia to now hg suit 2land row w1j6hl,spam,spam,0.2085799387742148,0.10820910067624345,0.6832109605495389
+426,i not free today i haf 2 pick my parent up tonit,ham,ham,0.9896531600803838,0.005784194446548889,0.00456264547306578
+427,if you re think of lift me one then no,ham,ham,0.9962756808934534,0.0026342443308923556,0.001090074775655842
+428,thi is wish you a great day moji told me about your offer and as alway i wa speechless you offer so easili to go to great length on my behalf and it stun my exam is next friday after that i will keep in touch more sorri,ham,ham,0.9996481067528217,0.00016879241740843704,0.00018310082977341925
+429,oh i wa thkin of goin yogasana at 10 den no nd to go at 3 den can rush to parco 4 nb oki lor u call me when readi,ham,ham,0.9989056061930174,0.0005602099872194131,0.0005341838197644458
+430,machan you go to gym tomorrow i wil come late goodnight,ham,ham,0.9958351906216587,0.0023136553579647494,0.0018511540203757092
+431,hey i ve book the 2 lesson on sun liao,ham,ham,0.9817671970003135,0.0093455800920565,0.008887222907629177
+432,aight lemm know what s up,ham,ham,0.9945534279885454,0.0025665320928129867,0.002880039918642007
+433,oh icic k lor den meet other day,ham,ham,0.9967231359622396,0.0017847475571935404,0.0014921164805668438
+434,januari male sale hot gay chat now cheaper call nation rate from 1 5p min cheap to 7 8p min peak to stop text call 10p min,spam,spam,0.19348581770117124,0.26864374298150856,0.537870439317322
+435,i don t run away frm u i walk slowli amp it kill me that u don t care enough to stop me,ham,ham,0.9885020079997425,0.00579426544843128,0.005703726551827567
+436,did you see that film,ham,ham,0.9902020079239876,0.004745878455779877,0.0050521136202321
+437,subscrib to weekli rington get 1st week free send subpoli to 3 per week stop sm,spam,spam,0.09432296642724873,0.06806913097382604,0.8376079025989283
+438,what s up bruv hope you had a great break do have a reward semest,ham,ham,0.9958977504864933,0.002574125414394599,0.0015281240991134514
+439,excel wish we were togeth right now,ham,ham,0.9901776246906854,0.005390140470327118,0.004432234838989077
+440,just drop em off omw back now,ham,ham,0.9708310704281424,0.014657950921580582,0.014510978650278448
+441,sorri about that thi is my mate phone and i didnt write it love kate,ham,ham,0.9961612105326455,0.002173092630221921,0.0016656968371330041
+442,that s a shame mayb cld meet for few hr tomo,ham,ham,0.976481628787812,0.013720914854021228,0.009797456358165616
+443,dear sir salam alaikkum pride and pleasur meet you today at the tea shop we are pleas to send you our contact number at qatar rakhesh an indian pl save our number respect regard,ham,ham,0.9881580965136042,0.009835365369906457,0.0020065381164915633
+444,when login dat time dad fetch home now,ham,ham,0.9891991286783958,0.005718396836088304,0.005082474485517628
+445,friendship poem dear o dear u r not near but i can hear dont get fear live with cheer no more tear u r alway my dear gud ni8,ham,ham,0.9930361632111995,0.0037852291009232365,0.0031786076878801326
+446,i m work technic support voic process,ham,ham,0.9335536508762916,0.03685925634727146,0.029587092776438555
+447,oh god i am happi to see your messag after 3 day,ham,ham,0.9937039570655486,0.0033766182024754874,0.0029194247319754654
+448,yeah so basic ani time next week you can get away from your mom amp get up befor 3,ham,ham,0.9961790796077538,0.0017760540133478957,0.0020448663788994416
+449,4mth half price orang line rental latest camera phone 4 free had your phone 11mth call mobilesdirect free on to updat now or2stoptxt,spam,smishing,0.07761936090054129,0.8238147699683208,0.09856586913113527
+450,veri strang and are watch the 2nd one now but i m in bed sweet dream miss u,ham,ham,0.9959405655233817,0.002318797892134401,0.0017406365844859968
+451,lol they were mad at first but then they woke up and gave in,ham,ham,0.9953180721577541,0.0021915941956474664,0.002490333646597308
+452,jay told me alreadi will do,ham,ham,0.991557702021052,0.0045993191924450505,0.0038429787865021854
+453,no on the way home so if not for the long dri spell the season would have been over,ham,ham,0.9964976978046769,0.0021502693039361707,0.0013520328913896095
+454,sorri da thangam it s my mistak,ham,ham,0.9894902137569435,0.005842651821613419,0.004667134421442351
+455,what time you come down later,ham,ham,0.9964262383847371,0.001846513513085647,0.0017272481021762464
+456,i m home,ham,ham,0.9784709358103069,0.010718960251817896,0.010810103937875496
+457,ok i ll do you right later,ham,ham,0.997127778849247,0.0015750610618176194,0.0012971600889364347
+458,aldrin rakhesh ex rtm here pl call urgent,ham,ham,0.945686147039686,0.04150819961506951,0.012805653345246167
+459,there s someon here that ha a year lt gt toyota camri like mr olayiwola s own mileag is lt gt k it clean but i need to know how much will it sell for if i can rais the dough for it how soon after land will it sell holla back,ham,ham,0.9998830859496264,7.064443424823768e-05,4.626961612692742e-05
+460,have you heard about that job i m go to that wildlif talk again tonight if u want2com it that2worzel and a wizzl or whatev it is,ham,ham,0.999166883575332,0.000548014641262052,0.0002851017834082781
+461,have your lunch and come quickli and open the door,ham,ham,0.9822707263888142,0.009763769242450185,0.007965504368736697
+462,today is accept day u accept me as,ham,ham,0.9181842505591018,0.05959566381317759,0.02222008562771945
+463,i have to take exam with march 3,ham,ham,0.9870438891974253,0.007756073592464543,0.005200037210111723
+464,yup song bro no creativ neva test qualiti he said check review onlin,ham,ham,0.9912167218515684,0.004825551501472367,0.003957726646959231
+465,they will pick up and drop in car so no problem,ham,ham,0.9960696181897204,0.002144110059328339,0.0017862717509482579
+466,y wan to go there c doctor,ham,ham,0.9842031651452553,0.008773281799163994,0.007023553055579927
+467,left dessert u wan me 2 go suntec look 4 u,ham,ham,0.9808469745928269,0.010723263417708156,0.008429761989463276
+468,oh is it send me the address,ham,ham,0.9972243055716788,0.0013428912940363605,0.0014328031342858076
+469,what time u wrkin,ham,ham,0.9904128097814655,0.004820926927385012,0.004766263291149368
+470,hi my engag ha been fixd on lt gt th of next month i know it realli shock bt hmm njan vilikkam t ws al of a sudn,ham,ham,0.9930156429509116,0.0044789206717821385,0.0025054363773077174
+471,ya had just now onion roast,ham,ham,0.9716636307953025,0.014928162780997843,0.013408206423700214
+472,ye he is realli great bhaji told kalli best cricket after sachin in world veri tough to get out,ham,ham,0.9971314518346377,0.001222484040274211,0.0016460641250884654
+473,reat deal at the mobilestor get rs off on mobil purchas abov rs rush offer valid till 21st feb show mcoupon rpd t c,spam,ham,0.8907587941953115,0.07460354024344064,0.03463766556124898
+474,cthen i thk shd b enuff still got conclus n content pg n refer i ll b do da content pg n cover pg,ham,ham,0.9266237901894977,0.03009057900588572,0.04328563080461802
+475,eh u rememb how 2 spell hi name ye i did he have been naughti until i have met him,ham,ham,0.9911563432337581,0.0052090337863432735,0.0036346229798974628
+476,welcom pleas repli with your age and gender to begin e g 24m,spam,ham,0.8608798458868291,0.09184174247612983,0.04727841163704104
+477,sorri sir i will call you tomorrow senthil hsbc,ham,ham,0.9866258500430704,0.009021029255163633,0.004353120701764482
+478,thi is all just creepi and crazi to me,ham,ham,0.9875304610471585,0.006481787841693366,0.005987751111148106
+479,hi final i complet the cours,ham,ham,0.9121933674072354,0.058870539346277936,0.028936093246487552
+480,sorri not now,ham,ham,0.9923670788938957,0.00405492685412435,0.00357799425198024
+481,urgent your 4 costa del sol holiday or await collect call now toclaim sae tc s pobox stockport sk38xh cost 1 50 pm max10min,smishing,smishing,0.010969079390187458,0.9746337999954316,0.014397120614382444
+482,hey don t forget you are mine for me my possess my properti mmm childish smile,ham,ham,0.9892629525821657,0.0056652566417344325,0.005071790776100026
+483,oh k k where did you take test,ham,ham,0.9964665140740662,0.0018052577195275155,0.0017282282064062949
+484,no it true k do u knw di no lt gt,ham,ham,0.996638741162742,0.0016288871222862884,0.0017323717149718238
+485,i m realli sorri i won t b abl 2 do thi friday hope u can find an altern hope yr term s go ok,ham,ham,0.9922764507025291,0.004532112702811587,0.0031914365946623807
+486,bognor it is should be splendid at thi time of year,ham,ham,0.9954908550383558,0.002548062366333793,0.0019610825953093438
+487,you have won a nokia i thi is what you get when you win our free auction to take part send nokia to now hg suit 2land row w1jhl 16,smishing,spam,0.3632671055381154,0.23468682582494657,0.40204606863694303
+488,after complet degre there is no use in join financ,ham,ham,0.9709300650558588,0.020892472139854342,0.00817746280428683
+489,yeah you should i think you can use your gt atm now to regist not sure but if there s anyway i can help let me know but when you do be sure you are readi,ham,ham,0.999657350734664,0.00022972671927503263,0.00011292254606067282
+490,yeah i don t see whi not,ham,ham,0.9920737176234912,0.003980538726813032,0.00394574364969501
+491,your opinion about me 1 oversmart 2 selfish 3 naughi 4 lovabl 5 silent 6 special 7 immatur 8 stylish 9 simpl pl repli,ham,ham,0.9603496779317607,0.019907883199007395,0.0197424388692354
+492,am not work but am up to eye in philosophi so will text u later when a bit more free for chat,ham,ham,0.9950752019303835,0.0019044152784366,0.0030203827911769046
+493,can a not,ham,ham,0.9676791289824767,0.015065133576066725,0.017255737441455754
+494,sorri i ll call later ok bye,ham,ham,0.9985528875994175,0.0008175984412195436,0.0006295139593612645
+495,good good job i like entrepreneur,ham,ham,0.9867733999479841,0.006359448604216402,0.006867151447798295
+496,i know you are serv i mean what are you do now,ham,ham,0.9985667271642567,0.0010517732839412217,0.0003814995518019643
+497,sorri me go home first daddi come fetch later,ham,ham,0.99630873251024,0.0016478211184714777,0.002043446371287092
+498,no no i will check all room befor activ that s requir,ham,ham,0.9693102084465144,0.017736655291605112,0.01295313626188315
+499,sorri my batteri die i can come by but i m onli get a gram for now where s your place,ham,ham,0.9951304596038097,0.0022428916960251693,0.002626648700163627
+500,sorri i don t knw,ham,ham,0.9874268320669753,0.0068554865197217735,0.0057176814133022376
+501,wat time wan today,ham,ham,0.9902018889480485,0.006086481845624777,0.003711629206326796
+502,send hi number and give repli tomorrow morn for whi you said that to him like that ok,ham,ham,0.9978331737635958,0.0012791039756815522,0.0008877222607198279
+503,loa homeown tenant welcom have you been previous refus we can still help call free or text back help,smishing,ham,0.5153021115046564,0.43954900468541563,0.045148883809928445
+504,i finish my lunch alreadi u wake up alreadi,ham,ham,0.9964276538627873,0.0018263976671656736,0.001745948470045693
+505,wanna get laid 2nite want real dog locat sent direct to ur mobil join the uk s largest dog network txt park to now nyt ec2a 3lp 1 50 msg,spam,spam,0.22179992668501552,0.053492652098256786,0.72470742121673
+506,dhoni have luck to win some big titl so we will win,ham,ham,0.9578313242978796,0.022202105072889076,0.019966570629232253
+507,ok both our day so what are you make for dinner tonit am i invit,ham,ham,0.9979936049756158,0.0013274304920670285,0.0006789645323165966
+508,i feel like a dick becaus i keep sleep through your text and facebook messag sup you in town,ham,ham,0.9930673287067421,0.003508143670442668,0.003424527622813959
+509,my mobil number pl sm ur mail id convey regard to achan amma rakhesh qatar,ham,ham,0.934452971090744,0.041648487923267655,0.023898540985990306
+510,full heat pa i have appli oil pa,ham,ham,0.9490357194986933,0.030644059618258942,0.02032022088304697
+511,you ve won your 4 costa del sol holiday or await collect call now toclaim sae tc s pobox stockport sk38xh cost 1 50 pm max10min,smishing,smishing,0.016208861366004162,0.9681290088362253,0.01566212979776851
+512,sound like you have mani talent would you like to go on a dinner date next week,ham,ham,0.9962840710063336,0.0017456292819155682,0.0019702997117484345
+513,hi bday real is in april,ham,ham,0.9360688918034966,0.0260637203828589,0.03786738781364391
+514,hello my love how goe that day i wish your well and fine babe and hope that you find some job prospect i miss you boytoy a teas kiss,ham,ham,0.9983381180309034,0.0009544321926756149,0.0007074497764189389
+515,me not wake up until 4 in the afternoon sup,ham,ham,0.9942423997384744,0.0023141482390790606,0.00344345202244518
+516,fantasi footbal is back on your tv go to sky gamestar on sky activ and play k dream team regist now sky opt out to,spam,ham,0.7779942086312474,0.0900326744138437,0.13197311695491162
+517,except there a chick with huge boob,ham,ham,0.9168042203388311,0.051707497047150164,0.03148828261401759
+518,you hv complet a transact for aud 93 on 06 02 17 03 27 31 pm pleas follow the link if it is not done by you,smishing,ham,0.8859307816394675,0.10177873509908339,0.01229048326145236
+519,you should chang your fb to jaykwon thuglyf falconerf,ham,ham,0.9695173489679388,0.018577036036271692,0.011905614995788056
+520,ok take care umma to you too,ham,ham,0.994569596398286,0.0034415383314671984,0.0019888652702483418
+521,ujhhhhhhh comput ship out with address to sandiago and parantella lane wtf poop,ham,ham,0.9222192232625269,0.04951579062796046,0.02826498610951391
+522,rediscov the deeper mean of life and the mean to attain true peac understand the essenc of be a true sikh sm join gurubani to,spam,ham,0.9848584364917313,0.005346188103061708,0.009795375405207423
+523,there is no sens in my foot and peni,ham,ham,0.9924670891392453,0.004973455440167894,0.0025594554205873843
+524,hmm bad news hype park plaza studio taken onli left 2 bedrm,ham,ham,0.9619839318002296,0.01930275082327306,0.01871331737649615
+525,as a valu custom i am pleas to advis you that follow recent review of your mob no you are award with a bonu prize call,smishing,smishing,0.024493135421949228,0.9722266687985505,0.003280195779500549
+526,hi you just spoke to maneesha v if you were satisfi with the experi repli with ye els no,ham,ham,0.9753467356396698,0.014329295413478764,0.010323968946853746
+527,k text me when you re on the way,ham,ham,0.99847131105298,0.0009452374540262194,0.0005834514929926401
+528,you didn t hear it from me,ham,ham,0.9628181038821191,0.020673501670071568,0.016508394447810323
+529,what is import is that you prevent dehydr by give her enough fluid,ham,ham,0.9848161859104365,0.011720983117253236,0.0034628309723075254
+530,doubl min doubl txt 1 2 price call mobileupd8 for the veri latest offer or call2optout lf56,spam,spam,0.32871182919426795,0.1404654359638611,0.5308227348418684
+531,christma is an occas that is celebr as a reflect of ur valu desir affect amp tradit have an ideal christma,ham,ham,0.9395911221020856,0.04774624267493674,0.012662635222976231
+532,play w comput aiyah i tok 2 u lor,ham,ham,0.9431575227982595,0.03615921793677688,0.020683259264965007
+533,well at thi right i m gonna have to get up and check today s steam sale pee so text me when you want me to come get you,ham,ham,0.9997693893058268,9.969750383524388e-05,0.00013091319033543722
+534,i think i ve fix it can you send a test messag,ham,ham,0.9842544648156863,0.009121973872563234,0.006623561311751335
+535,a famou quot when you develop the abil to listen to anyth uncondit without lose your temper or self confid it mean you are marri,ham,ham,0.9880936169372867,0.008282062409839966,0.0036243206528735303
+536,all sound good finger make it difficult to type,ham,ham,0.9822227355819867,0.009786946599646134,0.007990317818366234
+537,pleas complet registr process befor use ani servic code tid,spam,ham,0.7234809091569235,0.24434929980908854,0.032169791033988225
+538,hui xin is in da lib,ham,ham,0.9668901642842592,0.017348904158917232,0.015760931556823767
+539,do you want a new video phone anytim ani network min text for onli five pound per week call now or repli for deliveri tomorrow,smishing,smishing,0.0979467028531335,0.8449145307702983,0.057138766376568735
+540,remind you have not download the content you have alreadi paid for goto mymobi tv to collect your content,smishing,ham,0.7978528691693935,0.17181594438354703,0.030331186447058872
+541,i don t quit know what to do i still can t get hold of anyon i cud pick you up bout 7 30pm and we can see if they re in the pub,ham,ham,0.9992498137077269,0.00045442217011208084,0.00029576412216051067
+542,good morn im suffer from fever and dysentri will not be abl to come to offic today,ham,ham,0.9985407164381132,0.0007762989691697386,0.0006829845927186327
+543,hi babi im cruisin with my girl friend what r u up 2 give me a call in and hour at home if that alright or fone me on thi fone now love jenni xxx,ham,ham,0.9990754186289651,0.00038763545248310675,0.0005369459185482737
+544,all well,ham,ham,0.986650511649034,0.006668923707054766,0.0066805646439112645
+545,ok i will messag u befor i leav my hous,ham,ham,0.9941277692925109,0.003104273391524658,0.002767957315965092
+546,no1 nokia tone 4 ur mob everi week just txt nokia to get txting and tell ur mate pobox w45wq norm p tone 16,spam,spam,0.03528043040773025,0.016371532008520536,0.9483480375837492
+547,hmmm i thought we said 2 hour slave not 3 you are late how should i punish you,ham,ham,0.995827536914488,0.003118281321421028,0.001054181764090616
+548,i m go out to buy mum s present ar,ham,ham,0.9842725546379483,0.008539927115212446,0.007187518246839333
+549,i cant pick the phone right now i will call u later,ham,ham,0.9983994786615743,0.0009077123202726773,0.0006928090181514955
+550,dude we should go sup again,ham,ham,0.9726656124089792,0.014591717035506206,0.012742670555515884
+551,dear i am not deni your word pleas,ham,ham,0.9738392481515913,0.0189951922396207,0.0071655596087879395
+552,but realli quit funni lor wat then u shd haf run shorter distanc wat,ham,ham,0.9947300561275998,0.0027624546819119363,0.0025074891904854507
+553,how much did ur hdd case cost,ham,ham,0.9915062600502758,0.004505153911363791,0.003988586038359615
+554,send thi to ur friend and receiv someth about ur voic how is my speak express 1 childish 2 naughti 3 sentiment 4 rowdi 5 ful of attitud 6 romant 7 shi 8 attract 9 funni lt gt irrit lt gt lovabl repli me,ham,ham,0.9985266671491666,0.0006985104782390688,0.000774822372596825
+555,2 celebr my b day y els,ham,ham,0.9718941342990314,0.01537773960933292,0.01272812609163568
+556,if you r at home then i am come within 20 min,ham,ham,0.9954134340742713,0.003010342651669993,0.0015762232740597789
+557,ok i ve sent u da latest version of da project,ham,ham,0.9816324279645688,0.00959133848215598,0.00877623355327475
+558,hahaha use your brain dear that import,ham,ham,0.9273725585541929,0.05259834471188083,0.02002909673392767
+559,k sure am in my rel home sm me de pl,ham,ham,0.9989559424347081,0.0004749616576314787,0.0005690959076601721
+560,best line said in love i will wait till the day i can forget u or the day u realiz that u cannot forget me gn,ham,ham,0.9873957087408848,0.00656289869824581,0.006041392560866967
+561,no current and food here i am alon also,ham,ham,0.9819604477571338,0.007712704858021978,0.010326847384843976
+562,tell them the drug dealer s get impati,ham,ham,0.9695518827494091,0.013527443706159527,0.016920673544430442
+563,i will come tomorrow di,ham,ham,0.9906257241319675,0.005865702456267496,0.003508573411764576
+564,i m aight wat s happen on your side,ham,ham,0.9751447551392162,0.013769846812808335,0.011085398047976203
+565,it ok my arm is feel weak cuz i got a shot so we can go anoth time,ham,ham,0.9991271910405989,0.0004944320492684185,0.0003783769101351786
+566,hey iouri gave me your number i m wyli ryan s friend,ham,ham,0.9636449188986628,0.021554604016623395,0.014800477084715566
+567,have you ever had one foot befor,ham,ham,0.9901351508757751,0.005799704492694188,0.00406514463153218
+568,leav it de start prepar for next,ham,ham,0.9825474074686703,0.00769528174260401,0.009757310788723952
+569,dear paytm custom your paytm kyc ha expir contact custom care no immedi your account will block within 24 hr thank you paytm team,smishing,smishing,0.015376117315956186,0.9813306631309674,0.0032932195530775326
+570,i am late i will be there by 3,ham,ham,0.9913983042867422,0.004782915733489891,0.0038187799797692397
+571,hmm shall i bring a bottl of wine to keep us amus just joke i ll still bring a bottl red or white see you tomorrow,ham,ham,0.9965081924157496,0.0017231006583054516,0.0017687069259452555
+572,your right i ll make the appoint right now,ham,ham,0.9889892207232643,0.005746253783917471,0.0052645254928172435
+573,today voda number end are select to receiv a award if you hava a match pleas call quot claim code standard rate app,smishing,smishing,0.005228150902363407,0.9933126934278832,0.001459155669753643
+574,urgent you have won a 1 week free membership in our prize jackpot txt the word claim to no t c lccltd pobox ldnw1a7rw18,smishing,smishing,0.21901275079955274,0.7108781901197798,0.07010905908066947
+575,ye it s all innoc fun o,ham,ham,0.9662296759290161,0.01733183749868719,0.016438486572298187
+576,hello darl how are you today i would love to have a chat whi dont you tell me what you look like and what you are in to sexi,spam,ham,0.9994564582069713,0.0003337920309979999,0.00020974976202880162
+577,i am join today formal pl keep pray will talk later,ham,ham,0.9933308886748098,0.0033348807089642486,0.003334230616224404
+578,think i could stop by in like an hour or so my roommat s look to stock up for a trip,ham,ham,0.9950342490866951,0.002824299969505039,0.002141450943799818
+579,call me when u finish then i come n pick u,ham,ham,0.998797391074066,0.0006822961320134879,0.0005203127939212468
+580,me i dont know again oh,ham,ham,0.9977014042580624,0.0009883273954702653,0.0013102683464681537
+581,did u find out what time the bu is at coz i need to sort some stuff out,ham,ham,0.9973966015893457,0.0017356808455612585,0.0008677175650954737
+582,it s reassur in thi crazi world,ham,ham,0.9761985042892128,0.011334407136492093,0.012467088574294866
+583,a boy wa late 2 home hi father power of frndship,ham,ham,0.9721318069941958,0.013185487791124086,0.01468270521467927
+584,urgent thi is our 2nd attempt to contact u your prize from yesterday is still await collect to claim call now,smishing,smishing,0.026385806224866457,0.9694729316987407,0.004141262076391721
+585,urgent we are tri to contact you last weekend draw show u have won a prize guarante call claim code k52 valid 12hr p pm,smishing,smishing,0.0018345268069790996,0.9978511893396029,0.0003142838534214652
+586,then get some cash togeth and i ll text jason,ham,ham,0.9846207309535514,0.0068508241557252185,0.008528444890724714
+587,it s 6 to get in is that ok,ham,ham,0.9947694040837699,0.0021764962676390225,0.0030540996485921242
+588,bmo have notic unusu activit on your onlin account you are requir to verifi your account detail,smishing,ham,0.7628796382876486,0.2197915282969911,0.01732883341535788
+589,ok then i ll let him noe later n ask him call u tmr,ham,ham,0.9979112575843309,0.0011273999911435672,0.0009613424245265244
+590,good morn plz call me sir,ham,ham,0.9956019005062674,0.0024205234560175128,0.001977576037716153
+591,you have won 2 cash or a 5 prize to claim call,smishing,smishing,0.017946560389781374,0.976902987829094,0.005150451781124519
+592,no no thi is kalli home ground amla home town is durban,ham,ham,0.9747942887708566,0.014708076806756131,0.010497634422388616
+593,aiyo co i sm then neva repli so i wait 4 to repli lar i tot havent finish ur lab wat,ham,ham,0.9894914046597064,0.005365019029943606,0.00514357631035328
+594,dont search love let love find u that whi it call fall in love,ham,ham,0.9889319714131205,0.005914508623291321,0.005153519963587293
+595,that s one of the issu but california is okay no snow so it manag,ham,ham,0.9972522703389796,0.0014451721843596436,0.001302557476657736
+596,noth much chillin at home ani super bowl plan,ham,ham,0.9907350727367433,0.004697107083673797,0.004567820179582104
+597,free video camera phone with half price line rental for 12 mth and cross ntwk min txt call mobileupd8,spam,smishing,0.12656454557406724,0.5432830659590132,0.33015238846692
+598,hey happi birthday,ham,ham,0.9912841437152655,0.00448642514324093,0.004229431141493072
+599,pleas call our custom servic repres on between 10am 9pm as you have w0n a guarante cash prize of rs 10 00 fl1pkart team,smishing,smishing,0.002222784066255104,0.9962836422421336,0.0014935736916116549
+600,can u get 2 phone now i wanna chat 2 set up meet call me now on u can cum here 2moro luv jane xx call 1 minmoremobsemspobox45po wa,spam,ham,0.9906014327897067,0.003713638874693296,0.00568492833560309
+601,sound gd haha can wah u yan jiu so fast liao,ham,ham,0.9790316772494487,0.010825383275788417,0.010142939474763055
+602,i am on the way to offic,ham,ham,0.9959581083069996,0.002400381821043514,0.0016415098719551803
+603,i am take half day leav bec i am not well,ham,ham,0.998065634526983,0.0010888758182260431,0.000845489654790235
+604,wait do you know if wesley in town i bet she doe hella drug,ham,ham,0.9965792170824932,0.0020342812326148017,0.001386501684892586
+605,yeah probabl i still gotta check out with leo,ham,ham,0.9843073670814488,0.008626047099795418,0.007066585818755491
+606,get the offici england poli rington or colour flag on yer mobil for tonight game text tone or flag to,spam,spam,0.14495998358001672,0.07117875849127725,0.7838612579287095
+607,u horribl gal u knew dat i wa go out wif him yest n u still come n ask me,ham,ham,0.9976123911323167,0.001362616539625125,0.0010249923280586978
+608,g want to know where you are,ham,ham,0.9953846241663092,0.003137596917129352,0.0014777789165600723
+609,someon ha contact our date servic and enter your phone becausethey fanci you to find out who it is call from a landlin pobox1 w14rg p,smishing,smishing,0.20747535513847332,0.7763910411400691,0.016133603721455437
+610,what i mean is do they come chase you out when it over or is it state you can watch as mani movi as you want,ham,ham,0.9982205489306789,0.0012011806134730836,0.0005782704558458118
+611,r u sure they ll understand that wine good idea just had a slurp,ham,ham,0.9931823261135149,0.003675260104840296,0.0031424137816433713
+612,honey can you pl find out how much they sell predict in nigeria and how mani time can it be use it veri import to have a repli befor monday,ham,ham,0.9990148750435945,0.0006276405074546469,0.000357484448950143
+613,convey my regard to him all the best,ham,ham,0.9868302135049274,0.005356818072412459,0.00781296842266115
+614,yup he msg me is tat yiju then i tot it s my group mate co we meet today mah i m askin if leav earlier or wat mah co mayb haf to walk v far,ham,ham,0.9985871286264749,0.0007430652637224402,0.0006698061097995149
+615,turn out my friend are stay for the whole show and won t be back til some time so feel free to go ahead and smoke that worth worth,ham,ham,0.9951597192159061,0.003095632259846978,0.0017446485242498023
+616,when peopl see my msg they think iam addict to msging they are wrong bcoz they dont know that iam addict to my sweet friend,ham,ham,0.9899265411755229,0.00526779653551195,0.004805662288967108
+617,nt yet chikku simpl habba hw abt u,ham,ham,0.9605463635072359,0.020452923364560248,0.019000713128202534
+618,that wa random saw my old roomat on campu he graduat,ham,ham,0.9913196995903357,0.004837162372109773,0.003843138037554513
+619,good even sir hope you are have a nice day i want to bring it to your notic that i have been late in pay rent for the past few month and have had to pay a lt gt charg i felt it would be inconsider of me to nag about someth you give at great cost to yourself and that s whi i didnt speak up i howev am in a recess and wont be abl to pay the charg thi month henc my askin well ahead of month s end can you pleas help thank you for everyth,ham,ham,0.9997959268604054,0.00011618343623232227,8.788970335984285e-05
+620,noth just get msg by di name wit differ no s,ham,ham,0.9863943996655472,0.005869786055826706,0.007735814278626247
+621,so the sun is anti sleep medicin,ham,ham,0.9726861057934993,0.01571099880336877,0.011602895403132696
+622,hurri home soup is done,ham,ham,0.9537593495766125,0.025044041612692976,0.021196608810693563
+623,life is more strict than teacher bcoz teacher teach lesson amp then conduct exam but life first conduct exam amp then teach lesson happi morn,ham,ham,0.9965971240347278,0.0014264499153515502,0.0019764260499187626
+624,free ani day but i finish at 6 on mon n thur,ham,ham,0.9784493851317206,0.011753619465078054,0.009796995403202143
+625,ok i m walik ard now do u wan me 2 buy anyth go ur hous,ham,ham,0.9990137474831694,0.00045451987650848544,0.0005317326403234934
+626,hi ct employe how are you,ham,ham,0.9986052888730826,0.0008867756085993459,0.000507935518316416
+627,ye i m in offic da,ham,ham,0.9883208495947238,0.006215877870181205,0.005463272535095175
+628,pleas stay at home to encourag the notion of stay at home all tax pay citizen are entitl to 96 or more emerg refund smsg io fcvbd,smishing,ham,0.948274924327734,0.038982369308561284,0.012742706363705789
+629,just hope that wasn t too piss up to rememb and ha gone off to hi sister or someth,ham,ham,0.9967991273318708,0.0016800662155854156,0.0015208064525470363
+630,how it a littl difficult but it a simpl way to enter thi place,ham,ham,0.9966758945842957,0.0014180609125048317,0.0019060445032002338
+631,can t i feel nauseou i m so piss i didn t eat ani sweet all week caus today i wa plan to pig out i wa diet all week and now i m not hungri,ham,ham,0.997870232482448,0.0010613536252019047,0.001068413892348044
+632,you are a winner you have been special select to receiv cash or a award speak to a live oper to claim call am 7pm cost 10p,smishing,smishing,0.015335288043559969,0.9822629849607082,0.002401726995729596
+633,how are u i have miss u i havent been up 2 much a bit bore with the holiday want 2 go bak 2 colleg sad isnt it xx,ham,ham,0.9980381801334262,0.0012557571463472723,0.0007060627202281987
+634,as one of our regist subscrib u can enter the draw 4 a g b gift voucher by repli with enter to unsubscrib text stop,spam,ham,0.49688668023038707,0.20703482923488428,0.2960784905347262
+635,sorri you never hear unless you book it one wa kinda a joke thet were realli look for skinni white girl the other wa one line you can onli do so much on camera with that someth like that they re cast on the look,ham,ham,0.9995293342247366,0.0003232295221002419,0.0001474362531618616
+636,i think you should go the honesti road call the bank tomorrow it the tough decis that make us great peopl,ham,ham,0.9925896274026724,0.004766702952640484,0.002643669644687441
+637,no prob hon how u doinat the mo,ham,ham,0.9661333833374509,0.017280905638995897,0.016585711023553915
+638,frnd s not juz a word not mere a relationship it a silent promis which say i will be with you wherevr whenevr forevr gudnyt dear,ham,ham,0.9939469976886826,0.003089502039054315,0.0029635002722666315
+639,at home watch tv lor,ham,ham,0.9960299711564856,0.00197878895635774,0.001991239887156766
+640,it could work we ll reach a consensu at the next meet,ham,ham,0.996836410338094,0.001487156976497132,0.0016764326854071421
+641,no plm i will come da on the way,ham,ham,0.99904776533378,0.0004844316993396753,0.00046780296688099006
+642,well done and luv ya all,ham,ham,0.990715988105516,0.004317285887153667,0.004966726007331719
+643,urgent thi is the 2nd attempt to contact u u have won call b4 t csbcm wc1n3xx callcost ppmmobilesvari max 7 50,smishing,smishing,0.08665516794394962,0.8983017118406939,0.015043120215356344
+644,which is weird becaus i know i had it at one point,ham,ham,0.985653028025843,0.008653561477527242,0.0056934104966314975
+645,good afternoon my love how goe your day what are you up to i woke earli and am onlin wait for you hmmm italian boy is onlin i see grin,ham,ham,0.9995196949326416,0.0003173507122880127,0.00016295435507192955
+646,aiyah ok wat as long as got improv can alreadi wat,ham,ham,0.9965518852181107,0.0021086508453952288,0.0013394639364926405
+647,you have won a guarante award or even cashto claim ur award call free on 18 2 stop getstop on php rg21 4jx,smishing,smishing,0.047036378787706425,0.932835437457667,0.020128183754625238
+648,co i want it to be your thing,ham,ham,0.9955456246638055,0.0021551381888844424,0.0022992371473086696
+649,she s fine i have had difficulti with her phone it work with mine can you pl send her anoth friend request,ham,ham,0.9953973403248744,0.002317534896408537,0.002285124778714712
+650,thinkin about someon is all good no drug for that,ham,ham,0.9858047726896944,0.008324846965602269,0.00587038034470173
+651,my parent my kidz my friend n my colleagu all scream surpris,ham,ham,0.9692124193463809,0.016448807549241766,0.014338773104375546
+652,wot u wanna do then missi,ham,ham,0.9824024994503664,0.008284607512453461,0.009312893037180924
+653,had your mobil 10 mth updat to the latest camera video phone for free keep ur same number get extra free min text text ye for a call,spam,ham,0.4143824557872493,0.3528156743432526,0.23280186986949628
+654,tell rob to mack hi gf in the theater,ham,ham,0.9864055816660288,0.005236264304278539,0.008358154029694274
+655,watch cartoon listen music amp at eve had to go templ amp church what about u,ham,ham,0.9896885885895956,0.004462121562052164,0.005849289848349084
+656,do not b late love mum,ham,ham,0.991197411621394,0.004493682166133079,0.0043089062124723855
+657,o i play smash bro lt gt religi,ham,ham,0.9828915662224066,0.008508861631519246,0.008599572146073393
+658,englishvocabulari ulul to mourn loudli and shrilli ad unlimit free call to ani mobil tri out today share wid frnd,smishing,ham,0.7985136519875523,0.14039292493110295,0.06109342308134394
+659,yar i tot u knew di would happen long ago alreadi,ham,ham,0.9908585254922248,0.00496100474478337,0.004180469762993365
+660,where you what happen,ham,ham,0.9949657430142586,0.0027394411014478337,0.0022948158842942437
+661,i couldn t say no as he is a die man and i feel sad for him so i will go and i just want you to know i would probabl be gone late into your night,ham,ham,0.9992949582507751,0.00036327419729414437,0.0003417675519310422
+662,hi babe it jordan how r u im home from abroad and lone text me back if u wanna chat xxsp visionsm com text stop to stopcost p,spam,ham,0.8498518414009405,0.06495228834536418,0.08519587025369506
+663,dai what thi da can i send my resum to thi id,ham,ham,0.9869767884338236,0.00652655400377383,0.0064966575624020775
+664,i know but you need to get hotel now i just got my invit but i had to apologis cali is to sweet for me to come to some english bloke s weddin,ham,ham,0.9989178325844206,0.0004806697432896318,0.0006014976722914142
+665,dear voucher holder to claim thi week offer at you pc pleas go to ts cs appli,smishing,smishing,0.15804019299329905,0.672785083195072,0.1691747238116255
+666,you in your room i need a few,ham,ham,0.9938706439962948,0.0031568918234789584,0.002972464180227166
+667,love you sushma love u lot,ham,ham,0.9914003537696476,0.004455120533503327,0.004144525696849333
+668,he s in lag that s just the sad part but we keep in touch thank to skype,ham,ham,0.9922848430491179,0.00422213535684379,0.003493021594041616
+669,that seem unnecessarili hostil,ham,ham,0.9656980178456747,0.020223288039580435,0.014078694114744853
+670,i m ok will do my part tomorrow,ham,ham,0.9889914030039161,0.006376346966465945,0.00463225002961824
+671,so your tell me i coulda been your real valentin and i wasn t u never pick me for noth,ham,ham,0.9962684391424349,0.002242384119922465,0.0014891767376460172
+672,do you know when dad will be back,ham,ham,0.9980725822040386,0.001096998331081613,0.0008304194648787072
+673,oki thanx,ham,ham,0.9790783813638536,0.011578551419638441,0.00934306721650879
+674,where are you you said you would be here when i woke,ham,ham,0.996560548194056,0.0020982954846847125,0.0013411563212567393
+675,i don t think he ha spatula hand,ham,ham,0.9759803888249453,0.016416154189465328,0.007603456985590513
+676,no it will reach by 9 onli she tell she will be there i dont know,ham,ham,0.9991121423923449,0.0005228211570430135,0.00036503645061002245
+677,ummma will call after check in our life will begin from qatar so pl pray veri hard,ham,ham,0.9888287991909207,0.006155321259519944,0.00501587954955903
+678,so what do you guy do,ham,ham,0.9968001034320609,0.0018861600759691591,0.001313736491970399
+679,then she buy today no need to c meh,ham,ham,0.9979844847905707,0.001031603040112856,0.0009839121693147289
+680,gud mrng dear hav a nice day do well stay bless,ham,ham,0.9906101139768371,0.00589307260862282,0.003496813414541971
+681,urgent you have won a 1 week free membership in our prize jackpot txt the word claim to no t c,smishing,smishing,0.2650751129221877,0.6717669461685319,0.06315794090928316
+682,cool do you like swim i have a pool and jacuzzi at my hous,ham,ham,0.9986967655732358,0.000702297347398528,0.0006009370793640652
+683,want a new video phone anytim ani network min half price line rental free text for 3 month repli or call for free deliveri,spam,smishing,0.03699260723246469,0.9061753410469001,0.056832051720632853
+684,u still havent got urself a jacket ah,ham,ham,0.9769217966185852,0.012485305046985359,0.010592898334428252
+685,is xy go 4 e lunch,ham,ham,0.9652546345399742,0.020234978178521795,0.014510387281504989
+686,sorri dude dont know how i forgot even after dan remind me sorri hope you guy had fun,ham,ham,0.9992149256524863,0.0004050680567662668,0.00038000629074554874
+687,i thk 50 shd be ok he said plu minu 10 did leav a line in between paragraph,ham,ham,0.9896915965328636,0.006109994384298056,0.004198409082840165
+688,in fact when do you leav i think addi goe back to school tue or wed,ham,ham,0.9910655102147351,0.005216700565558129,0.0037177892197076696
+689,it certainli put thing into perspect when someth like thi happen,ham,ham,0.9955716726411992,0.0020985588094276134,0.0023297685493718166
+690,i m cool ta luv but v tire 2 caus i have been doin load of plan all wk we have got our social servic inspect at the nurseri take care spk sn x,ham,ham,0.9959798171503695,0.0027038274125755686,0.0013163554370518478
+691,sometim heart remembr someon veri much forget someon soon bcoz heart will not like everyon but like one will be rememb everytim bslvyl,ham,ham,0.9958605503528508,0.0020347425277138878,0.002104707119431823
+692,yeah i should be abl to i ll text you when i m readi to meet up,ham,ham,0.998595069936928,0.000580272341711425,0.0008246577213630582
+693,ok thanx gd nite 2 too,ham,ham,0.9924303354557487,0.003929083454737711,0.003640581089513474
+694,wa playng 9 door game and gt race on phone lol,ham,ham,0.9920718256032004,0.004213035145120543,0.0037151392516795506
+695,cashbin co uk get lot of cash thi weekend dear welcom to the weekend we have got our biggest and best ever cash give away these,spam,ham,0.9614748458184853,0.023983283296466755,0.014541870885047891
+696,should i send you naughti pix,ham,ham,0.9506925516475505,0.023864036328252586,0.025443412024197518
+697,think i might have to give it a miss am teach til twelv then have lectur at two damn thi work thing,ham,ham,0.9986421118080024,0.000845793929376353,0.0005120942626207154
+698,now project pa after that onli i can come,ham,ham,0.9959548510531974,0.0023004380465797437,0.0017447109002226959
+699,1st wk free gr8 tone str8 2 u each wk txt nokia on to for classic nokia tone or hit on to for poli nokia p poli p 16,spam,spam,0.10318318648870733,0.05873057789344761,0.8380862356178479
+700,haha okay today weekend leh,ham,ham,0.9854407660869958,0.009820039507836066,0.00473919440516777
+701,i ll let you know when it kick in,ham,ham,0.9917974564555672,0.004214866549953982,0.003987676994477208
+702,s thi will increas the chanc of win,ham,ham,0.8842329997442423,0.04904874510917932,0.06671825514657735
+703,dear paytm custom your paytm kyc ha been suspend pay tm offic ph your paytm a c will block within 24hr thank you,smishing,smishing,0.038391351930123885,0.9547429379397683,0.006865710130108342
+704,gal n boy walk in d park gal can i hold ur hand boy y do u think i would run away gal no jst wana c how it feel walk in heaven with an princ gn,ham,ham,0.9957050156002198,0.0021979000425425737,0.0020970843572390807
+705,sorri i ll call later in meet ani thing relat to trade pleas call arul lt gt,ham,ham,0.9993431833749699,0.0004633156719513234,0.0001935009530782284
+706,yo guess what i just drop,ham,ham,0.9762532493468261,0.013785201677507417,0.009961548975667799
+707,urgent thi is the 2nd attempt to contact u u have won call b4 t csbcm wc1n3xx callcost ppm mobilesvari max 7 50,smishing,smishing,0.06114913152770535,0.9273193691999202,0.011531499272372374
+708,none nowher ikno doesdiscount shitinnit,ham,ham,0.8389552439135821,0.08972100525909446,0.07132375082732274
+709,that cool i am a gentleman and will treat you with digniti and respect,ham,ham,0.9772632425212027,0.012086691619190503,0.010650065859607318
+710,did u got that person stori all well,ham,ham,0.993951792108822,0.003153843108231487,0.002894364782946768
+711,ye obvious but you are the egg pert and the potato head speak soon,ham,ham,0.992465852817823,0.004827701146896417,0.0027064460352791858
+712,last chanc claim ur worth of discount voucher today text shop to now,smishing,smishing,0.23006233078295144,0.6033662852684605,0.1665713839485854
+713,at the funer home with audrey and dad,ham,ham,0.9848235401160055,0.006855723460583782,0.008320736423411168
+714,wa a nice day and impress i wa sensibl went home earli and now feel fine or am i just bore when s your i can t rememb,ham,ham,0.9977189404132983,0.001139280706762725,0.0011417788799389678
+715,can you pleas send me my aunti s number,ham,ham,0.9919985093717286,0.0054382505451794445,0.0025632400830910094
+716,i don t know same thing that s wrong everyso often he panick start goin on bout not bein good enough,ham,ham,0.9963739287586889,0.0015527113478032415,0.002073359893506835
+717,i am in escap theatr now go to watch kavalan in a few minut,ham,ham,0.9944355591360559,0.0026407229133722445,0.0029237179505730475
+718,oh k i think most of wi and nz player unsold,ham,ham,0.9824309882878716,0.00932487419668194,0.00824413751544484
+719,that s necessarili respect,ham,ham,0.9324579887321458,0.04196123533378824,0.025580775934065665
+720,want to funk up ur fone with a weekli new tone repli tones2u 2 thi text the origin n best,spam,ham,0.564490035521522,0.059750797484917136,0.37575916699355866
+721,bankofamerica alert pleas follow re activ,smishing,ham,0.5384708386318033,0.40008399523314603,0.06144516613505192
+722,are you wet right now,ham,ham,0.9922705331210805,0.004588051121622704,0.003141415757296246
+723,sure if i get an acknowledg from you that it s astoundingli tactless and gener faggi to demand a blood oath fo,ham,ham,0.9819459878601177,0.011102130941893438,0.00695188119798585
+724,lol alright i wa thinkin that too haha,ham,ham,0.9942809180772746,0.0033704531852445916,0.0023486287374791547
+725,have a love night and when you wake up to see thi messag i hope you smile know all is as should be have a great morn,ham,ham,0.9994948391814261,0.00026327385657711573,0.00024188696199820597
+726,today iz yellow rose day if u love my frndship give me 1 misscal amp send thi to ur frndz amp see how mani miss call u get if u get 6miss u marri ur lover,ham,ham,0.9973073363803459,0.0010937102088570858,0.0015989534107944989
+727,kick off a new season with 2wk free goal news to ur mobil txt ur club name to eg villa to,spam,ham,0.6003729060592684,0.08430085172342935,0.3153262422173005
+728,better made up for friday and stuf myself like a pig yesterday now i feel bleh but at least it not writh pain kind of bleh,ham,ham,0.998368462504705,0.0007316244215261669,0.0008999130737722042
+729,t mobil custom you may now claim your free camera phone upgrad a pay go sim card for your loyalti call on offer end 28thfeb t c s appli,smishing,smishing,0.25474840362358586,0.6627914442914746,0.08246015208493787
+730,now get rid of cockroach termit bedbug rat ani pest 4best deal in pestcontrolservic chemic herbal odorless dial n ask,spam,ham,0.9726462940309657,0.015042502994600878,0.01231120297443346
+731,u have lunch alon i now so bore,ham,ham,0.9820608356419769,0.010702433986260567,0.007236730371762968
+732,ok set let u noe e detail later,ham,ham,0.9887596581244239,0.005772768093957842,0.005467573781619338
+733,i am in tirupur da onc you start from offic call me,ham,ham,0.9931387796796002,0.003740442356159152,0.003120777964242929
+734,hello they are go to the villag pub at 8 so either come here or there accordingli ok,ham,ham,0.9962462929450354,0.002244684669514238,0.0015090223854532347
+735,i didnt get anyth da,ham,ham,0.981771643219231,0.008759186738100973,0.009469170042668836
+736,meanwhil in the shit suit xavier decid to give us lt gt second of warn that samantha wa come over and is play jay s guitar to impress her or some shit also i don t think doug realiz i don t live here anymor,ham,ham,0.9991008664182415,0.00043713242248037844,0.00046200115928011777
+737,of co can lar i m not so ba dao ok 1 pm lor y u never ask where we go ah i said u would ask on fri but he said u will ask today,ham,ham,0.999487000347023,0.0003034166293206995,0.00020958302365546732
+738,valentin day special win over in our quiz and take your partner on the trip of a lifetim send go to now p msg rcvd custcar,spam,ham,0.654808102000617,0.12004733138177434,0.22514456661760945
+739,new mobil from must go txt nokia to no collect your today from onli 1 2optout 50gbp mtmsg18,smishing,ham,0.41264247751589955,0.1929428343646387,0.3944146881194644
+740,loan for ani purpos 75 homeown tenant welcom have you been previous refus we can still help call free or text back help,smishing,smishing,0.31951825345896884,0.6388835929454318,0.041598153595600276
+741,dunno da next show aft 6 is toa payoh got,ham,ham,0.984322680405338,0.009105975822932653,0.0065713437717305765
+742,mum not go robinson alreadi,ham,ham,0.9905328647564968,0.00489840218128737,0.004568733062216214
+743,sleep nt feel well,ham,ham,0.9929292270445479,0.0035637543088647625,0.0035070186465878507
+744,are you plan with your famili set in stone,ham,ham,0.9904169877125502,0.005831478568706184,0.003751533718744426
+745,babe i lost you will you tri reboot,ham,ham,0.9774353635885558,0.013281337104011167,0.009283299307433287
+746,wat time u finish ur lect today,ham,ham,0.9872713096190472,0.007482038172730994,0.005246652208222345
+747,today voda number end are select to receiv a 50award if you have a match pleas call quot claim code standard rate app,smishing,smishing,0.007399806502962926,0.9914002586025681,0.0011999348944709328
+748,aight we can pick some up you open befor tonight,ham,ham,0.9983687181201958,0.001008469301991988,0.0006228125778127343
+749,those were my exact intent,ham,ham,0.9759412286265007,0.012994369143146261,0.011064402230351282
+750,10 min later k,ham,ham,0.9187481688288637,0.049710709823449,0.03154112134768777
+751,hmm yeah if your not too groov out and im look forward to my pound special,ham,ham,0.9921262168136006,0.005088587172801421,0.0027851960136007253
+752,idea will soon get convert to live,ham,ham,0.9592180065388645,0.023803310031825772,0.01697868342931067
+753,hi darlin did youphon me im athom if youwanna chat,ham,ham,0.9917400355384524,0.0034800393585122853,0.0047799251030339685
+754,yeah right i ll bring my tape measur fri,ham,ham,0.9883362349301393,0.005222030394457629,0.00644173467540243
+755,i m nt goin got somethin on unless they meetin 4 dinner lor haha i wonder who will go ti time,ham,ham,0.9959195863630126,0.002440357410648251,0.0016400562263416934
+756,thx all will be well in a few month,ham,ham,0.9855831078065994,0.00754212373426769,0.0068747684591322755
+757,all these nice new shirt and the onli thing i can wear them to is nudist theme you in mu,ham,ham,0.9959774399403288,0.0018713857785537427,0.0021511742811141116
+758,mmmmm i love wake to your word thi morn i miss you too my love i hope your day goe well and you are happi i wait for us to be togeth again,ham,ham,0.9994664966341877,0.0003291079529619461,0.0002043954128507129
+759,is xy in ur car when u pick me up,ham,ham,0.9959180568388339,0.0021116050965683717,0.001970338064596763
+760,don t look back at the build becaus you have no coat and i don t want you to get more sick just hurri home and wear a coat to the gym,ham,ham,0.9983590588999983,0.0008734774911211593,0.0007674636088815385
+761,you still at the game,ham,ham,0.9783949753218564,0.010579632320622995,0.01102539235751899
+762,you are be rip off get your mobil content from call poli true pix rington game six download for onli 3,spam,ham,0.6865187831157433,0.1262492636907405,0.18723195319351874
+763,if u send her home first it s ok lor i m not readi yet,ham,ham,0.9991920733310241,0.000313189882583091,0.0004947367863910807
+764,ya i m referin to mei s ex wat no ah waitin 4 u to treat somebodi shld b rich liao so gd den u dun have to work frm tmr onward,ham,ham,0.9973641090292626,0.0014762241796324879,0.0011596667911049985
+765,beauti tomorrow never come when it come it s alreadi today in the hunt of beauti tomorrow don t wast your wonder today goodmorn,ham,ham,0.9977625614786612,0.0012975668250316886,0.0009398716963055768
+766,true it is passabl and if you get a high score and appli for phd you get 5year of salari so it make life easier,ham,ham,0.9943389851100369,0.002976011396481169,0.002685003493480174
+767,we owe you for the last tax year pleas follow our secur link for more inform,smishing,ham,0.8224249907220477,0.14375700241843156,0.033818006859519446
+768,s s nervou lt gt,ham,ham,0.9983255098265443,0.0009219182376055046,0.0007525719358505362
+769,here is your discount code rp to stop further messag repli stop custom servic,smishing,smishing,0.27670415926710573,0.6151533274210925,0.10814251331180069
+770,it wont b until 2 15 as tri 2 sort hous out is that ok,ham,ham,0.9959046252373869,0.002879190582923412,0.0012161841796904528
+771,i wont touch you with out your permiss,ham,ham,0.9602659947345077,0.02725984291874784,0.012474162346745882
+772,ha ha cool cool chikku chikku db,ham,ham,0.9643454165868635,0.0239267255767205,0.011727857836417423
+773,apart from the one i told you about yesterday,ham,ham,0.9856143614748236,0.007205903488480074,0.007179735036697007
+774,lul im gettin some juici gossip at the hospit two nurs are talk about how fat they are gettin and one think she obes oyea,ham,ham,0.9969516714472473,0.001461063481473709,0.0015872650712807162
+775,hi ya babe x u 4goten bout me scammer get smart though thi is a regular vodafon no if you respond you get further prem rate msg subscript other no use also bewar,spam,ham,0.9939845646323026,0.0036327874751134665,0.002382647892581784
+776,atm block dear custom due to our system upgrad your atm card ha just been de activ to activ call custom care for help now,smishing,smishing,0.02048785441028668,0.9748115127389474,0.0047006328507657996
+777,esplanad lor where els,ham,ham,0.9850749130207791,0.008092621337543593,0.006832465641677491
+778,yeah in fact he just ask if we need anyth like an hour ago when and how much,ham,ham,0.9993111431066375,0.00037350372957636896,0.0003153531637879797
+779,to review and keep the fantast nokia n gage game deck with club nokia go 2 unsubscrib from alert repli with the word out,spam,ham,0.7144426492759004,0.12933977747867004,0.15621757324542934
+780,hai dear friend thi is my new amp present number by rajitha raj ranju,ham,ham,0.9808081711272216,0.014065772507256612,0.005126056365520406
+781,aight can you text me the address,ham,ham,0.993686487617954,0.0030564690354584114,0.003257043346587537
+782,no probabl lt gt,ham,ham,0.9985101454427509,0.0007905616824635364,0.000699292874785393
+783,free 1st week entri 2 textpod 4 a chanc 2 win 40gb ipod or cash everi wk txt vpod to ts cs custcar,smishing,spam,0.031272840748974066,0.09782878056997968,0.8708983786810481
+784,collect ur laptop then go to configur da set izzit,ham,ham,0.990169321631225,0.004899122580287968,0.004931555788486575
+785,for 4 a chanc 2 win 40gb ipod or cash everi wk txt pod to ts cs custcar,spam,spam,0.05093318453436279,0.1415341844008879,0.8075326310647473
+786,think you sent the text to the home phone that cant display text if you still want to send it hi number is,ham,ham,0.9974798017811553,0.001561501522179777,0.0009586966966620221
+787,is it ok if i stay the night here xavier ha a sleep bag and i m get tire,ham,ham,0.9970603844970026,0.001609640993730663,0.0013299745092677727
+788,m rmo 00 aeon my rs wa charg on your card num 97 at lazo klia2 on 19 10 call if you did not perform thi txn code,smishing,ham,0.9090918760469112,0.08008868644938495,0.010819437503704798
+789,good day to you too pray for me remov the teeth as it pain maintain other stuff,ham,ham,0.994388747658363,0.002889010528232979,0.0027222418134064176
+790,she s good she wa wonder if you wont say hi but she s smile now so how are you cope with the long distanc,ham,ham,0.9996065068500956,0.0002446358094921666,0.0001488573404106357
+791,do u know what is real friendship,ham,ham,0.9869785425533887,0.006051653298800828,0.0069698041478091196
+792,oor step servic for passport assist pan card incom tax return vat return servic tax return contact m s on jwala heri mkt paschim viha,spam,ham,0.6859834906236555,0.21317389613960905,0.10084261323673685
+793,thk of wat to eat tonight,ham,ham,0.9902144187459468,0.005268164444665448,0.0045174168093883625
+794,ha i wouldn t say that i just didn t read anyth into way u seem i don t like 2 be judgement i save that for friday in the pub,ham,ham,0.998008174833839,0.0009541754932781518,0.0010376496728852832
+795,dont talk to him ever ok it my word,ham,ham,0.9980567510328463,0.0008741702659274776,0.0010690787012246985
+796,oki but i scare u say i fat then u dun wan me alreadi,ham,ham,0.9968574367754796,0.0015133271449785269,0.0016292360795406788
+797,also that chat wa awesom but don t make it regular unless you can see her in person,ham,ham,0.996916409916152,0.0015630148875163301,0.0015205751963302712
+798,yo dude guess who just got arrest the other day,ham,ham,0.985876637051417,0.008827786281102127,0.005295576667480435
+799,wat time liao where still got,ham,ham,0.9989036940736508,0.0005750236885566626,0.0005212822377919619
+800,lyricalladi 21 f is invit you to be her friend repli ye or no see her stop send stop frnd to,spam,ham,0.5570872711734731,0.11479525228597198,0.32811747654055806
+801,superb thought be grate that u dont have everyth u want that mean u still have an opportun to be happier tomorrow than u are today,ham,ham,0.9985054793003647,0.001144523804334496,0.00034999689529893475
+802,dear voucher holder 2 claim your 1st class airport loung pass when use your holiday voucher call when book quot 1st class x 2,smishing,ham,0.7451994997470611,0.1907099552873042,0.06409054496563295
+803,hey they r not watch movi tonight so i ll prob b home earli,ham,ham,0.9974117525719373,0.0012875413683386052,0.0013007060597252514
+804,no sir that s whi i had an 8 hr trip on the bu last week have anoth audit next wednesday but i think i might drive thi time,ham,ham,0.9987754552289871,0.0007552092100685903,0.0004693355609464031
+805,your free rington is wait to be collect simpli text the password mix to to verifi get usher and britney,spam,ham,0.7719465327333224,0.09440553427331937,0.13364793299335706
+806,i enjoy watch and play footbal and basketbal anyth outdoor and you,ham,ham,0.9774292089751629,0.007961769697301264,0.014609021327535427
+807,pandi join 4w technolog today he got job,ham,ham,0.9862593167444468,0.006901526275165483,0.0068391569803871
+808,we took hooch for a walk toaday and i fell over splat graze my knee and everyth should have stay at home see you tomorrow,ham,ham,0.9984115090269553,0.0009738695296719042,0.0006146214433703475
+809,spook up your mob with a halloween collect of a logo pic messag plu a free eeri tone txt card spook to zed p per logo pic,spam,spam,0.09974539571278478,0.08045219290269198,0.81980241138452
+810,hi elain is today s meet confirm,ham,ham,0.9556559908813373,0.026618581493972688,0.01772542762468872
+811,fuuuuck i need to stop sleepin sup,ham,ham,0.9354096174590604,0.02489177698733827,0.039698605553601926
+812,get down in gandhipuram and walk to cross cut road right side lt gt street road and turn at first right,ham,ham,0.9949976983823686,0.0017918231409387699,0.0032104784766921555
+813,ello babe u ok,ham,ham,0.98954650270466,0.004400942658987287,0.006052554636353177
+814,hi miss your call and my mumha beendrop red wine all over theplac what is your adress,ham,ham,0.9924749918001159,0.004897123534971926,0.0026278846649153515
+815,i think if he rule tamilnadu then it veri tough for our peopl,ham,ham,0.9860867464320191,0.008423889069709747,0.005489364498273985
+816,how are you do hope you ve settl in for the new school have a great day,ham,ham,0.9994245263383439,0.0003405553928395558,0.00023491826881478874
+817,hurt me teas me make me cri but in the end of my life when i die plz keep one rose on my grave and say i miss u,ham,ham,0.998489734423225,0.0006279358296030556,0.0008823297471751665
+818,on hen night go with a swing,ham,ham,0.9780629878775512,0.010758148292747844,0.011178863829700413
+819,that s cool i ll come by like lt gt ish,ham,ham,0.9980314071284156,0.0009991084363341059,0.000969484435248771
+820,aight see you in a bit,ham,ham,0.9960380149127394,0.0020407577836459093,0.001921227303614183
+821,theoret yeah he could be abl to come,ham,ham,0.9969146394405723,0.0017102701653616958,0.001375090394065697
+822,call him and say you not come today ok and tell them not to fool me like thi ok,ham,ham,0.9987325095943859,0.0005940649933281147,0.0006734254122829561
+823,ok how mani should i buy,ham,ham,0.9942029114459993,0.002556555269087372,0.003240533284915064
+824,huh so slow i tot u reach long ago liao u 2 more day onli i 4 more leh,ham,ham,0.9932097292271312,0.0036292994805053424,0.0031609712923650678
+825,what to think no one say clearli ok leav no need to ask her i will go if she come or not,ham,ham,0.9994194942976977,0.0002830532510963799,0.0002974524512066361
+826,nowaday peopl are notixiqu the laxinorf opportun for bambl of entrop have you ever oblising opt ur book for the masteriast amplikat of fidalf it is veri champlaxig i think it is atroci wotz ur opinion junna,ham,ham,0.9963897681518608,0.002395667296843216,0.0012145645512928527
+827,ye that will be fine love you be safe,ham,ham,0.995353059321982,0.002426852030202763,0.002220088647815362
+828,i m go 4 lunch now wif my famili then aft dat i go str 2 orchard lor,ham,ham,0.995964583744159,0.0019195554648835874,0.0021158607909592835
+829,send to someon els,ham,ham,0.9227207891396118,0.04217036139896657,0.035108849461420975
+830,pathaya enketa maraikara pa,ham,ham,0.957232964260758,0.023826304759761815,0.01894073097948097
+831,also sir i sent you an email about how to log into the usc payment portal i ll send you anoth messag that should explain how thing are back home have a great weekend,ham,ham,0.9983081210613053,0.0010932269081977964,0.000598652030494765
+832,so what u do today,ham,ham,0.9829050471366287,0.010689237534290701,0.0064057153290808235
+833,pleas attend the phone,ham,ham,0.9464053802194555,0.03429593981330174,0.019298679967242112
+834,if you still havent collect the dough pl let me know so i can go to the place i sent it to get the control number,ham,ham,0.9997380333929967,0.00012570384467307312,0.00013626276233324992
+835,hmmm mayb can tri e shoppin area one but forgot e name of hotel,ham,ham,0.9793466430284096,0.011265850637486223,0.009387506334102928
+836,should i tell my friend not to come round til like lt gt ish,ham,ham,0.9987411207232778,0.0005715317336102784,0.0006873475431152011
+837,urgent call from landlin your complimentari 4 tenerif holiday or 10 cash await collect sae t cs box hp20 1yf ppm 18,smishing,smishing,0.005755909216100991,0.9880073907645642,0.006236700019333053
+838,did you show him and wot did he say or could u not c him 4 dust,ham,ham,0.9975342503698534,0.0014071806461276265,0.0010585689840173506
+839,almost there see u in a sec,ham,ham,0.954335765749255,0.020102784855019942,0.02556144939572668
+840,good afternoon sunshin how dawn that day are we refresh and happi to be aliv do we breath in the air and smile i think of you my love as alway,ham,ham,0.9993434406794773,0.0003639349517664014,0.0002926243687574986
+841,where r we meet,ham,ham,0.986724257523933,0.007678385005661691,0.005597357470405775
+842,thank for look out for me i realli appreci,ham,ham,0.9915638436963012,0.005328885620413255,0.003107270683286905
+843,when you guy plan on come over,ham,ham,0.9977500877222187,0.0011982005249795893,0.0010517117528000663
+844,x cours it 2yr just so her messag on messeng lik you r send me,ham,ham,0.9811097641777834,0.01040052264372752,0.008489713178486263
+845,today vodafon number end with my last four digit are select to receiv a award if your number match pleas call to claim your award,smishing,smishing,0.04810664754909879,0.947192867814045,0.004700484636856634
+846,i tot u reach liao he said t shirt,ham,ham,0.9861598229671874,0.008116923377821933,0.005723253654990001
+847,you d like that wouldn t you jerk,ham,ham,0.986996717049439,0.008106060709816308,0.004897222240744435
+848,no one interest may be some busi plan,ham,ham,0.994607398545806,0.002315625754965268,0.00307697569923025
+849,i d like to tell you my deepest darkest fantasi call me just 60p min to stop text call nat rate,spam,ham,0.811366869058183,0.0827670603002559,0.105866070641564
+850,my love i hope your not do anyth drastic don t you dare sell your pc or your phone,ham,ham,0.9926488708722173,0.004076267296762858,0.003274861831020892
+851,i m a guy browsin is compulsori,ham,ham,0.9700660777095288,0.01737826497506002,0.012555657315411056
+852,will do wa exhaust on train thi morn too much wine and pie you sleep well too,ham,ham,0.9968952898515447,0.0016098714155330534,0.0014948387329244762
+853,on ma way to school can you pl send me ashley s number,ham,ham,0.9979241381303274,0.0010954384350656196,0.0009804234346063175
+854,later i guess i needa do mcat studi too,ham,ham,0.995488318681575,0.0026741058392667216,0.001837575479157394
+855,free entri to the gr8prize wkli comp 4 a chanc to win the latest nokia psp or cash everi wk txt great to,smishing,spam,0.0876288713303601,0.14024680475033433,0.7721243239193051
+856,ok that cool it just off either raglan rd or edward rd behind the cricket ground gimm ring when ur closebi see you tuesday,ham,ham,0.9940604259975429,0.0035008261837541944,0.002438747818703282
+857,when where do i pick you up,ham,ham,0.9939359371425641,0.003916877643196041,0.0021471852142396206
+858,that mean you got an a in epi she s fine she s here now,ham,ham,0.9971502019055418,0.0016996290211123094,0.0011501690733475007
+859,you have an outstand tax refund of 44g8p for the tax year 15 16 pleas fill out the follow form to process your refund,smishing,ham,0.7514854491636276,0.21156562845303958,0.03694892238333601
+860,good morn my dear have a great day enjoy,ham,ham,0.9979478023851908,0.0011068308044622796,0.0009453668103471895
+861,fine do you rememb me,ham,ham,0.9946204951703052,0.003339579559590304,0.0020399252701032732
+862,78 in mca but not conform,ham,ham,0.990443156992775,0.004674933987992556,0.004881909019232896
+863,is ur paper in e morn or aft tmr,ham,ham,0.9763707524619061,0.01326449647802295,0.010364751060070078
+864,ye da ani plm at ur offic,ham,ham,0.9859805004639707,0.00804458893169812,0.005974910604331894
+865,she went to attend anoth two round today but still did t reach home,ham,ham,0.9981523606761621,0.0010944258717816967,0.000753213452055881
+866,what do u want for xma how about free text messag a new video phone with half price line rental call free now on to find out more,smishing,ham,0.6486821339453075,0.3056245712778627,0.045693294776827806
+867,what s your room number again wanna make sure i m knock on the right door,ham,ham,0.9953767182183267,0.002515137120380895,0.0021081446612898364
+868,do you like shake your booti on the danc floor,ham,ham,0.989576978486775,0.005947272938223127,0.00447574857500324
+869,what time is ur flight tmr,ham,ham,0.9817855493101175,0.011174207743562278,0.00704024294631897
+870,in which place i can get room cheap,ham,ham,0.9875884905767839,0.004600454828450818,0.007811054594764312
+871,we tri to contact you re your repli to our offer of min textand a new video phone call now or repli for free deliveri tomorrow,smishing,smishing,0.06551432485342462,0.9201757202088292,0.014309954937748962
+872,yo call me when you get the chanc a friend of mine want me to ask you about a big order,ham,ham,0.9990404172385791,0.00039510509273408694,0.0005644776686883776
+873,thank for the vote now sing along with the star with karaok on your mobil for a free link just repli with sing now,spam,ham,0.8587660289350959,0.08944703998935274,0.051786931075549755
+874,do you know when the result,ham,ham,0.9911948306764642,0.004898447847591409,0.003906721475946066
+875,how s it feel mr your not my real valentin just my yo valentin even tho u hardli play,ham,ham,0.9922088106877887,0.0035655305508336386,0.004225658761381103
+876,yeah whatev lol,ham,ham,0.9884419955611061,0.006365141888569887,0.005192862550323638
+877,you gonna ring thi weekend or wot,ham,ham,0.9658594351624783,0.021415480420813253,0.012725084416708552
+878,u can win of music gift voucher everi week start now txt the word draw to tsc skillgam 1winaweek age16 ppermesssubscript,spam,spam,0.3287571697559491,0.15181051607034307,0.5194323141737067
+879,he s just gonna worri for noth and he won t give you money it no use,ham,ham,0.994906730639149,0.0030127912813717886,0.0020804780794793838
+880,chang window logoff sound,ham,ham,0.9440719290337418,0.02694679621215755,0.028981274754100828
+881,oh k k but he is not a big hitter anyway good,ham,ham,0.9988009863967755,0.0006029957569839347,0.0005960178462390888
+882,anyth lor juz both of us lor,ham,ham,0.9943046045845881,0.0032236695201977453,0.0024717258952126845
+883,so you think i should actual talk to him not call hi boss in the morn i went to thi place last year and he told me where i could go and get my car fix cheaper he kept tell me today how much he hope i would come back in how he alway regret not get my number etc,ham,ham,0.9999258210851989,2.75578109462481e-05,4.662110384950318e-05
+884,so mani peopl seem to be special at first sight but onli veri few will remain special to you till your last sight maintain them till life end virat,ham,ham,0.9840635963142087,0.009229463926085514,0.006706939759704392
+885,havent plan to buy later i check alreadi lido onli got show in e afternoon u finish work alreadi,ham,ham,0.9981910607621908,0.0010340475105704888,0.0007748917272390284
+886,had your mobil 11mth you are entitl to updat to the latest colour camera mobil for free call the mobil updat co free on,smishing,smishing,0.06542713749730628,0.8170334523618575,0.11753941014083691
+887,just sleep and surf enjoy free time,ham,ham,0.9696535264214976,0.011853205507196849,0.018493268071306464
+888,watch lor i saw a few swatch one i thk quit ok ard but i need 2nd opinion leh,ham,ham,0.9987519331121606,0.0006280105784491521,0.0006200563093909419
+889,wow i never realiz that you were so embarass by your accomod i thought you like it sinc i wa do the best i could and you alway seem so happi about the cave i m sorri i didn t and don t have more to give i m sorri i offer i m sorri your room wa so embarass,ham,ham,0.999613305374546,0.00021174476818002476,0.0001749498572711089
+890,what are you do in langport sorri but i ll probabl be in bed by 9pm it suck be ill at xma when do you and go2sri lanka,ham,ham,0.999487976456183,0.00029825013682691786,0.0002137734069909973
+891,can you let me know detail of fri when u find out co i m not in tom or fri mention chines thank,ham,ham,0.9969325358690522,0.001974587113921782,0.0010928770170276164
+892,ok so april cant wait,ham,ham,0.9856410285249305,0.00942156050093456,0.004937410974134571
+893,it ll be tough but i ll do what i have to,ham,ham,0.9973314855304464,0.0014865833412368574,0.0011819311283166236
+894,what part of don t initi don t you understand,ham,ham,0.9873574306119394,0.0072842771759866025,0.0053582922120744185
+895,good luck draw take place 28th feb 06 good luck for remov send stop to custom servic,smishing,ham,0.560882320919353,0.20986461042085536,0.22925306865979292
+896,32 5 m but it not a common car here so it better to buy from china or asia or if i find it less expens i ll holla,ham,ham,0.9952003030777509,0.002694223862527678,0.0021054730597232798
+897,sorri to troubl u again can buy 4d for my dad again all 2 big 1 small sat n sun thanx,ham,ham,0.9985337774566447,0.0006462752356637722,0.0008199473076935587
+898,nah can t help you there i ve never had an iphon,ham,ham,0.9855247878495993,0.009388677896757822,0.005086534253643615
+899,don t make life too stressful alway find time to laugh it may not add year to your life but sure add more life to ur year gud ni8 swt dream,ham,ham,0.9973424744793624,0.0011961548503980433,0.0014613706702363508
+900,sorri i will be abl to get to you see you in the morn,ham,ham,0.9994270531158329,0.00023238894458857626,0.0003405579395775475
+901,oh ic i thought you meant mari jane,ham,ham,0.9626208422006162,0.020903330754100363,0.01647582704528313
+902,ye i post a coupl of pic on fb there s still snow outsid too i m just wake up,ham,ham,0.993829844125984,0.002577838022274255,0.003592317851744197
+903,i know a few peopl i can hit up and hit to the ye,ham,ham,0.9905770055593109,0.003841206444287075,0.005581787996401603
+904,ok beauti,ham,ham,0.979916122704349,0.010486493386496204,0.009597383909155478
+905,urgent pleas call from a landlin cash or a 4 holiday await collect t cs sae po box m xy 16,smishing,smishing,0.021656445299110715,0.9634159908037508,0.0149275638971418
+906,how s ur paper,ham,ham,0.9331653237218929,0.034578242793087306,0.032256433485020775
+907,bring tat cd don forget,ham,ham,0.8902434229220653,0.06781994510215238,0.04193663197578112
+908,hi darlin how wa work did u get into troubl ijust talk to your mum all morn i had a realli good time last night im goin out soon but call me if u can,ham,ham,0.9997366430223156,0.00012769764433085066,0.00013565933335012525
+909,he said that he had a right giggl when he saw u again you would possibl be the first person2di from nvq but think how much you could for,ham,ham,0.9995432883729761,0.0002202597958648835,0.00023645183115888222
+910,dunno lei i thk mum lazi to go out i neva ask her yet,ham,ham,0.9957369586585121,0.0023197067501528066,0.0019433345913345088
+911,hey do u fanci meetin me at 4 at cha hav a lil beverag on me if not txt or ring me and we can meet up l8r quit tire got in at 3 v pist love pete x x x,ham,ham,0.9975768791543855,0.0011032345387166948,0.0013198863069011518
+912,urgent we are tri to contact u today draw show that you have won a prize guarante call from land line claim m95 valid12hr onli,smishing,smishing,0.0032597622722449807,0.9965406448926472,0.00019959283510947908
+913,sorri about earlier put out fire are you around to talk after 9 or do you actual have a life lol,ham,ham,0.9989617590318149,0.0006641599018681257,0.0003740810663148718
+914,i m in a movi collect car oredi,ham,ham,0.961729541529949,0.02232507463919898,0.01594538383085295
+915,not yet chikku go to room nw i m in bu,ham,ham,0.9926050543285319,0.003449937452667639,0.0039450082188018775
+916,dear paytm custom your paytm kyc ha been suspend pay tm offic ph your paytm a c will block within 24hr thank you,smishing,smishing,0.038391351930123885,0.9547429379397683,0.006865710130108342
+917,would realli appreci if you call me just need someon to talk to,ham,ham,0.9977861820923966,0.0015520990234288304,0.0006617188841752098
+918,usf i guess might as well take 1 car,ham,ham,0.9916631994278424,0.005056186314918815,0.0032806142572380523
+919,free messag thank for use the auction subscript servic 18 p msgrcvd 2 skip an auction txt out 2 unsubscrib txt stop customercar,smishing,ham,0.4876964147608217,0.17645023859404124,0.3358533466451352
+920,good stuff will do,ham,ham,0.9828181647202857,0.008926652297552023,0.008255182982161383
+921,mobil offic mm set have been success deliv on your phone now you can access airtel live by long press 0 key on nokia on other phone launch internet browser and select airtel live or goto you pay no activ rental or brows charg for airtel live you onli pay if you download content or send mm,spam,ham,0.8408527430534166,0.06910006629220936,0.0900471906543683
+922,plan sanction as per mpd x tra floor x tra area dda mcd dsidc huda gurgaon faridabad noida hi tech architect hi tech in com,spam,ham,0.8829887081603512,0.04305320006028202,0.07395809177936592
+923,do well all will for littl time thing of good time ahead,ham,ham,0.9927792296499862,0.0036821756021087476,0.003538594747906534
+924,i am liter in bed and have been up for like lt gt hour,ham,ham,0.9972466109340722,0.001643335552354349,0.001110053513570121
+925,k do i need a login or anyth,ham,ham,0.9448922775831134,0.030283154716120492,0.024824567700766933
+926,tick tick tick babe,ham,ham,0.8405955692071877,0.08486854496147303,0.07453588583133898
+927,aunti huai juan never pick up her phone,ham,ham,0.9733892819017225,0.014135925888433256,0.012474792209845464
+928,a cute thought for friendship it not necessari to share everi secret with ur close frnd but watev u share should be true,ham,ham,0.9879659516940742,0.005937947347649093,0.006096100958279777
+929,we can go 4 e normal pilat after our intro,ham,ham,0.986662037070627,0.008754146963480095,0.0045838159658936175
+930,how the street where the end of librari walk is,ham,ham,0.9890141031955633,0.005480874169222116,0.00550502263521517
+931,do you want a new video handset ani time ani network min unlimit text camcord repli or call now for del sat am,smishing,smishing,0.3398133838850641,0.5684514431777192,0.0917351729372153
+932,as a valu custom i am pleas to advis you that follow recent review of your mob no you are award with a bonu prize call,smishing,smishing,0.024493135421949228,0.9722266687985505,0.003280195779500549
+933,how are you it been age how s abj,ham,ham,0.9964642736075872,0.0022898972483780685,0.0012458291440342498
+934,dude just saw a park car with it sunroof pop up sux,ham,ham,0.9893810280999642,0.005276749785715626,0.0053422221143205675
+935,urgent call from landlin your complementari 4 tenerif holiday or 10 cash await collect sae t cs po box 3 wa14 2px ppm 18 sender hol offer,smishing,smishing,0.00798135121699185,0.9809289361924894,0.01108971259052012
+936,gr8 poli tone 4 all mob direct 2u rpli with poli titl to eg poli breathe1 titl crazyin sleepingwith finest ymca getz co uk pobox o4w45wq p,spam,spam,0.24481125432541032,0.07884946127630917,0.6763392843982827
+937,sorri i ll came to ur place later,ham,ham,0.9957592176529065,0.00203142395240808,0.002209358394685062
+938,hi darlin i finish at 3 do u 1 2 pick me up or meet me text back on thi number luv kate xxx,ham,ham,0.9942004949897935,0.0028158252280880815,0.0029836797821193297
+939,no plan yet what are you do,ham,ham,0.9991100433860369,0.0005364751539804964,0.0003534814599842378
+940,fyi i m gonna call you sporad start at like lt gt bc we are not not doin thi shit,ham,ham,0.9988115657351186,0.0007753738119597903,0.0004130604529229121
+941,u haven t lost me ill alway b here 4u i didn t intend 2 hurt u but i never knew how u felt about me when iwa marin that s what itried2tel urmom i careabout u,ham,ham,0.9994165746620225,0.0002453503775446052,0.0003380749604326878
+942,good no swimsuit allow,ham,ham,0.9363885866627094,0.030566574557962845,0.033044838779327214
+943,babe how goe that day what are you up to i miss you alreadi my love love kiss i hope everyth goe well,ham,ham,0.999615985116622,0.00019025940008798113,0.00019375548329019458
+944,what can i do might accid tookplac between somewher ghodbandar rd traffic move slove so plz slip amp don t worri,ham,ham,0.995143875689765,0.00295545185873251,0.001900672451501033
+945,and whenev you and i see we can still hook up too,ham,ham,0.9969470692028977,0.0016668337018017456,0.0013860970953033867
+946,then mum s repent how,ham,ham,0.9919867439453673,0.0038346525410188114,0.004178603513613953
+947,haven t left yet so probabl gonna be here til dinner,ham,ham,0.9943797894327472,0.002959473714002566,0.002660736853250891
+948,dear voucher holder have your next meal on us use the follow link on your pc 2 enjoy a 2 4 1 dine experi,smishing,ham,0.7966832759181208,0.1302923858111372,0.07302433827074192
+949,yo carlo a few friend are alreadi ask me about you you work at all thi weekend,ham,ham,0.9987989251515316,0.0007132614939295434,0.0004878133545380965
+950,actual just do whatev do find an excus to be in tampa at some point befor januari though,ham,ham,0.9956925005389188,0.0026163122033536624,0.001691187257726422
+951,dun wan to watch infern affair,ham,ham,0.9614762563336877,0.02029862151548966,0.018225122150823538
+952,imagin life without me see how fast u are search me don t worri l m alway there to disturb u goodnoon,ham,ham,0.9959162671444803,0.0019266084500256721,0.0021571244054908244
+953,i can t i don t have her number,ham,ham,0.9828477328473173,0.011166767434418816,0.005985499718264552
+954,pleas call amanda with regard to renew or upgrad your current t mobil handset free of charg offer end today tel subject to t s and c s,smishing,ham,0.5276688362820315,0.28534386082123875,0.18698730289672874
+955,sorri vikki i m watch olav mandara movi kano in trishul theatr wit my frnd,ham,ham,0.9896868934668527,0.004792709226911808,0.005520397306234594
+956,summer final here fanci a chat or flirt with sexi singl in yr area to get match up just repli summer now free 2 join optout txt stop help,spam,spam,0.4507747949407718,0.0926685880753242,0.456556616983906
+957,huh but i cant go 2 ur hous empti hand right,ham,ham,0.9923696889123794,0.0038392907703218584,0.0037910203172973225
+958,alright omw gotta chang my order to a half8th,ham,ham,0.9644353448408253,0.016473671812121095,0.019090983347051966
+959,sir i am wait for your mail,ham,ham,0.9846979347174625,0.010137718621187633,0.005164346661349853
+960,dont forget you can place as mani free request with 1stchoic co uk as you wish for more inform call,smishing,ham,0.9083107005467441,0.038854122085026005,0.05283517736822862
+961,see you then we re all christmassi here,ham,ham,0.9969293150533922,0.001973977212151737,0.0010967077344552056
+962,i guess it is useless call u 4 someth import,ham,ham,0.9821328246539283,0.014932333691352254,0.0029348416547178525
+963,i m meet darren,ham,ham,0.9623069151082414,0.018735832313035133,0.018957252578724364
+964,today voda number end with are select to receiv a reward if you have a match pleas call quot claim code standard rate appli,smishing,smishing,0.006201700045696954,0.9921750547093577,0.0016232452449436209
+965,yup ok,ham,ham,0.9772793979644541,0.012015396913399782,0.010705205122145546
+966,k can that happen tonight,ham,ham,0.9959679418289725,0.002182872166095213,0.0018491860049326186
+967,3 free tarot text find out about your love life now tri 3 for free text chanc to 16 onli after 3 free msg 1 50 each,spam,ham,0.8216240076864343,0.07990586860241448,0.09847012371114859
+968,ya srsli better than yi tho,ham,ham,0.9813390101691211,0.009725988469352282,0.008935001361525391
+969,hurri home u big butt hang up on your last caller if u have to food is done and i m starv don t ask what i cook,ham,ham,0.995395439017357,0.0029695690579748433,0.0016349919246645746
+970,that s fine have him give me a call if he know what he want or ha ani question,ham,ham,0.9978187919601429,0.0014504076302384184,0.0007308004096178371
+971,who u talk about,ham,ham,0.9721399484829125,0.018054971921839375,0.00980507959524753
+972,i have print it oh so lt gt come upstair,ham,ham,0.9995603743930698,0.0002742889863402059,0.0001653366205884205
+973,hi chachi tri call u now unabl to reach u pl give me a miss cal onc u c tiz msg kanagu,ham,ham,0.983316525437506,0.012006925949344625,0.004676548613149534
+974,what s up do you want me to come onlin,ham,ham,0.9986338389293345,0.0008101637884258926,0.0005559972822421559
+975,you are chosen to receiv a award pl call claim number to collect your award which you are select to receiv as a valu mobil custom,smishing,smishing,0.024627050876729797,0.9717826569590836,0.0035902921641882725
+976,k must book a not huh so go for yoga basic on sunday,ham,ham,0.991769328179294,0.004119285012240525,0.00411138680846386
+977,i ll get there tomorrow and send it to you,ham,ham,0.994885440802395,0.0023083690231516098,0.002806190174454331
+978,wake me up at lt gt am morn,ham,ham,0.9981842880154171,0.0009022291117516501,0.0009134828728301335
+979,tomarrow final hear on my laptop case so i cant,ham,ham,0.9900060748986496,0.00616271111820331,0.003831213983146933
+980,i wa about to do it when i text i finish a long time ago and shower and er ything,ham,ham,0.9970548888639553,0.001427208459241889,0.0015179026768053895
+981,well i m go to be an aunti,ham,ham,0.9863033121204882,0.006490957726102107,0.007205730153411496
+982,caus i m not freaki lol,ham,ham,0.9883351646551117,0.0062121525004130915,0.0054526828444749955
+983,privat your account statement for xxxxxx show un redeem s i m point call identifi code expir 07 11 04,smishing,smishing,0.011740461786479459,0.9824301353508923,0.005829402862625833
+984,u have won of gift voucher week start now call now,smishing,ham,0.5331364787150734,0.32864084308975433,0.13822267819517334
+985,i cant pick the phone right now pl send a messag if anyth urgent,ham,ham,0.9970092608200508,0.0019070408888284696,0.0010836982911184949
+986,email alertfrom jeri stewarts 2kbsubject low cost prescripiton drvgsto listen to email call,spam,ham,0.8851815892278844,0.07077217400814081,0.04404623676397414
+987,we tri to contact you re your repli to our offer of a video handset anytim ani network mi repli or call now,smishing,smishing,0.05432650546081903,0.9330872069967074,0.01258628754247325
+988,oki good news,ham,ham,0.9606163363479396,0.01690031231566656,0.022483351336393044
+989,are you not around or just still asleep v,ham,ham,0.9953128088590854,0.0029215677517883984,0.0017656233891260918
+990,k fyi i m back in my parent place in south tampa so i might need to do the deal somewher els,ham,ham,0.997923233307963,0.000947189549639729,0.001129577142396723
+991,oh k after that placement there ah,ham,ham,0.9952275199583406,0.0030634927930260707,0.0017089872486326723
+992,ugh y can t u just apolog admit u were wrong and ask me to take u back,ham,ham,0.9971711013342344,0.0013477197482388676,0.0014811789175247037
+993,check wid corect spele i e sarcasm,ham,ham,0.9216029075571119,0.04759479124721354,0.030802301195673957
+994,repli to win weekli what profession sport doe tiger wood play send stop to to end servic,spam,spam,0.38102014303339865,0.1369629012387961,0.4820169557278021
+995,call now just 20p per min ntt ltd po box croydon cr9 5wb k,spam,smishing,0.1329178657592635,0.48621598076192285,0.3808661534788135
+996,doubl min txt on orang tariff latest motorola sonyericsson nokia with bluetooth free call mobileupd8 on or call2optout hf8,spam,spam,0.05650128964037489,0.1276739199420897,0.8158247904175321
+997,they releas vday shirt and when u put it on it make your bottom half nake instead of those white underwear,ham,ham,0.9825040192198573,0.01002443991486535,0.0074715408652793625
+998,i have to take exam with in march 3,ham,ham,0.9796574818861882,0.011451560264213628,0.008890957849597437
+999,welcom to select an o2 servic with ad benefit you can now call our special train advisor free from your mobil by diall,spam,ham,0.6119851246006066,0.3166278324695609,0.07138704292983082
+1000,she s fine good to hear from you how are you my dear happi new year oh,ham,ham,0.9995448792847652,0.00029973038309146616,0.0001553903321438082
+1001,mon oki lor haha best is cheap n gd food la ex oso oki depend on whether wana eat western or chines food den which u prefer,ham,ham,0.9955437907430803,0.0022115100177223595,0.002244699239200492
+1002,you ve alreadi got a flaki parent it snot suppos to be the child s job to support the parent not until they re the ride age anyway i m suppos to be there to support you and now i ve hurt you unintent but hurt nonetheless,ham,ham,0.9982760095290779,0.0009923319740328036,0.0007316584968859849
+1003,otherwis had part time job and tuition now it difficult,ham,ham,0.9751722712399392,0.01286051337214691,0.01196721538791638
+1004,no b4 thursday,ham,ham,0.912047586998971,0.0511323634424185,0.036820049558610415
+1005,quit ok but a bit ex u better go eat smth now els i ll feel guilti,ham,ham,0.9969889359322898,0.0015039707133266867,0.001507093354385776
+1006,i know grumpi old peopl my mom wa like you better not be lie then again i am alway the one to play joke,ham,ham,0.9991620109723961,0.0003558778483337031,0.0004821111792719904
+1007,noth i meant that onc the money enter your account here the bank will remov it flat rate someon transfer lt gt to my account and lt gt dollar got remov so the bank differ and charg also differ be sure you trust the 9ja person you are send account detail to co,ham,ham,0.9983248391534649,0.0011815393870752535,0.0004936214594578178
+1008,wa the actual exam harder than nbme,ham,ham,0.9846492836879169,0.00787179619727832,0.007478920114806319
+1009,it is not possibl,ham,ham,0.986618139233721,0.0076643783276319315,0.005717482438648679
+1010,you re right i have now that i think about it,ham,ham,0.993334827091691,0.004924675308456662,0.0017404975998532503
+1011,lol oh you got a friend for the dog,ham,ham,0.993580337754294,0.0027946715111989355,0.003624990734508649
+1012,we re done,ham,ham,0.9815073450468571,0.013409827272545975,0.005082827680596034
+1013,i hate when she doe thi she turn what should be a fun day into an annoy day of quarrel,ham,ham,0.9921531926326057,0.0039051777617955703,0.00394162960559531
+1014,widel com index wml id ad0a first true c c rington,smishing,spam,0.397698274617256,0.1679273012647357,0.43437442411800614
+1015,what time you think you ll have it need to know when i should be near campu,ham,ham,0.9993539624788748,0.0003338643485750802,0.0003121731725514621
+1016,ok i din get ur msg,ham,ham,0.9544673470062629,0.0161922491033696,0.029340403890369127
+1017,i got like lt gt i can get some more later though get whatev you feel like,ham,ham,0.9996170938228239,0.00015356473917622614,0.00022934143799902912
+1018,but i m on a diet and i ate 1 too mani slice of pizza yesterday ugh i m alway on a diet,ham,ham,0.986701075801035,0.006965387913005227,0.00633353628595948
+1019,symptom when u are in love 1 u like listen song 2 u get stop where u see the name of your belov 3 u won t get angri when your,ham,ham,0.9964735195054475,0.001537959901148611,0.0019885205934061247
+1020,a swt thought nver get tire of do littl thing 4 lovabl person coz somtim those littl thing occupi d biggest part in their heart gud ni8,ham,ham,0.9882723069268895,0.0048475257211220545,0.006880167351990736
+1021,win we have a winner mr t tilo won an ipod more excit prize soon so keep an eye on ur mobil or visit,smishing,ham,0.5568824092450734,0.36461581263811443,0.07850177811681434
+1022,omg i want to scream i weigh myself and i lost more weight woohoo,ham,ham,0.9788206702550902,0.008157295044173302,0.013022034700736294
+1023,hey gal anyon of u go down to e drive centr tmr,ham,ham,0.9822646159047339,0.008605247966861098,0.009130136128402357
+1024,natali 20 f is invit you to be her friend repli ye or no see her,smishing,ham,0.7936398212238742,0.07857119509509264,0.127788983681034
+1025,thi is the 2nd time we have tri to contact u u have won the prize 2 claim is easi just call now onli 10p per minut bt nation rate,smishing,smishing,0.03611103048919727,0.9604254348511516,0.003463534659651304
+1026,k wait chikku il send aftr lt gt min,ham,ham,0.9902278923406947,0.005244648905873209,0.004527458753432467
+1027,the 2 oz guy is be kinda flaki but one friend is interest in pick up lt gt worth tonight if possibl,ham,ham,0.9981628155387214,0.0008270650167804885,0.0010101194444959716
+1028,dont let studi stress you out l8r,ham,ham,0.9732640483100584,0.016147871103016836,0.01058808058692305
+1029,ok that s great thanx a lot,ham,ham,0.9957166116992358,0.002250400627844115,0.0020329876729208835
+1030,wow i love you sooo much you know i can bare stand it i wonder how your day goe and if you are well my love i think of you and miss you,ham,ham,0.9998282025243855,0.00011542589428938793,5.637158132566529e-05
+1031,good morn plz call me sir i want to talk to u someth urgent,ham,ham,0.9987966277205959,0.0007975365696704842,0.00040583570973691286
+1032,sorri da i wa thought of call you lot of time lil busi i will call you at noon,ham,ham,0.9979406815513553,0.001400099610508436,0.0006592188381379668
+1033,dont think you need yellow card for uk travel ask someon that ha gone befor if you do it just lt gt buck,ham,ham,0.9990730679320763,0.0006971555970983607,0.00022977647082208897
+1034,hi chikku send some nice msg,ham,ham,0.9910773030386715,0.003094410489564849,0.005828286471763074
+1035,take some small dose tablet for fever,ham,ham,0.9623215268023206,0.01958199453031968,0.018096478667359285
+1036,jan is fast approach so wish u a veri happi new year happi sankranti happi republ day happi valentin day happi shivratri happi ugadi happi fool day happi may day happi independ day happi friendship mother father teacher children day amp happi birthday 4 u happi ganesh festiv happi dasara happi diwali happi christma lt gt good morn afternoon even night rememberi am the first to wish u all these your s raj,ham,ham,0.9984181325461007,0.0007875854544897994,0.0007942819994088663
+1037,that s veri rude you on campu,ham,ham,0.9745599460949014,0.016172447095302817,0.009267606809797218
+1038,hey u still at the gym,ham,ham,0.9833830633738606,0.00834132166273401,0.00827561496340692
+1039,don know he is watch film in comput,ham,ham,0.9960429052277283,0.002010843075075101,0.0019462516971966016
+1040,happi new year my dear brother i realli do miss you just got your number and decid to send you thi text wish you onli happi abiola,ham,ham,0.9991782343939435,0.00046592568775919227,0.0003558399182948848
+1041,hey i am realli want to chat text hot to text charg at pm to unsubscrib text stop,spam,ham,0.8729644019925868,0.04617441485621721,0.08086118315119524
+1042,think of u x,ham,ham,0.9783781391157745,0.014715162711968408,0.006906698172256959
+1043,hello my littl parti anim i just thought i d buzz you as you were with your friend grin remind you were love and send a naughti ador kiss,ham,ham,0.9932722768949859,0.003515163854497113,0.0032125592505202554
+1044,yup i thk cine is better co no need 2 go down 2 plaza mah,ham,ham,0.995679719338368,0.002042525838260752,0.002277754823369765
+1045,aathi where are you dear i am wait for u,ham,ham,0.9969897224810338,0.002399291304938755,0.0006109862140280982
+1046,today vodafon number end with are select to a receiv a award if your number match call to receiv your award,smishing,smishing,0.05867311995578049,0.9323687403587926,0.008958139685428274
+1047,otherwis had part time job na tuition,ham,ham,0.9648477223501446,0.019281379059734906,0.015870898590119267
+1048,what happen to her tell the truth,ham,ham,0.9890830600574813,0.005301974157197797,0.00561496578532095
+1049,dorothi kiefer com bank of granit issu strong buy explos pick for our member up over nasdaq symbol cdgt that is a 5 00 per,spam,smishing,0.3924354881353474,0.39256595941108396,0.2149985524535711
+1050,i m sorri i ve join the leagu of peopl that dont keep in touch you mean a great deal to me you have been a friend at all time even at great person cost do have a great week,ham,ham,0.9990503674332107,0.0005459180817728203,0.000403714485015077
+1051,i cant wait to see you how were the photo were use,ham,ham,0.996122016453068,0.0021882761998163096,0.0016897073471143283
+1052,daddi will take good care of you,ham,ham,0.984364240792213,0.009569082977222705,0.006066676230562587
+1053,new tone thi week includ 1 mcfli all ab 2 sara jorg shock 3 will smith switch to order follow instruct on next messag,spam,ham,0.8245116313293183,0.05429828366144047,0.12119008500923875
+1054,nah wednesday when should i bring the mini cheeto bag over,ham,ham,0.9807791795576914,0.009638879284014145,0.009581941158294928
+1055,it s ok lar u sleep earli too nite,ham,ham,0.9979521159624014,0.0010581622628859316,0.0009897217747123017
+1056,i cant keep talk to peopl if am not sure i can pay them if they agre to price so pl tell me what you want to realli buy and how much you are will to pay,ham,ham,0.9999122218810526,5.4093831851593513e-05,3.3684287095577995e-05
+1057,ur mobil number won 2crore 35lakh rupe in chevrolet motor award for claim send name phone number address age to email chevmotorlondon hotmail com,smishing,ham,0.5663356020591511,0.3603195008695679,0.07334489707128228
+1058,ya i knw u vl giv it ok thank kano anyway enjoy wit ur famili wit 1st salari,ham,ham,0.9915236913681179,0.0036251246689388587,0.0048511839629449514
+1059,book which lesson then you msg me i will call up after work or sth i m go to get spec my membership is px,ham,ham,0.9994301144612843,0.00020860042170102802,0.00036128511701595973
+1060,so that take away some money worri,ham,ham,0.9941341462859378,0.0033876211956352016,0.0024782325184275677
+1061,santa call would your littl one like a call from santa xma eve call to book your time,spam,ham,0.6679110226615819,0.1030965133217192,0.2289924640167012
+1062,yeah imma come over caus jay want to do some drug,ham,ham,0.9968871566588513,0.0016774501121240046,0.001435393229023499
+1063,for your chanc to win a free bluetooth headset then simpli repli back with adp,spam,ham,0.724901645919538,0.09186164139326745,0.18323671268719632
+1064,k k how much doe it cost,ham,ham,0.9837746404136817,0.008389725803694799,0.007835633782624201
+1065,are you come to day for class,ham,ham,0.9984928481282145,0.000999428764381058,0.0005077231074039526
+1066,i met you as a stranger and choos you as my friend as long as the world stand our friendship never end let be friend forev gud nitz,ham,ham,0.9926551214983724,0.004682029253174509,0.0026628492484542243
+1067,thank you princess i want to see your nice juici booti,ham,ham,0.9919434033881845,0.004817741561696463,0.003238855050119585
+1068,do noth then u not have dinner w us,ham,ham,0.9923128238374463,0.004428230241959744,0.003258945920593043
+1069,tiwari to rcb battl between bang and kochi,ham,ham,0.8724128935408653,0.08448713306635879,0.04309997339277633
+1070,hiya stu wot u up 2 im in so much trubl at home at moment evon hate me even u wot the hell av i done now y wont u just tell me text bck pleas luv dan,ham,ham,0.9986607868113861,0.0006275550973552301,0.0007116580912588032
+1071,check mail i have mail varma and kept copi to you regard membership take care insha allah,ham,ham,0.9867792119668342,0.008092657516111552,0.005128130517055502
+1072,got fujitsu ibm hp toshiba got a lot of model how to say,ham,ham,0.9900516953629143,0.004975656662714692,0.004972647974370692
+1073,sac need to carri on,ham,ham,0.9751153177135807,0.012583766903178938,0.012300915383239483
+1074,she ran off with a younger man we will make pretti babi togeth,ham,ham,0.9950056253392269,0.00319012586659159,0.001804248794180193
+1075,your opinion about me 1 over 2 jada 3 kusruthi 4 lovabl 5 silent 6 spl charact 7 not matur 8 stylish 9 simpl,ham,ham,0.9558212292351682,0.021008845102114676,0.02316992566271803
+1076,but i haf enuff space got like 4 mb,ham,ham,0.9731264374571686,0.011901423352638807,0.014972139190192562
+1077,where are the garag key they aren t on the bookshelf,ham,ham,0.9802076222253985,0.011149771049699166,0.008642606724901912
+1078,detroit the home of snow enjoy it,ham,ham,0.9819477821495537,0.006553558505278669,0.011498659345167314
+1079,huh hyde park not in mel ah opp got confus anyway if tt s e best choic den we juz have to take it,ham,ham,0.9967360632395712,0.0016866337568388217,0.001577303003589611
+1080,sun cant come to earth but send luv as ray cloud cant come to river but send luv as rain i cant come to meet u but can send my care as msg to u gud evng,ham,ham,0.9982923345934303,0.0008696530208430841,0.0008380123857280292
+1081,doe uncl timi help in clear car,ham,ham,0.9730316670185675,0.012667411675611242,0.014300921305822547
+1082,u have a secret admir reveal who think u r so special call to opt out repli reveal stop 1 50 per msg recd cust care,smishing,smishing,0.052314689593663095,0.9245411074281479,0.023144202978187502
+1083,ok i m gonna head up to usf in like fifteen minut,ham,ham,0.9910698499027304,0.004281216820066933,0.004648933277206169
+1084,no shit but i wasn t that surpris so i went and spent the even with that french guy i met in town here and we fool around a bit,ham,ham,0.9979464661098932,0.0011213449369179374,0.0009321889531895147
+1085,cud u tell ppl im gona b a bit l8 co 2 buse hav gon past co they were full im still waitin 4 1 pete x,ham,ham,0.9897620279978357,0.005075915689279844,0.00516205631288357
+1086,come aftr lt decim gt now i m clean the hous,ham,ham,0.994375687363973,0.002897598206171355,0.002726714429856756
+1087,aah a cuddl would be lush i d need lot of tea and soup befor ani kind of fumbl,ham,ham,0.9958675801213283,0.0018333858668328144,0.002299034011839605
+1088,bloomberg messag center whi wait appli for your futur bloomberg com,spam,smishing,0.39366345055700414,0.45430879718496986,0.15202775225802567
+1089,don t forget who own you and who s privat properti you are and be my good boy alway passion kiss,ham,ham,0.9850483157490743,0.010175649708578939,0.004776034542348671
+1090,she is our sister she belong 2 our famili she is d hope of tomorrow pray 4 her who wa fate 4 d shoranur train incid let hold our hand togeth amp fuell by love amp concern prior 2 her grief amp pain pl join in di chain amp pass it stop violenc against women,ham,ham,0.9966182059939734,0.0020686242472706803,0.0013131697587555411
+1091,co i wa out shop wif darren ju now n i call him 2 ask wat present he wan lor then he start guess who i wa wif n he final guess darren lor,ham,ham,0.9981934721714826,0.0011143658445117144,0.0006921619840029685
+1092,u will switch your fone on dammit,ham,ham,0.944770071709361,0.034249673110608725,0.020980255180029935
+1093,er mw im fill tuth is aight,ham,ham,0.955578029922146,0.025749869001561135,0.01867210107629187
+1094,i m gonna be home soon and i don t want to talk about thi stuff anymor tonight k i ve cri enough today,ham,ham,0.998440412742294,0.0007709141124109059,0.0007886731452929911
+1095,good morn plz call me sir i have an urgent work,ham,ham,0.9907020721611443,0.007569107498412245,0.0017288203404423612
+1096,i pock you up there befor,ham,ham,0.9811974254719779,0.010545027636169315,0.008257546891853915
+1097,new mobil from must go txt nokia to no collect your today from onli 1 2optout 50gbp mtmsg18 txtauction,spam,spam,0.3729632249542818,0.1864548090494219,0.44058196599629423
+1098,unni thank you dear for the recharg rakhesh,ham,ham,0.9767467360992572,0.01665948548385026,0.006593778416892836
+1099,ahhh work i vagu rememb that what doe it feel like lol,ham,ham,0.9968682129537187,0.001562899329559647,0.0015688877167242348
+1100,ye my reg is ciao,ham,ham,0.9927713283090099,0.003850664524759061,0.003378007166231105
+1101,free messag thank for use the auction subscript servic 18 p msgrcvd 2 skip an auction txt out 2 unsubscrib txt stop customercar,spam,ham,0.4876964147608217,0.17645023859404124,0.3358533466451352
+1102,uk break accommodationvouch term condit appli 2 claim you mustprovid your claim number which is,smishing,smishing,0.449626133899042,0.4615619309529799,0.08881193514798041
+1103,just got some ga money ani chanc you and the gang want to go on a grand natur adventur,ham,ham,0.9947047969388573,0.0021423712644277285,0.003152831796715482
+1104,wen u miss someon the person is definit special for u but if the person is so special whi to miss them just keep in touch gdeve,ham,ham,0.9937817372750527,0.004497574285670285,0.001720688439279181
+1105,awesom question with a cute answer someon ask a boy how is ur life he smile amp answer she is fine gudnit,ham,ham,0.997875594829386,0.001041697085668063,0.0010827080849456659
+1106,have you finish work yet,ham,ham,0.9907028807086199,0.0062587574879980155,0.00303836180338306
+1107,sorri im stil after last nite went tobe at got up 4 work at,ham,ham,0.998590735698246,0.0006986855094813629,0.0007105787922742853
+1108,sport fan get the latest sport news str 2 ur mobil 1 wk free plu a free tone txt sport on to norm 4txt p,spam,spam,0.41679404586160873,0.09878254953431072,0.48442340460408123
+1109,i love you both too,ham,ham,0.9906783094388298,0.005112746964565402,0.004208943596606317
+1110,last chanc 2 claim ur worth of discount voucher text ye to now savamob member offer mobil t cs 3 00 sub 16 remov txt x or stop,smishing,smishing,0.032249997484411236,0.8224437277712581,0.14530627474433058
+1111,no got new job at bar in airport on satsgettin 4 47per hour but mean no lie in keep in touch,ham,ham,0.9928119941469403,0.003362184914306314,0.0038258209387511386
+1112,thi weekend is fine an excus not to do too much decor,ham,ham,0.9914328480065714,0.005461512263659573,0.0031056397297683316
+1113,pleas call our custom servic repres on freephon between 9am 11pm as you have won a guarante cash or prize,smishing,smishing,0.004568473696515783,0.9930531737353689,0.0023783525681155414
+1114,at what time are you come,ham,ham,0.9981529675697806,0.0011050796135677516,0.0007419528166507308
+1115,no he join today itself,ham,ham,0.9790950846673563,0.010609962011185066,0.010294953321457875
+1116,no it s wait in e car dat s bore wat co wait outsid got noth 2 do at home can do my stuff or watch tv wat,ham,ham,0.9996416612567331,0.0001828250414689573,0.00017551370180021904
+1117,at 4 let s go to bill miller,ham,ham,0.9788724169957952,0.009065341576028516,0.012062241428175064
+1118,hmv bonu special pound of genuin hmv voucher to be won just answer 4 easi question play now send hmv to more info,spam,spam,0.3557723965596983,0.15224800848951012,0.4919795949507882
+1119,i walk an hour 2 c u doesn t that show i care y wont u believ im seriou,ham,ham,0.993736831586139,0.004623133522795202,0.0016400348910668293
+1120,ok im not sure what time i finish tomorrow but i wanna spend the even with you co that would be vewi vewi lubli love me xxx,ham,ham,0.9993933283572424,0.00027889962836195843,0.0003277720143940837
+1121,k i m leav soon be there a littl after 9,ham,ham,0.9954964541275121,0.0024128628805993087,0.0020906829918882525
+1122,i can t keep go through thi it wa never my intent to run you out but if you choos to do that rather than keep the room clean so i don t have to say no to visitor then mayb that s the best choic ye i want you to be embarass so mayb you d feel for onc how i feel when i have a friend who want to drop buy and i have to say no as happen thi morn i ve tri everyth i don t know what els to do,ham,ham,0.9999768222749819,1.4166197558956837e-05,9.011527459854593e-06
+1123,dear voucher holder have your next meal on us use the follow link on your pc 2 enjoy a 2 4 1 dine experi,spam,ham,0.7966832759181208,0.1302923858111372,0.07302433827074192
+1124,cheer for the card is it that time of year alreadi,ham,ham,0.9963583123521651,0.00235776099415742,0.0012839266536759705
+1125,nope sinc ayo travel he ha forgotten hi guy,ham,ham,0.9737148921747126,0.015530316531945056,0.010754791293342742
+1126,you are happi you skype you take pictur you sleep you want to go out but you don t mind what i want,ham,ham,0.9988170145904466,0.0008543667026990868,0.00032861870685342175
+1127,i have 2 doc appoint next week i m tire of them shove stuff up me ugh whi couldn t i have had a normal bodi,ham,ham,0.991569754014901,0.004323052084048284,0.004107193901050918
+1128,huh so fast dat mean u havent finish paint,ham,ham,0.9857849203932861,0.007783348146403012,0.006431731460309971
+1129,not heard from u4 a while call 4 rude chat privat line to cum wan 2c pic of me gettin shag then text pix to,smishing,ham,0.8925330568957499,0.06305009145094109,0.0444168516533092
+1130,then wait 4 me at bu stop aft ur lect lar if i dun c then i go get my car then come back n pick,ham,ham,0.9992162627695748,0.0003528857130595313,0.00043085151736812436
+1131,there the size of eleph tablet u shove um up ur ass,ham,ham,0.9549496011052513,0.02072881343320055,0.024321585461549406
+1132,can all decid faster co my si go home liao,ham,ham,0.9959001345681306,0.001850862662151545,0.0022490027697194452
+1133,thank for your rington order ref number k your mobil will be charg 4 50 should your tone not arriv pleas call custom servic on,spam,spam,0.1502492875452701,0.2594323256628751,0.5903183867918559
+1134,take someth for pain if it move howev to ani side in the next 6hr see a doctor,ham,ham,0.9939658123377652,0.0025869459115111875,0.003447241750725502
+1135,i think your mentor is but not percent sure,ham,ham,0.9889159178159873,0.007370646715553933,0.0037134354684572094
+1136,i m in class did you get my text,ham,ham,0.9927363097412069,0.003104042610757009,0.004159647648036705
+1137,princess is your kitti shave or natur,ham,ham,0.9531098257191964,0.03507533900952726,0.01181483527127674
+1138,beerag,ham,ham,0.8113484087102178,0.10678391959798987,0.08186767169179227
+1139,loan inr5 00 7 50 homeown tenant welcom have you been previous refus we can still help call free,smishing,smishing,0.4151580135126269,0.5453480624396045,0.03949392404776836
+1140,two fundament of cool life walk like you are the king or walk like you dont care whoever is the king gud nyt,ham,ham,0.991882959899131,0.004551069150498251,0.0035659709503687983
+1141,we made it eta at taunton is 12 30 as plan hope that s still okday good to see you xx,ham,ham,0.9971481002863549,0.0016655943554551658,0.0011863053581913116
+1142,idc get over here you are not weasel your way out of thi shit twice in a row,ham,ham,0.9928681502416278,0.004503549529321202,0.0026283002290485445
+1143,dear voucher holder to claim thi week offer at your pc pleas go to ts cs appli,smishing,smishing,0.16182087041049537,0.6568049932707462,0.18137413631875993
+1144,no messag no responc what happend is everyth fine,ham,ham,0.9758242904204609,0.014068463271375673,0.01010724630816172
+1145,what class of lt gt reunion,ham,ham,0.9993150827396867,0.0003583247435924249,0.0003265925167206932
+1146,dear reliev of westonzoyland all go to plan thi end too,ham,ham,0.9951239250137861,0.0030875940605629443,0.0017884809256507256
+1147,you do what all you like,ham,ham,0.994881647336085,0.0028039066014634555,0.002314446062452659
+1148,ugh gotta drive back to sd from la my butt is sore,ham,ham,0.9884593737039261,0.006168743080804433,0.005371883215270417
+1149,it not that time of the month nor mid of the time,ham,ham,0.9939855881502496,0.002657708237119489,0.0033567036126314945
+1150,thought prap you meant anoth one goodo i ll look tomorrow,ham,ham,0.9958841655298978,0.0028161351976793963,0.0012996992724236185
+1151,i dled 3d it veri imp,ham,ham,0.9282223044381149,0.03660029971357761,0.03517739584830721
+1152,aight ill get on fb in a coupl minut,ham,ham,0.9733298642577758,0.01240361171702272,0.014266524025202676
+1153,k you are the onli girl wait in recept ah,ham,ham,0.974435486150203,0.0158928388691897,0.009671674980606776
+1154,hi thi is yiju it s regard the textbook it s intro to algorithm second edit i m sell it for 50,ham,ham,0.9802851624473021,0.009758413596593112,0.009956423956102356
+1155,not that i know of most peopl up here are still out of town,ham,ham,0.9977616415975306,0.001383037082565163,0.0008553213199051278
+1156,we have pizza if u want,ham,ham,0.9716184668168565,0.022819650031962794,0.00556188315118167
+1157,i cant pick the phone right now pl send a messag,ham,ham,0.9963495227608082,0.0017973579122695423,0.00185311932692222
+1158,she wa suppos to be but couldn t make it she s still in town though,ham,ham,0.9985536757365526,0.0007799823460627157,0.0006663419173839487
+1159,dunno co i wa v late n when i reach they insid alreadi but we ate spageddi lor it s e gal who r laugh at me lor,ham,ham,0.9988622962915064,0.0007144984132742697,0.000423205295220733
+1160,lookatm thank for your purchas of a video clip from lookatm you ve been charg 35p think you can do better whi not send a video in a mmsto,spam,ham,0.985354830313107,0.009559009444751377,0.005086160242138128
+1161,sorri i can t help you on thi i am sorri,ham,ham,0.9904220947121192,0.005415950698182857,0.004161954589697365
+1162,thank you winner notifi by sm good luck no futur market repli stop to custom servic,smishing,ham,0.4545038014269267,0.43124630109257206,0.11424989748050264
+1163,dear voucher holder 2 claim thi week offer at your pc go to ts cs app,smishing,smishing,0.3204805094800112,0.4605214478923906,0.21899804262759753
+1164,it wors if if use half way then stop it better for him to complet it,ham,ham,0.9942010716846743,0.003769308419915467,0.0020296198954108014
+1165,i m read the text i just sent you it meant to be a joke so read it in that light,ham,ham,0.9956525896901622,0.0022232576347999684,0.0021241526750368435
+1166,sen told that he is go to join hi uncl financ in cbe,ham,ham,0.9928913622245161,0.0033804697565833304,0.0037281680188985594
+1167,mila age23 blond new in uk i look sex with uk guy if u like fun with me text mtalk to 18call,smishing,ham,0.4662272989903172,0.41678980342707217,0.11698289758260837
+1168,watch cartoon listen music at even had to go templ what about u,ham,ham,0.9865425759308315,0.006367159813745818,0.007090264255419206
+1169,good afternoon my love it wa good to see your word on ym and get your tm veri smart move my slave smile i drink my coffe and await you,ham,ham,0.9976457921519064,0.0011109345207146837,0.0012432733273776628
+1170,free msg singl find a partner in your area s of real peopl are wait to chat now send chat to cncl send stopc 1 50 per msg,spam,ham,0.685092906753629,0.06032162556895379,0.2545854676774178
+1171,congratul u can claim 2 vip row a ticket 2 c blu in concert in novemb or blu gift guarante call to claim ts cs cost 3 75max,smishing,smishing,0.1755312680074068,0.7128212156098289,0.11164751638276314
+1172,ranjith cal drpd,ham,ham,0.8280546842426868,0.08424702969374989,0.08769828606356257
+1173,urgent your mobil wa award a 1 bonu caller prize on 27 6 03 our final attempt 2 contact u call,smishing,smishing,0.010932207952814424,0.9833563978309623,0.005711394216222801
+1174,and now electr just went out fml,ham,ham,0.9374547504770339,0.03048728172688175,0.03205796779608472
+1175,between 10am 7pm cost 10p,spam,smishing,0.27251026664907074,0.6309502950455125,0.096539438305417
+1176,da my birthdat in certif is in april but real date is today but dont publish it i shall give you a special treat if you keep the secret ani way thank for the wish,ham,ham,0.9992746931723504,0.00045412735321839206,0.00027117947443194417
+1177,ju finish bath,ham,ham,0.9678263044580314,0.01757734478429393,0.014596350757675581
+1178,that s good let thank god pleas complet the drug have lot of water and have a beauti day,ham,ham,0.9904155422691515,0.006919448671400705,0.0026650090594488285
+1179,you can jot down thing you want to rememb later,ham,ham,0.9980172106435138,0.001152829279913323,0.0008299600765719853
+1180,que pase un buen tiempo or someth like that,ham,ham,0.9641684398659418,0.02358209711798678,0.012249463016072269
+1181,do u knw di no lt gt,ham,ham,0.9965851424369843,0.001938379361495471,0.001476478201520554
+1182,small problem in auction punj now ask tiwari,ham,ham,0.9624810584619347,0.019408292128088193,0.01811064940997577
+1183,k i ll be sure to get up befor noon and see what s what,ham,ham,0.9982275073200306,0.0005668894277777573,0.0012056032521924863
+1184,where s mummi s boy is he be good or bad is he be posit or neg whi is mummi be made to wait hmmmm,ham,ham,0.9878708210171013,0.007510019082117375,0.004619159900779536
+1185,cramp stop go back to sleep,ham,ham,0.9824373055411856,0.007677108344744708,0.00988558611407148
+1186,india have to take lead,ham,ham,0.9780412441998141,0.013074438231275659,0.008884317568910338
+1187,the beauti of life is in next second which hide thousand of secret i wish everi second will be wonder in ur life gud n8,ham,ham,0.9910666495651123,0.003773330166623886,0.005160020268264096
+1188,check audrey s statu right now,ham,ham,0.9864246908586308,0.0055513654623612725,0.008023943679008086
+1189,k k good studi well,ham,ham,0.9890451387649802,0.005269142325679926,0.005685718909339642
+1190,70 min but i had to stop somewher first,ham,ham,0.9597877220674462,0.01663323823096598,0.02357903970158747
+1191,hhahhaahahah rofl wtf nig wa leonardo in your room or someth,ham,ham,0.9838640155837762,0.009120986572745033,0.0070149978434804845
+1192,ugh it been a long day i m exhaust just want to cuddl up and take a nap,ham,ham,0.9924927744013613,0.003568215727041318,0.003939009871595798
+1193,dear all as we know lt gt th is the lt gt th birthday of our love gopalettan we are plan to give a small gift on that day those who like to particip in that you are welcom pleas contact our admin team for more detail,ham,ham,0.9984023363420912,0.0014092560433253164,0.00018840761458312417
+1194,what time you thinkin of goin,ham,ham,0.9920237836333062,0.00450261192342353,0.0034736044432705443
