@@ -66,8 +66,12 @@ def run_bl_llm_02(train_texts: List[str], train_labels: List[str],
         from peft import LoraConfig, get_peft_model, TaskType, prepare_model_for_kbit_training
         from datasets import Dataset
         import transformers
+        import getpass
         
         model_name = "mistralai/Mixtral-8x7B-Instruct-v0.1"
+        
+        print("Setting up HuggingFace authentication...")
+        hf_token = getpass.getpass("Enter your HuggingFace access token: ")
         
         print("Setting up 4-bit quantization...")
         bnb_config = BitsAndBytesConfig(
@@ -78,7 +82,7 @@ def run_bl_llm_02(train_texts: List[str], train_labels: List[str],
         )
         
         print("Loading tokenizer...")
-        tokenizer = AutoTokenizer.from_pretrained(model_name)
+        tokenizer = AutoTokenizer.from_pretrained(model_name, token=hf_token)
         tokenizer.pad_token = tokenizer.eos_token
         tokenizer.padding_side = "right"
         
@@ -87,7 +91,8 @@ def run_bl_llm_02(train_texts: List[str], train_labels: List[str],
             model_name,
             quantization_config=bnb_config,
             device_map="auto",
-            trust_remote_code=True
+            trust_remote_code=True,
+            token=hf_token
         )
         
         print("Preparing model for QLoRA...")
@@ -207,7 +212,7 @@ def run_bl_llm_02(train_texts: List[str], train_labels: List[str],
             print("Falling back to zero-shot Mixtral...")
             from transformers import AutoTokenizer, AutoModelForCausalLM
             
-            model_name = "mistralai/Mixtral-8x7B-Instruct-v0.1"
+            model_name = "mistralai/Mistral-7B-Instruct-v0.2"
             tokenizer = AutoTokenizer.from_pretrained(model_name)
             tokenizer.pad_token = tokenizer.eos_token
             
