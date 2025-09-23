@@ -2,8 +2,8 @@
   "baseline_id": "bl_llm_02",
   "paper_id": "P_salman2025",
   "seed": 43,
-  "timestamp_utc": "2025-09-23T05:44:00.810369Z",
-  "git_short_hash": "ff2c2eb",
+  "timestamp_utc": "2025-09-23T05:54:44.005578Z",
+  "git_short_hash": "ebc20dc",
   "paper_title": "Fine-tuned Mixtral 8x7B with QLoRA",
   "paper_year": 2025
 }
