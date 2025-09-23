@@ -1,2 +1,3 @@
 baseline,seed,accuracy,outdir
 bl_nn_02,42,0.8485355648535565,/content/drive/MyDrive/sms-baselines/experiments/bl_nn_02/bl_nn_02_seed42_20250923T054412Z
+bl_nn_02,43,0.8560669456066946,/content/drive/MyDrive/sms-baselines/experiments/bl_nn_02/bl_nn_02_seed43_20250923T054558Z
