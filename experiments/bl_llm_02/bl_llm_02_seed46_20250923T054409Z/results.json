@@ -1,0 +1,5 @@
+{
+  "accuracy": null,
+  "error": "You are trying to access a gated repo.\nMake sure to have access to it at https://huggingface.co/mistralai/Mixtral-8x7B-Instruct-v0.1.\n401 Client Error. (Request ID: Root=1-68d2362b-21e06d7010bc348c1f8a6dce;90acb009-9a29-45eb-a7ea-124888ea6381)\n\nCannot access gated repo for url https://huggingface.co/mistralai/Mixtral-8x7B-Instruct-v0.1/resolve/main/config.json.\nAccess to model mistralai/Mixtral-8x7B-Instruct-v0.1 is restricted. You must have access to it and be authenticated to access it. Please log in.",
+  "fallback_error": "You are trying to access a gated repo.\nMake sure to have access to it at https://huggingface.co/mistralai/Mixtral-8x7B-Instruct-v0.1.\n401 Client Error. (Request ID: Root=1-68d2362b-4b17e83450198804577f1509;f4bb77d6-2eba-4ff1-bb31-9f4c51687b7a)\n\nCannot access gated repo for url https://huggingface.co/mistralai/Mixtral-8x7B-Instruct-v0.1/resolve/main/config.json.\nAccess to model mistralai/Mixtral-8x7B-Instruct-v0.1 is restricted. You must have access to it and be authenticated to access it. Please log in."
+}
