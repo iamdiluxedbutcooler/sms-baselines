@@ -1,0 +1,57 @@
+paper_id: P_seo2024
+baseline_id: bl_nn_02
+description: "Character-level 1D CNN with mask preprocessing (Seo 2024)."
+module: "models.nn.BL_NN_02_seo2024"
+preprocessing:
+  - mask_urls: "LINK"
+  - mask_files: "FILE" 
+  - mask_calls: "CALL"
+  - sequential_numbering: true
+  - replace_spacing: "DOUBLESPACE"
+  - replace_linebreaks: "LINEBREAK"
+  - replace_tabs: "TAB"
+  - tokenizer: "character_level"
+  - max_length: 500
+features:
+  type: "character_embeddings"
+  character_features: 215
+  embedding_dim: 48
+  vocab_includes:
+    - english_alphabet: true
+    - digits: true
+    - punctuation: true
+    - symbols: true
+    - special_tokens: ["LINKA", "LINKB", "CALLA", "CALLB", "FILEA", "FILEB"]
+    - spacing_tokens: ["LINEBREAK", "TAB", "DOUBLESPACE"]
+    - padding_token: "<PAD>"
+    - unknown_token: "<UNK>"
+model:
+  type: "char_cnn"
+  embedding_layer:
+    vocab_size: "auto"
+    embedding_dim: 48
+  cnn_layer:
+    filters: 64
+    kernel_size: 3
+    activation: "relu"
+  pooling_layer:
+    type: "global_max_pooling_1d"
+  feedforward_layers:
+    hidden_units: 10
+    activation: "relu"
+    dropout: 0.5
+  output_layer:
+    units: 1
+    activation: "sigmoid"
+training:
+  batch_size: 32
+  epochs: 50
+  optimizer: "Adam"
+  learning_rate: 0.001
+  loss_function: "binary_crossentropy"
+  validation_split: 0.1
+  repeats_for_variance: 5
+  seed_base: 42
+libraries:
+  preferred: ["tensorflow", "keras"]
+notes: "Follow Seo 2024: character-level tokenization with mask preprocessing for URLs/files/calls, 48-dim character embeddings, 1D CNN + feedforward network. Original used Korean+English data but adapted for English-only. Quantization skipped as not needed for experiment."

@@ -1,0 +1,70 @@
+paper_id: P_comprehensive2024
+baseline_id: bl_llm_01
+description: "Comprehensive LLM baseline with multiple models and prompting strategies."
+module: "models.llm.BL_LLM_01_comprehensive"
+preprocessing:
+  - prompt_based: true
+  - max_length: 512
+  - truncation: true
+models:
+  gpt4o:
+    name: "gpt-4o"
+    type: "api_based"
+    provider: "openai"
+    max_tokens: 20
+    temperature: 0.1
+  llama3:
+    name: "meta-llama/Meta-Llama-3-8B-Instruct"
+    type: "open_source"
+    provider: "huggingface"
+    max_new_tokens: 20
+    temperature: 0.1
+  mistral:
+    name: "mistralai/Mistral-7B-Instruct-v0.2"
+    type: "open_source"
+    provider: "huggingface"
+    max_new_tokens: 20
+    temperature: 0.1
+prompting_strategies:
+  zero_shot:
+    description: "Direct classification without examples"
+    template: "Classify the following SMS message as either 'spam' or 'ham'.\n\nSMS: {text}\nClassification:"
+  few_shot:
+    description: "Classification with 4 examples (2 spam, 2 ham)"
+    n_examples: 4
+    template: "Classify SMS messages as either 'spam' or 'ham'. Here are some examples:\n\n{examples}\nSMS: {text}\nClassification:"
+  chain_of_thought:
+    description: "Step-by-step reasoning before classification"
+    template: "Classify the following SMS message as either 'spam' or 'ham'. Think step by step about the characteristics that indicate spam vs ham.\n\nSMS: {text}\n\nLet me analyze this step by step:\n1. Content analysis:\n2. Language patterns:\n3. Urgency indicators:\n4. Suspicious elements:\n5. Overall assessment:\n\nBased on this analysis, the classification is:"
+sub_baselines:
+  - "gpt4o_zero_shot"
+  - "gpt4o_few_shot"
+  - "gpt4o_chain_of_thought"
+  - "llama3_zero_shot"
+  - "llama3_few_shot"
+  - "llama3_chain_of_thought"
+  - "mistral_zero_shot"
+  - "mistral_few_shot"
+  - "mistral_chain_of_thought"
+training:
+  method: "inference_only"
+  repeats_for_variance: 5
+  seed_base: 42
+  few_shot_selection: "balanced"
+inference:
+  batch_processing: true
+  rate_limiting: true
+  fallback_strategy: "conservative_ham"
+  output_parsing: "keyword_extraction"
+  expected_outputs: ["spam", "ham"]
+libraries:
+  preferred: ["transformers", "torch", "openai"]
+  required_versions:
+    transformers: ">=4.36.0"
+    torch: ">=2.0.0"
+    openai: ">=1.0.0"
+cost_considerations:
+  gpt4o_cost_per_1k_tokens: 0.03
+  estimated_tokens_per_sample: 50
+  local_models_compute_intensive: true
+notes: "Comprehensive LLM evaluation across multiple models and prompting strategies. GPT-4o requires OpenAI API key. Open source models run locally. Reports best performing strategy as main accuracy metric while preserving all sub-results for detailed analysis."

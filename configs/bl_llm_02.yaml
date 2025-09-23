@@ -1,0 +1,58 @@
+paper_id: P_salman2025
+baseline_id: bl_llm_02
+description: "Fine-tuned Mixtral 8x7B with QLoRA (Salman 2025)."
+module: "models.llm.BL_LLM_02_salman2025"
+preprocessing:
+  - prompt_format: "classification_prompt"
+  - input_format: "text_to_classification"
+  - max_length: 512
+  - truncation: true
+  - padding: true
+features:
+  type: "llm_embeddings"
+  base_model: "mistralai/Mixtral-8x7B-Instruct-v0.1"
+  quantization:
+    method: "4bit"
+    type: "nf4"
+    compute_dtype: "float16"
+    double_quant: true
+model:
+  type: "mixtral_qlora"
+  base_model: "mistralai/Mixtral-8x7B-Instruct-v0.1"
+  fine_tuning_method: "qlora"
+  lora_config:
+    task_type: "CAUSAL_LM"
+    r: 16
+    lora_alpha: 32
+    lora_dropout: 0.1
+    target_modules: ["q_proj", "k_proj", "v_proj", "o_proj", "gate_proj", "up_proj", "down_proj"]
+  generation_config:
+    max_new_tokens: 10
+    temperature: 0.1
+    do_sample: false
+training:
+  method: "qlora_fine_tuning"
+  per_device_train_batch_size: 1
+  gradient_accumulation_steps: 16
+  learning_rate: 2e-4
+  num_train_epochs: 3
+  warmup_steps: 100
+  optimizer: "adamw_torch"
+  fp16: true
+  logging_steps: 10
+  save_steps: 500
+  eval_steps: 500
+  save_total_limit: 2
+  repeats_for_variance: 5
+  seed_base: 42
+inference:
+  prompt_template: "Classify this SMS message as 'Spam' or 'Ham':\n\nMessage: {text}\nClassification:"
+  expected_outputs: ["Spam", "Ham"]
+  fallback_method: "zero_shot_inference"
+libraries:
+  preferred: ["transformers", "peft", "bitsandbytes", "torch"]
+  required_versions:
+    transformers: ">=4.36.0"
+    peft: ">=0.7.0"
+    bitsandbytes: ">=0.41.0"
+notes: "Follow Salman 2025: Mixtral-8x7B with QLoRA fine-tuning, 4-bit quantization. Missing hyperparameters filled with reasonable defaults (lr=2e-4, batch=1, epochs=3, LoRA r=16/alpha=32). Includes zero-shot fallback if fine-tuning fails."
