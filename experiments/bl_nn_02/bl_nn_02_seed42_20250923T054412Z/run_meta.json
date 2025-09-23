@@ -1,0 +1,9 @@
+{
+  "baseline_id": "bl_nn_02",
+  "paper_id": "P_seo2024",
+  "seed": 42,
+  "timestamp_utc": "2025-09-23T05:44:12.059887Z",
+  "git_short_hash": "ff69bf7",
+  "paper_title": "Character-level 1D CNN with mask preprocessing",
+  "paper_year": 2024
+}
