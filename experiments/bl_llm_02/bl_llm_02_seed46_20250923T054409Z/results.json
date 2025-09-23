@@ -1,0 +1,5 @@
+{
+  "accuracy": null,
+  "error": "No package metadata was found for bitsandbytes",
+  "fallback_error": "You are trying to access a gated repo.\nMake sure to have access to it at https://huggingface.co/mistralai/Mixtral-8x7B-Instruct-v0.1.\n401 Client Error. (Request ID: Root=1-68d233a9-163e2cee7227d8da2210de7c;d7ddd29f-c1b8-4a4f-ae69-b5a9eca187a0)\n\nCannot access gated repo for url https://huggingface.co/mistralai/Mixtral-8x7B-Instruct-v0.1/resolve/main/config.json.\nAccess to model mistralai/Mixtral-8x7B-Instruct-v0.1 is restricted. You must have access to it and be authenticated to access it. Please log in."
+}
