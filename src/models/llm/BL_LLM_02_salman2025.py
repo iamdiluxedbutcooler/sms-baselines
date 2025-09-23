@@ -60,6 +60,7 @@ def run_bl_llm_02(train_texts: List[str], train_labels: List[str],
     test_labels_str = [str(x).lower() for x in test_labels]
     
     results = {"accuracy": None}
+    hf_token = None
     
     try:
         from transformers import AutoTokenizer, AutoModelForCausalLM, BitsAndBytesConfig, TrainingArguments, Trainer
@@ -78,7 +79,8 @@ def run_bl_llm_02(train_texts: List[str], train_labels: List[str],
             load_in_4bit=True,
             bnb_4bit_quant_type="nf4",
             bnb_4bit_compute_dtype=torch.float16,
-            bnb_4bit_use_double_quant=True
+            bnb_4bit_use_double_quant=True,
+            llm_int8_enable_fp32_cpu_offload=True
         )
         
         print("Loading tokenizer...")
@@ -92,7 +94,8 @@ def run_bl_llm_02(train_texts: List[str], train_labels: List[str],
             quantization_config=bnb_config,
             device_map="auto",
             trust_remote_code=True,
-            token=hf_token
+            token=hf_token,
+            low_cpu_mem_usage=True
         )
         
         print("Preparing model for QLoRA...")
@@ -212,14 +215,17 @@ def run_bl_llm_02(train_texts: List[str], train_labels: List[str],
             print("Falling back to zero-shot Mixtral...")
             from transformers import AutoTokenizer, AutoModelForCausalLM
             
-            model_name = "mistralai/Mistral-7B-Instruct-v0.2"
-            tokenizer = AutoTokenizer.from_pretrained(model_name)
+            model_name = "mistralai/Mixtral-8x7B-Instruct-v0.1"
+            hf_token = getpass.getpass("Enter your HuggingFace access token for fallback: ")
+            
+            tokenizer = AutoTokenizer.from_pretrained(model_name, token=hf_token)
             tokenizer.pad_token = tokenizer.eos_token
             
             model = AutoModelForCausalLM.from_pretrained(
                 model_name,
                 device_map="auto",
-                torch_dtype=torch.float16
+                torch_dtype=torch.float16,
+                token=hf_token
             )
             
             predictions_fallback = []
