@@ -1,0 +1,54 @@
+{
+  "accuracy": 0.8476987447698745,
+  "classification_report": {
+    "ham": {
+      "precision": 0.9697624190064795,
+      "recall": 0.9267285861713106,
+      "f1-score": 0.9477572559366755,
+      "support": 969.0
+    },
+    "smishing": {
+      "precision": 0.4275092936802974,
+      "recall": 0.8984375,
+      "f1-score": 0.5793450881612091,
+      "support": 128.0
+    },
+    "spam": {
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1-score": 0.0,
+      "support": 98.0
+    },
+    "accuracy": 0.8476987447698745,
+    "macro avg": {
+      "precision": 0.46575723756225895,
+      "recall": 0.6083886953904368,
+      "f1-score": 0.5090341146992948,
+      "support": 1195.0
+    },
+    "weighted avg": {
+      "precision": 0.8321514423500894,
+      "recall": 0.8476987447698745,
+      "f1-score": 0.8305715081901868,
+      "support": 1195.0
+    }
+  },
+  "confusion_matrix": [
+    [
+      898,
+      71,
+      0
+    ],
+    [
+      13,
+      115,
+      0
+    ],
+    [
+      15,
+      83,
+      0
+    ]
+  ],
+  "model_path": "/content/drive/MyDrive/sms-baselines/experiments/bl_nn_01/bl_nn_01_seed44_20250923T004839Z/model.h5"
+}

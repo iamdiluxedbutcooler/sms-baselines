@@ -1,0 +1,9 @@
+{
+  "baseline_id": "bl_nn_01",
+  "paper_id": "P_mahmud2024",
+  "seed": 45,
+  "timestamp_utc": "2025-09-23T01:21:00.938370Z",
+  "git_short_hash": "234bc6e",
+  "paper_title": "CNN-BiGRU with Word2Vec embeddings",
+  "paper_year": 2024
+}
