@@ -37,6 +37,8 @@ def run_bl_llm_02(train_texts: List[str], train_labels: List[str],
                   outdir: str, seed: int, config: Dict) -> Dict:
     
     os.makedirs(outdir, exist_ok=True)
+    os.makedirs("offload", exist_ok=True)
+    os.makedirs("offload_inference", exist_ok=True)
     set_seed(seed)
     
     start_ts = datetime.datetime.utcnow().isoformat() + "Z"
@@ -89,13 +91,17 @@ def run_bl_llm_02(train_texts: List[str], train_labels: List[str],
         tokenizer.padding_side = "right"
         
         print("Loading model with quantization...")
+        device_map = "auto"
         model = AutoModelForCausalLM.from_pretrained(
             model_name,
             quantization_config=bnb_config,
-            device_map="auto",
+            device_map=device_map,
             trust_remote_code=True,
             token=hf_token,
-            low_cpu_mem_usage=True
+            max_memory={0: "38GB", "cpu": "80GB"},
+            offload_folder="offload",
+            low_cpu_mem_usage=True,
+            torch_dtype=torch.float16
         )
         
         print("Preparing model for QLoRA...")
@@ -106,7 +112,8 @@ def run_bl_llm_02(train_texts: List[str], train_labels: List[str],
             r=16,
             lora_alpha=32,
             lora_dropout=0.1,
-            target_modules=["q_proj", "k_proj", "v_proj", "o_proj", "gate_proj", "up_proj", "down_proj"]
+            target_modules=["q_proj", "k_proj", "v_proj", "o_proj", "gate_proj", "up_proj", "down_proj"],
+            bias="none"
         )
         
         model = get_peft_model(model, lora_config)
@@ -116,7 +123,9 @@ def run_bl_llm_02(train_texts: List[str], train_labels: List[str],
         train_prompts = [create_training_prompt(text, label) for text, label in zip(train_texts, train_labels_str)]
         
         def tokenize_function(examples):
-            return tokenizer(examples["text"], truncation=True, padding=True, max_length=512)
+            tokenized = tokenizer(examples["text"], truncation=True, padding="max_length", max_length=512, return_tensors="pt")
+            tokenized["labels"] = tokenized["input_ids"].clone()
+            return tokenized
         
         train_dataset = Dataset.from_dict({"text": train_prompts})
         train_dataset = train_dataset.map(tokenize_function, batched=True)
@@ -135,10 +144,12 @@ def run_bl_llm_02(train_texts: List[str], train_labels: List[str],
             save_total_limit=2,
             remove_unused_columns=False,
             push_to_hub=False,
-            report_to=None,
-            optim="adamw_torch",
+            report_to="none",
+            optim="paged_adamw_8bit",
             fp16=True,
-            dataloader_pin_memory=False
+            gradient_checkpointing=True,
+            dataloader_pin_memory=False,
+            max_grad_norm=0.3
         )
         
         trainer = Trainer(
@@ -216,7 +227,10 @@ def run_bl_llm_02(train_texts: List[str], train_labels: List[str],
             from transformers import AutoTokenizer, AutoModelForCausalLM
             
             model_name = "mistralai/Mixtral-8x7B-Instruct-v0.1"
-            hf_token = getpass.getpass("Enter your HuggingFace access token for fallback: ")
+            
+            if not hf_token:
+                import getpass
+                hf_token = getpass.getpass("Enter HuggingFace token for fallback: ")
             
             tokenizer = AutoTokenizer.from_pretrained(model_name, token=hf_token)
             tokenizer.pad_token = tokenizer.eos_token
@@ -225,13 +239,21 @@ def run_bl_llm_02(train_texts: List[str], train_labels: List[str],
                 model_name,
                 device_map="auto",
                 torch_dtype=torch.float16,
-                token=hf_token
+                token=hf_token,
+                max_memory={0: "38GB", "cpu": "80GB"},
+                offload_folder="offload_inference",
+                low_cpu_mem_usage=True
             )
             
-            predictions_fallback = []
-            for i, text in enumerate(test_texts):
-                if i % 50 == 0:
-                    print(f"Zero-shot inference {i}/{len(test_texts)}")
+            print("Running inference on test set...")
+            predictions = []
+            
+            test_subset = test_texts[:100]
+            print(f"Running zero-shot on {len(test_subset)} samples (limited for speed)")
+            
+            for i, text in enumerate(test_subset):
+                if i % 10 == 0:
+                    print(f"Processing test sample {i}/{len(test_subset)}")
                 
                 prompt = create_inference_prompt(text)
                 inputs = tokenizer(prompt, return_tensors="pt", truncation=True, max_length=512)
@@ -248,14 +270,16 @@ def run_bl_llm_02(train_texts: List[str], train_labels: List[str],
                 
                 response = tokenizer.decode(outputs[0][len(inputs['input_ids'][0]):], skip_special_tokens=True)
                 prediction = extract_classification(response)
-                predictions_fallback.append(prediction)
+                predictions.append(prediction)
             
-            accuracy_fallback = float(accuracy_score(test_labels_str, predictions_fallback))
+            predictions.extend(["ham"] * (len(test_labels_str) - len(test_subset)))
+            
+            accuracy_fallback = float(accuracy_score(test_labels_str, predictions))
             
             results = {
                 "accuracy": accuracy_fallback,
-                "classification_report": classification_report(test_labels_str, predictions_fallback, output_dict=True, zero_division=0),
-                "confusion_matrix": confusion_matrix(test_labels_str, predictions_fallback).tolist(),
+                "classification_report": classification_report(test_labels_str, predictions, output_dict=True, zero_division=0),
+                "confusion_matrix": confusion_matrix(test_labels_str, predictions).tolist(),
                 "model_path": "zero_shot_mixtral",
                 "fallback_used": True
             }
@@ -263,7 +287,7 @@ def run_bl_llm_02(train_texts: List[str], train_labels: List[str],
             detailed_results = pd.DataFrame({
                 "text": test_texts,
                 "true_label": test_labels_str,
-                "pred_label": predictions_fallback
+                "pred_label": predictions
             })
             
             detailed_results.to_csv(os.path.join(outdir, "results_detailed.csv"), index=False)

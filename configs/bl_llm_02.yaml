@@ -16,6 +16,7 @@ features:
     type: "nf4"
     compute_dtype: "float16"
     double_quant: true
+    enable_fp32_cpu_offload: true
 model:
   type: "mixtral_qlora"
   base_model: "mistralai/Mixtral-8x7B-Instruct-v0.1"
@@ -26,10 +27,15 @@ model:
     lora_alpha: 32
     lora_dropout: 0.1
     target_modules: ["q_proj", "k_proj", "v_proj", "o_proj", "gate_proj", "up_proj", "down_proj"]
+    bias: "none"
   generation_config:
     max_new_tokens: 10
     temperature: 0.1
     do_sample: false
+  memory_config:
+    max_memory_gpu: "38GB"
+    max_memory_cpu: "80GB"
+    offload_folder: "offload"
 training:
   method: "qlora_fine_tuning"
   per_device_train_batch_size: 1
@@ -37,8 +43,10 @@ training:
   learning_rate: 2e-4
   num_train_epochs: 3
   warmup_steps: 100
-  optimizer: "adamw_torch"
+  optimizer: "paged_adamw_8bit"
   fp16: true
+  gradient_checkpointing: true
+  max_grad_norm: 0.3
   logging_steps: 10
   save_steps: 500
   eval_steps: 500
@@ -55,4 +63,4 @@ libraries:
     transformers: ">=4.36.0"
     peft: ">=0.7.0"
     bitsandbytes: ">=0.41.0"
-notes: "Follow Salman 2025: Mixtral-8x7B with QLoRA fine-tuning, 4-bit quantization. Missing hyperparameters filled with reasonable defaults (lr=2e-4, batch=1, epochs=3, LoRA r=16/alpha=32). Includes zero-shot fallback if fine-tuning fails."
+notes: "Follow Salman 2025: Mixtral-8x7B with QLoRA fine-tuning, 4-bit quantization with memory optimizations for A100. Uses paged_adamw_8bit optimizer, gradient checkpointing, and CPU offload for better memory efficiency. Includes zero-shot fallback if fine-tuning fails."
