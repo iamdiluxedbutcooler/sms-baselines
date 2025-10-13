@@ -1,0 +1,60 @@
+{
+  "accuracy": 0.888744769874477,
+  "classification_report": {
+    "ham": {
+      "precision": 0.9163879598662207,
+      "recall": 0.9618164845360825,
+      "f1-score": 0.9385764231738035,
+      "support": 969.0
+    },
+    "smishing": {
+      "precision": 0.7252747252747253,
+      "recall": 0.515625,
+      "f1-score": 0.6027397260273972,
+      "support": 128.0
+    },
+    "spam": {
+      "precision": 0.6091954022988506,
+      "recall": 0.5408163265306123,
+      "f1-score": 0.5729927007299271,
+      "support": 98.0
+    },
+    "accuracy": 0.888744769874477,
+    "macro avg": {
+      "precision": 0.7502860291465989,
+      "recall": 0.6727526036888983,
+      "f1-score": 0.7047696166437093,
+      "support": 1195.0
+    },
+    "weighted avg": {
+      "precision": 0.870724893197339,
+      "recall": 0.888744769874477,
+      "f1-score": 0.8726230323501718,
+      "support": 1195.0
+    }
+  },
+  "confusion_matrix": [
+    [
+      932,
+      20,
+      17
+    ],
+    [
+      45,
+      66,
+      17
+    ],
+    [
+      40,
+      5,
+      53
+    ]
+  ],
+  "model_path": "few_shot_mixtral",
+  "fallback_used": false,
+  "label_names": [
+    "ham",
+    "smishing",
+    "spam"
+  ]
+}

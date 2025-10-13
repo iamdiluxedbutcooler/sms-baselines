@@ -1,0 +1,6 @@
+baseline,seed,accuracy,outdir
+bl_llm_01_C,42,0.8954393305439331,/Users/pleng/Desktop/scammers/sms-baselines/experiments/bl_llm_01_C/bl_llm_01_C_seed42_20251011T203142Z
+bl_llm_01_C,43,0.892928870292887,/Users/pleng/Desktop/scammers/sms-baselines/experiments/bl_llm_01_C/bl_llm_01_C_seed43_20251011T210528Z
+bl_llm_01_C,44,0.900418410041841,/Users/pleng/Desktop/scammers/sms-baselines/experiments/bl_llm_01_C/bl_llm_01_C_seed44_20251011T213915Z
+bl_llm_01_C,45,0.897071129707113,/Users/pleng/Desktop/scammers/sms-baselines/experiments/bl_llm_01_C/bl_llm_01_C_seed45_20251011T221301Z
+bl_llm_01_C,46,0.8895397489539749,/Users/pleng/Desktop/scammers/sms-baselines/experiments/bl_llm_01_C/bl_llm_01_C_seed46_20251011T224648Z

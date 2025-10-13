@@ -1,55 +1,60 @@
 {
-  "accuracy": 0.792468619246862,
+  "accuracy": 0.9372384937238494,
   "classification_report": {
     "ham": {
-      "precision": 0.8208041958041958,
-      "recall": 0.9690402476780186,
-      "f1-score": 0.8887837198296261,
+      "precision": 0.9753086419753086,
+      "recall": 0.9751291022701754,
+      "f1-score": 0.9752188552188553,
       "support": 969.0
     },
     "smishing": {
-      "precision": 0.0,
-      "recall": 0.0,
-      "f1-score": 0.0,
+      "precision": 0.8469945355191257,
+      "recall": 0.8203125,
+      "f1-score": 0.8334524523160763,
       "support": 128.0
     },
     "spam": {
-      "precision": 0.1568627450980392,
-      "recall": 0.08163265306122448,
-      "f1-score": 0.10738255033557047,
+      "precision": 0.8141025641025641,
+      "recall": 0.7142857142857143,
+      "f1-score": 0.7610619469026548,
       "support": 98.0
     },
-    "accuracy": 0.792468619246862,
+    "accuracy": 0.9372384937238494,
     "macro avg": {
-      "precision": 0.32588898030074503,
-      "recall": 0.3502243002464143,
-      "f1-score": 0.33205542338839883,
+      "precision": 0.8788019138656663,
+      "recall": 0.8365757721852966,
+      "f1-score": 0.8565777514791955,
       "support": 1195.0
     },
     "weighted avg": {
-      "precision": 0.6784366650660031,
-      "recall": 0.792468619246862,
-      "f1-score": 0.7295020204584047,
+      "precision": 0.9483442894582204,
+      "recall": 0.9372384937238494,
+      "f1-score": 0.9424711760669361,
       "support": 1195.0
     }
   },
   "confusion_matrix": [
     [
-      939,
-      0,
-      30
+      945,
+      12,
+      12
     ],
     [
-      115,
-      0,
-      13
+      18,
+      105,
+      5
     ],
     [
-      90,
-      0,
-      8
+      22,
+      6,
+      70
     ]
   ],
-  "model_path": "zero_shot_mixtral",
-  "fallback_used": true
+  "model_path": "/Users/pleng/Desktop/scammers/sms-baselines/experiments/bl_llm_02/bl_llm_02_seed42_20250923T054309Z/fine_tuned_model",
+  "fallback_used": false,
+  "label_names": [
+    "ham",
+    "smishing",
+    "spam"
+  ]
 }

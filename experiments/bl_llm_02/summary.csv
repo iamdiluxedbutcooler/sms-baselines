@@ -1,2 +1,6 @@
 baseline,seed,accuracy,outdir
-bl_llm_02,42,0.792468619246862,/content/drive/MyDrive/sms-baselines/experiments/bl_llm_02/bl_llm_02_seed42_20250923T054309Z
+bl_llm_02,42,0.9372384937238494,/Users/pleng/Desktop/scammers/sms-baselines/experiments/bl_llm_02/bl_llm_02_seed42_20250923T054309Z
+bl_llm_02,43,0.9397489539748954,/Users/pleng/Desktop/scammers/sms-baselines/experiments/bl_llm_02/bl_llm_02_seed43_20250923T083147Z
+bl_llm_02,44,0.9313807531380753,/Users/pleng/Desktop/scammers/sms-baselines/experiments/bl_llm_02/bl_llm_02_seed44_20250923T111523Z
+bl_llm_02,45,0.9347280334728033,/Users/pleng/Desktop/scammers/sms-baselines/experiments/bl_llm_02/bl_llm_02_seed45_20250923T135809Z
+bl_llm_02,46,0.9305439330543933,/Users/pleng/Desktop/scammers/sms-baselines/experiments/bl_llm_02/bl_llm_02_seed46_20250923T164235Z

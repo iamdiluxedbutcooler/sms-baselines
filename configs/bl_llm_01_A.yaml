@@ -1,0 +1,46 @@
+paper_id: NA
+baseline_id: bl_llm_01_A
+description: "Zero-shot Mixtral 8x7B for SMS spam detection (Salman 2025)."
+module: "models.llm.BL_LLM_01_A_salman2025"
+preprocessing:
+  - prompt_format: "zero_shot"
+  - input_format: "text_to_classification"
+  - max_length: 512
+  - truncation: true
+features:
+  type: "llm_inference"
+  model_type: "open_source"
+  no_embeddings: true
+model:
+  type: "mixtral_zero_shot"
+  base_model: "mistralai/Mixtral-8x7B-Instruct-v0.1"
+  api_type: "huggingface"
+  generation_config:
+    max_new_tokens: 10
+    temperature: 0.1
+    do_sample: false
+  prompt_template: |
+    You are an SMS spam detection system. Classify the following SMS message as exactly one of: 'spam', 'ham', or 'smishing'.
+    
+    Definitions:
+    - 'spam': Unwanted promotional or advertisement messages
+    - 'ham': Legitimate, normal messages
+    - 'smishing': Phishing attacks via SMS trying to steal personal information or credentials
+    
+    SMS Message: {text}
+    
+    Classification:
+training:
+  method: "none"
+  learning_type: "zero_shot"
+  repeats_for_variance: 5
+  seed_base: 42
+inference:
+  expected_outputs: ["spam", "ham", "smishing"]
+  default_label: "ham"
+libraries:
+  preferred: ["transformers", "torch"]
+  required_versions:
+    transformers: ">=4.36.0"
+    torch: ">=2.0.0"
+notes: "Zero-shot learning with Mixtral 8x7B. No training on task-specific data. Model relies on pre-trained knowledge. Uses detailed prompt with definitions. Expected accuracy ~86% on OOD data (5% penalty from paper's 87.43%)."

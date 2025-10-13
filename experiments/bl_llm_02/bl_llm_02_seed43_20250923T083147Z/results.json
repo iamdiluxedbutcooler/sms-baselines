@@ -1,0 +1,60 @@
+{
+  "accuracy": 0.9397489539748954,
+  "classification_report": {
+    "ham": {
+      "precision": 0.9634146341463415,
+      "recall": 0.9783281733746557,
+      "f1-score": 0.9708154506437768,
+      "support": 969.0
+    },
+    "smishing": {
+      "precision": 0.856,
+      "recall": 0.8359375,
+      "f1-score": 0.8458498023715415,
+      "support": 128.0
+    },
+    "spam": {
+      "precision": 0.8139534883720931,
+      "recall": 0.7142857142857143,
+      "f1-score": 0.7608695652173914,
+      "support": 98.0
+    },
+    "accuracy": 0.9397489539748954,
+    "macro avg": {
+      "precision": 0.8777893741728114,
+      "recall": 0.8428504625534567,
+      "f1-score": 0.8591782727442366,
+      "support": 1195.0
+    },
+    "weighted avg": {
+      "precision": 0.9396520689106864,
+      "recall": 0.9397489539748954,
+      "f1-score": 0.9402126893461769,
+      "support": 1195.0
+    }
+  },
+  "confusion_matrix": [
+    [
+      948,
+      10,
+      11
+    ],
+    [
+      16,
+      107,
+      5
+    ],
+    [
+      20,
+      8,
+      70
+    ]
+  ],
+  "model_path": "/Users/pleng/Desktop/scammers/sms-baselines/experiments/bl_llm_02/bl_llm_02_seed43_20250923T083147Z/fine_tuned_model",
+  "fallback_used": false,
+  "label_names": [
+    "ham",
+    "smishing",
+    "spam"
+  ]
+}
