@@ -1,0 +1,36 @@
+{
+  "accuracy": 0.5715596330275229,
+  "classification_report": {
+    "smishing": {
+      "precision": 1.0,
+      "recall": 0.5715596330275229,
+      "f1-score": 0.7273788674839462,
+      "support": 1090.0
+    },
+    "accuracy": 0.5715596330275229,
+    "macro avg": {
+      "precision": 1.0,
+      "recall": 0.5715596330275229,
+      "f1-score": 0.7273788674839462,
+      "support": 1090.0
+    },
+    "weighted avg": {
+      "precision": 1.0,
+      "recall": 0.5715596330275229,
+      "f1-score": 0.7273788674839462,
+      "support": 1090.0
+    }
+  },
+  "confusion_matrix": [
+    [
+      330,
+      623,
+      137
+    ]
+  ],
+  "model_path": "zero_shot_gpt4o",
+  "fallback_used": false,
+  "label_names": [
+    "smishing"
+  ]
+}

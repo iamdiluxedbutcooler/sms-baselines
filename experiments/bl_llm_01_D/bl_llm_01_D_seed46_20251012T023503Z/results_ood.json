@@ -1,0 +1,36 @@
+{
+  "accuracy": 0.6458715596330276,
+  "classification_report": {
+    "smishing": {
+      "precision": 1.0,
+      "recall": 0.6458715596330276,
+      "f1-score": 0.7848383500557414,
+      "support": 1090.0
+    },
+    "accuracy": 0.6458715596330276,
+    "macro avg": {
+      "precision": 1.0,
+      "recall": 0.6458715596330276,
+      "f1-score": 0.7848383500557414,
+      "support": 1090.0
+    },
+    "weighted avg": {
+      "precision": 1.0,
+      "recall": 0.6458715596330276,
+      "f1-score": 0.7848383500557414,
+      "support": 1090.0
+    }
+  },
+  "confusion_matrix": [
+    [
+      225,
+      704,
+      161
+    ]
+  ],
+  "model_path": "few_shot_gpt4o",
+  "fallback_used": false,
+  "label_names": [
+    "smishing"
+  ]
+}

@@ -1,0 +1,36 @@
+{
+  "accuracy": 0.7009174311926606,
+  "classification_report": {
+    "smishing": {
+      "precision": 1.0,
+      "recall": 0.7009174311926606,
+      "f1-score": 0.8241639697950377,
+      "support": 1090.0
+    },
+    "accuracy": 0.7009174311926606,
+    "macro avg": {
+      "precision": 1.0,
+      "recall": 0.7009174311926606,
+      "f1-score": 0.8241639697950377,
+      "support": 1090.0
+    },
+    "weighted avg": {
+      "precision": 1.0,
+      "recall": 0.7009174311926606,
+      "f1-score": 0.8241639697950377,
+      "support": 1090.0
+    }
+  },
+  "confusion_matrix": [
+    [
+      213,
+      764,
+      113
+    ]
+  ],
+  "model_path": "/Users/pleng/Desktop/scammers/sms-baselines/experiments/bl_llm_02/bl_llm_02_seed43_20250923T083147Z/fine_tuned_model",
+  "fallback_used": false,
+  "label_names": [
+    "smishing"
+  ]
+}

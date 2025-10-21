@@ -1,0 +1,36 @@
+{
+  "accuracy": 0.3412844036697248,
+  "classification_report": {
+    "smishing": {
+      "precision": 1.0,
+      "recall": 0.3412844036697248,
+      "f1-score": 0.5088919288645691,
+      "support": 1090.0
+    },
+    "accuracy": 0.3412844036697248,
+    "macro avg": {
+      "precision": 1.0,
+      "recall": 0.3412844036697248,
+      "f1-score": 0.5088919288645691,
+      "support": 1090.0
+    },
+    "weighted avg": {
+      "precision": 1.0,
+      "recall": 0.3412844036697248,
+      "f1-score": 0.5088919288645691,
+      "support": 1090.0
+    }
+  },
+  "confusion_matrix": [
+    [
+      441,
+      372,
+      277
+    ]
+  ],
+  "model_path": "/content/drive/MyDrive/sms-baselines/experiments/bl_nn_02/bl_nn_02_seed43_20250923T054558Z/model.h5",
+  "vocab_size": 132,
+  "label_names": [
+    "smishing"
+  ]
+}

@@ -1,0 +1,35 @@
+{
+  "accuracy": 0.5981651376146789,
+  "classification_report": {
+    "smishing": {
+      "precision": 1.0,
+      "recall": 0.5981651376146789,
+      "f1-score": 0.748564867967853,
+      "support": 1090.0
+    },
+    "accuracy": 0.5981651376146789,
+    "macro avg": {
+      "precision": 1.0,
+      "recall": 0.5981651376146789,
+      "f1-score": 0.748564867967853,
+      "support": 1090.0
+    },
+    "weighted avg": {
+      "precision": 1.0,
+      "recall": 0.5981651376146789,
+      "f1-score": 0.748564867967853,
+      "support": 1090.0
+    }
+  },
+  "confusion_matrix": [
+    [
+      311,
+      652,
+      127
+    ]
+  ],
+  "model_path": "/content/drive/MyDrive/sms-baselines/experiments/bl_nlp_02/bl_nlp_02_seed45_20250922T212035Z/fallback_logreg.joblib",
+  "label_names": [
+    "smishing"
+  ]
+}
